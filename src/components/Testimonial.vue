@@ -1,0 +1,41 @@
+<template>
+  <section class="max-w-7xl mx-auto my-20">
+    <div class="flex items-center justify-center">
+      <h1 class="font-bold text-2xl font-serif text-yellow-400">
+        Testimonials
+      </h1>
+    </div>
+    <div className="px-2 py-5 md:px-0 flex md:flex-row flex-col gap-6">
+      <div
+        v-for="i in 2"
+        className="mx-auto max-w-4xl border-2 border-yellow-400 rounded-md p-2"
+      >
+        <div
+          className="flex flex-col md:flex-row items-center justify-center md:space-x-14 "
+        >
+          <div className="relative h-48 w-48 flex-shrink-0 ">
+            <img
+              className="relative h-48 w-48 rounded-full object-cover"
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+
+          <div className="mt-10 md:mt-0 text-center">
+            <blockquote>
+              <p className="text-xl text-black">
+                “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam aliquam repellat laborum minima tempore deserunt
+                explicabo placeat! Fugit, molestias nesciunt.”
+              </p>
+            </blockquote>
+            <p className="mt-7 text-lg font-semibold text-black">John Doe</p>
+            <p className="mt-1 text-base text-gray-600">
+              Frontend Developer at DevUI
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
