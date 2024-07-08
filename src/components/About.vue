@@ -1,5 +1,5 @@
 <template>
-    <div className="relative w-full bg-white">
+    <div className="relative w-full ">
         <div className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center ">
           <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
             <img

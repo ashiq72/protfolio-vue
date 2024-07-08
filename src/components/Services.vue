@@ -1,10 +1,12 @@
 <template>
-  <div className="relative w-full bg-white py-20">
-    <div className="mx-auto flex flex-col justify-center  max-w-4xl lg:px-8">
+  <div className="relative w-full  py-20">
+    <div className="mx-auto flex flex-col justify-center  max-w-7xl lg:px-8">
       <div class="text-center">
         <h1 class="text-4xl text-yellow-400 whitespace-nowrap">Our Services</h1>
       </div>
-      <div class="grid grid-cols-2 pt-10 gap-12 gap-y-32 justify-items-center">
+      <div
+        class="grid grid-cols-4 pt-10 gap-12 gap-y-32 justify-items-center w-full"
+      >
         <router-link
           to="/services/image-editing"
           class="flex flex-col items-center rounded py-4 w-[150px] h-[150px]"

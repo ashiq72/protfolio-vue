@@ -5,7 +5,7 @@ import { RouterView } from "vue-router";
 </script>
 
 <template>
-  <div class="">
+  <div class="bg-gray-100">
     <Navber />
     <RouterView />
     <Footer />
