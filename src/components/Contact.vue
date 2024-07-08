@@ -85,6 +85,13 @@
             class="bg-white shadow w-full py-2 px-4"
           />
         </div>
+        <div class="py-2">
+          <input
+            type="number"
+            placeholder="Phone Number"
+            class="bg-white shadow w-full py-2 px-4"
+          />
+        </div>
         <div class="flex gap-4">
           <!-- <div class="py-2 w-full">
             <input

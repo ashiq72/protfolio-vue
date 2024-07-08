@@ -4,7 +4,7 @@
     <About />
     <Soluations />
     <Services />
-    <Contact />
+    <!-- <Contact /> -->
     <Testimonial />
   </div>
 </template>

@@ -101,7 +101,7 @@
               </div>
             </div>
             <router-link
-              to
+              to="portfolio"
               class="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-yellow-400 dark:hover:text-yellow-600 md:mx-4 md:my-0"
               >Protfolio</router-link
             >
