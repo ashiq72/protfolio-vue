@@ -14,6 +14,7 @@ import LogoDesign from "../views/Services/NavSubCategory/LogoDesign.vue";
 import Home from "../views/Home/Home.vue";
 import Contact from "../views/Contact/Contact.vue";
 import Portfolio from "../views/Portfolio/potfolio.vue";
+import About from "../views/About/About.vue";
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: "/portfolio",
     name: "Portfolio",
     component: Portfolio,
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: About
   },
 
   // Services

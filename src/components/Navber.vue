@@ -106,7 +106,7 @@
               >Protfolio</router-link
             >
             <router-link
-              to
+              to="/about"
               class="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-yellow-400 dark:hover:text-yellow-600 md:mx-4 md:my-0"
               >About</router-link
             >
