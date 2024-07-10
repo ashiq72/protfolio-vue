@@ -11,12 +11,13 @@
       <div class="w-1/2">
         <div>
           <h1 class="text-xl font-medium text-gray-600 capitalize">
-            Get a Free trial with
-            <span class="font-semibold text-xl">no cost or obligation</span>
+            Get in Touch with Our Experts!
           </h1>
           <p class="text-gray-500 pt-2">
-            You can email us, your one of our exparts with years of experience.
-            And one of our experts will answer you as soon as possible.
+            Email us your project details, and one of our experienced
+            professionals will get back to you as soon as possible. We’re here
+            to provide top-quality solutions and exceptional support for your
+            needs!
           </p>
         </div>
         <div class="flex flex-col gap-8 py-10">

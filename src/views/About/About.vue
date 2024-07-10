@@ -100,7 +100,6 @@
 import aboutBanner from "../../assets/images/about-Page.png";
 import aboutUs from "../../assets/images/about-Page01.png";
 import missionImg from "../../assets/images/our-mission-vision.png";
-
 import { ref } from "vue";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
@@ -172,7 +171,7 @@ const missionSection = ref({
   id: "mission",
   title: "Our Mission",
   description: `
-    Our mission is to deliver exceptional graphic design and multimedia services that elevate our clients' brands and projects. We are committed to providing high-quality, creative solutions tailored to meet the unique needs of each client. We strive to enhance visual communication through innovative and engaging designs, deliver precise and professional photo editing services that highlight the best features of our clients' products and images, create compelling video content and motion graphics that capture and retain audience attention, offer comprehensive graphic design services that help businesses establish and strengthen their brand identity, and maintain the highest standards of quality and customer satisfaction in every project we undertake. Our dedication to creativity, quality, and customer satisfaction drives everything we do. We look forward to collaborating with you to bring your vision to life.
+   At Graphical Creative, our mission is to be the premier global provider of exceptional image editing services. We are dedicated to delivering superior quality solutions that transform visual content and help our clients achieve their branding and marketing objectives. With over two years of industry expertise and a state-of-the-art manufacturing facility, we offer a comprehensive range of services, including clipping path, retouching, image masking, shading, manipulation, logo design, social media design, graphic design, motion graphics, animation, and video editing. Our passion for the art of image editing drives us to exceed expectations, ensuring that every project we undertake meets the highest standards of excellence. We are committed to building lasting relationships with our clients through innovative solutions and exceptional service.
   `,
   image: missionImg,
 });
@@ -180,7 +179,7 @@ const visionSection = ref({
   id: "vision",
   title: "Our Vision",
   description: `
-    Our vision is to be a leading provider of innovative and creative graphic design and multimedia solutions. We aim to inspire and empower businesses and individuals by transforming their ideas into visually compelling and impactful realities. We envision a world where exceptional design and creative excellence drive success and recognition for our clients. Through continuous learning, adaptation, and a commitment to the highest standards of quality, we strive to push the boundaries of creativity and deliver unparalleled value in every project we undertake. Our ultimate goal is to leave a lasting positive impact on the industries we serve and to be recognized as a trusted and indispensable partner in our clients' journeys towards achieving their creative and business goals.
+    Our vision is to set the global benchmark for excellence in image editing services. We aspire to be recognized as the most innovative and reliable partner for businesses worldwide, delivering creative and impactful visual solutions that elevate brands and drive success. As we look to the future, we are committed to continually advancing our techniques, embracing new technologies, and expanding our reach to serve clients across the globe. Our goal is to be the first choice for image editing services, known for our creativity, quality, and dedication to client satisfaction
   `,
   image: missionImg,
 });
