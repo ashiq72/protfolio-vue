@@ -6,6 +6,7 @@
     <Services />
     <!-- <Contact /> -->
     <Testimonial />
+    <Patner />
   </div>
 </template>
 <script setup>
@@ -16,5 +17,5 @@ import Services from "../../components/Services.vue";
 import Contact from "../../components/Contact.vue";
 import Soluations from "../../components/Solutions.vue";
 import Testimonial from "../../components/Testimonial.vue";
-import Footer from "../../components/Footer.vue";
+import Patner from "../../components/Patner.vue";
 </script>

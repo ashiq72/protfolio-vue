@@ -47,7 +47,9 @@
     <!-- our mission -->
     <section class="py-10">
       <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-between">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-between"
+        >
           <div class="w-full">
             <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4">
               {{ missionSection.title }}
@@ -57,7 +59,11 @@
             </p>
           </div>
           <div class="w-full">
-            <img class="max-h-96" :src="missionImg" :alt="missionSection.title" />
+            <img
+              class="max-h-96"
+              :src="missionImg"
+              :alt="missionSection.title"
+            />
           </div>
         </div>
       </div>
@@ -66,9 +72,15 @@
     <!-- our vision -->
     <section class="py-10">
       <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-between">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-between"
+        >
           <div class="w-full">
-            <img class="max-h-96" :src="missionImg" :alt="visionSection.title" />
+            <img
+              class="max-h-96"
+              :src="missionImg"
+              :alt="visionSection.title"
+            />
           </div>
           <div class="w-full">
             <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4">
@@ -88,7 +100,7 @@
 import aboutBanner from "../../assets/images/about-Page.png";
 import aboutUs from "../../assets/images/about-Page01.png";
 import missionImg from "../../assets/images/our-mission-vision.png";
-import Goal from "../../components/Goal.vue";
+
 import { ref } from "vue";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
