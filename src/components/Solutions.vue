@@ -3,9 +3,9 @@
     <div class="pb-12">
       <div class="flex justify-center flex-col items-center gap-2">
         <h1 class="text-yellow-400 font-semibold uppercase text-3xl">
-          Soluations
+          Best Our Soluations
         </h1>
-        <p class="text-gray-400">
+        <p class="text-gray-400 text-center max-w-2xl">
           Experience Our Comprehensive Image Editing, Graphic Design, and
           Creative Solutions. Let’s Begin Your Journey to Achieving Business
           Success!
@@ -32,18 +32,18 @@
             class="w-[800px] pt-4"
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
           />
-          <p class="pt-2 italic text-gray-400">
-            Clipping path Background Removal
+          <p class="pt-2 italic text-gray-800 font-medium">
+            Perfect Your Photos with Professional Clipping Path & Background
+            Removal!
           </p>
         </div>
         <div class="p-4 text-center">
           <p class="text-gray-400">
-            Our pricing start at
-            <span class="font-semibold text-gray-700">US $0.33</span> / Per
-            Image for clipping path service. Highlight the details that matter
-            with our image clipping path service. Using Photoshop's pen tool, we
-            isolate and bring focus to your image's subject, no matter the
-            volume.
+            Do you want your product images to be flawless? Our Clipping Path
+            and Background Removal services are designed to give your photos a
+            clean, professional look. We ensure every detail of your images
+            stands out, perfect for e-commerce, catalogs, or any marketing
+            needs.
           </p>
         </div>
       </div>
@@ -54,16 +54,15 @@
             class="w-[800px] pt-4"
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
           />
-          <p class="pt-2 italic text-gray-400">Photo Retoucng</p>
+          <p class="pt-2 italic text-gray-400">
+            Transform Your Photos with Expert Retouching Services!
+          </p>
         </div>
         <div class="p-4 text-center">
           <p class="text-gray-400">
-            Our pricing start at
-            <span class="font-semibold text-gray-700">US $0.33</span> / Per
-            Image for clipping path service. Highlight the details that matter
-            with our image clipping path service. Using Photoshop's pen tool, we
-            isolate and bring focus to your image's subject, no matter the
-            volume.
+            Want to make your photos look stunning? Our Photo Retouching
+            services are here to enhance your images with perfect color
+            correction, blemish removal, and creative effects.
           </p>
         </div>
       </div>
@@ -78,17 +77,15 @@
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
           />
           <p class="pt-2 italic text-gray-400">
-            Neck joint/ghost mannequin Service
+            Neck Joint/Ghost Mannequin Service
           </p>
         </div>
         <div class="p-4 text-center">
           <p class="text-gray-400">
-            Our pricing start at
-            <span class="font-semibold text-gray-700">US $0.33</span> / Per
-            Image for clipping path service. Highlight the details that matter
-            with our image clipping path service. Using Photoshop's pen tool, we
-            isolate and bring focus to your image's subject, no matter the
-            volume.
+            Our Neck Joint and Ghost Mannequin services provide a realistic and
+            professional presentation for your clothing products. Perfect for
+            online stores and fashion catalogs, we create stunning visuals for
+            your apparel.
           </p>
         </div>
       </div>
@@ -98,16 +95,15 @@
             class="w-[800px] pt-4"
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
           />
-          <p class="pt-2 italic text-gray-400">Logo Design</p>
+          <p class="pt-2 italic text-gray-400">
+            Create a Strong Brand Identity with Professional Logo Design!
+          </p>
         </div>
         <div class="p-4 text-center">
           <p class="text-gray-400">
-            Our pricing start at
-            <span class="font-semibold text-gray-700">US $0.33</span> / Per
-            Image for clipping path service. Highlight the details that matter
-            with our image clipping path service. Using Photoshop's pen tool, we
-            isolate and bring focus to your image's subject, no matter the
-            volume.
+            A well-designed logo is the cornerstone of your brand’s identity.
+            Our Logo Design services help you craft a unique and memorable logo
+            that represents your business vision and values.
           </p>
         </div>
       </div>
@@ -117,16 +113,15 @@
             class="w-[800px] pt-4"
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
           />
-          <p class="pt-2 italic text-gray-400">Graphic Design</p>
+          <p class="pt-2 italic text-gray-400">
+            Bring Your Ideas to Life with Expert Graphic Design Services!
+          </p>
         </div>
         <div class="p-4 text-center">
           <p class="text-gray-400">
-            Our pricing start at
-            <span class="font-semibold text-gray-700">US $0.33</span> / Per
-            Image for clipping path service. Highlight the details that matter
-            with our image clipping path service. Using Photoshop's pen tool, we
-            isolate and bring focus to your image's subject, no matter the
-            volume.
+            From marketing materials to digital content, our Graphic Design
+            services cover all your design needs. We create visually appealing
+            designs that engage your audience and enhance your brand’s image.
           </p>
         </div>
       </div>
@@ -136,16 +131,16 @@
             class="w-[800px] pt-4"
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
           />
-          <p class="pt-2 italic text-gray-400">Video editing</p>
+          <p class="pt-2 italic text-gray-400">
+            Elevate Your Content with Professional Video Editing Services!
+          </p>
         </div>
         <div class="p-4 text-center">
           <p class="text-gray-400">
-            Our pricing start at
-            <span class="font-semibold text-gray-700">US $0.33</span> / Per
-            Image for clipping path service. Highlight the details that matter
-            with our image clipping path service. Using Photoshop's pen tool, we
-            isolate and bring focus to your image's subject, no matter the
-            volume.
+            Our Video Editing services turn your raw footage into polished,
+            engaging content. Perfect for marketing videos, social media, or
+            personal projects, we provide comprehensive editing solutions for
+            outstanding results.
           </p>
         </div>
       </div>
@@ -155,16 +150,16 @@
             class="w-[800px] pt-4"
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
           />
-          <p class="pt-2 italic text-gray-400">Motion Graphics</p>
+          <p class="pt-2 italic text-gray-400">
+            Add Excitement to Your Content with Professional Motion Graphics!
+          </p>
         </div>
         <div class="p-4 text-center">
           <p class="text-gray-400">
-            Our pricing start at
-            <span class="font-semibold text-gray-700">US $0.33</span> / Per
-            Image for clipping path service. Highlight the details that matter
-            with our image clipping path service. Using Photoshop's pen tool, we
-            isolate and bring focus to your image's subject, no matter the
-            volume.
+            Our Motion Graphics services bring your ideas to life with engaging
+            animations and visual effects. Ideal for explainer videos,
+            advertisements, and more, we create dynamic content that captures
+            attention.
           </p>
         </div>
       </div>

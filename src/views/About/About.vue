@@ -1,12 +1,35 @@
 <template>
   <main class="pb-14">
-    <section>
-      <img
-        class="w-full h-full max-h-80 object-cover"
-        :src="aboutBanner"
-        alt="about banner"
-      />
-    </section>
+    <div className="relative w-full bg-white ">
+      <div
+        className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full   rounded-2xl"
+      >
+        <div
+          className="w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6"
+        >
+          <h1
+            className="mt-8 text-3xl font-bold  text-yellow-500 md:text-4xl lg:text-7xl"
+          >
+            About
+          </h1>
+          <h3 class="text-2xl">Graphical Creative</h3>
+          <p className="mt-8 text-lg text-gray-700">
+            We’re a team of passionate designers dedicated to bringing your
+            ideas to life. Our goal is to deliver high-quality design solutions
+            that make your brand stand out.
+          </p>
+        </div>
+        <div
+          className="w-1/2 relative lg:col-span-5 lg:-mr-8 xl:col-span-6  flex justify-center"
+        >
+          <img
+            className=" bg-gray-50  h-[350px]"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/463d31fa-a6f1-4aa5-96e6-8a536421afc1.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
 
     <!-- faq section -->
     <section class="pt-20 pb-10">
@@ -14,17 +37,27 @@
         <h2 class="text-2xl md:text-4xl font-bold text-center mb-8">
           About <span class="text-yellow-400">Us</span>
         </h2>
+        <div class="max-w-5xl mx-auto">
+          <p class="text-gray-400 text-center">
+            What We Do at Graphical Creative? Welcome to Graphical Creative,
+            where your brand’s vision becomes a visual masterpiece! 🌟 At
+            Graphical Creative, we are passionate about delivering top-notch
+            design solutions that make a real impact. Our team of skilled
+            designers is here to help you with a range of services that will
+            elevate your brand and capture your audience’s attention.
+          </p>
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
           <div class="w-full">
             <Disclosure
               v-for="faq in faqs"
               :key="faq.id"
               as="div"
-              class="mt-2"
+              class="mt-3"
               v-slot="{ open }"
             >
               <DisclosureButton
-                class="flex w-full justify-between rounded bg-white px-4 py-2 text-left text-sm font-medium text-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75"
+                class="flex w-full justify-between rounded bg-white px-4 py-4 text-left text-sm font-medium text-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75"
               >
                 <span>{{ faq.question }}</span>
                 <ChevronDownIcon
@@ -171,7 +204,7 @@ const missionSection = ref({
   id: "mission",
   title: "Our Mission",
   description: `
-   At Graphical Creative, our mission is to be the premier global provider of exceptional image editing services. We are dedicated to delivering superior quality solutions that transform visual content and help our clients achieve their branding and marketing objectives. With over two years of industry expertise and a state-of-the-art manufacturing facility, we offer a comprehensive range of services, including clipping path, retouching, image masking, shading, manipulation, logo design, social media design, graphic design, motion graphics, animation, and video editing. Our passion for the art of image editing drives us to exceed expectations, ensuring that every project we undertake meets the highest standards of excellence. We are committed to building lasting relationships with our clients through innovative solutions and exceptional service.
+At Graphical Creative, our mission is to be the premier global provider of exceptional image editing services. We are dedicated to delivering superior quality solutions that transform visual content and help our clients achieve their branding and marketing objectives. With over two years of industry expertise and a state-of-the-art manufacturing facility, we offer a comprehensive range of services, including clipping path, retouching, image masking, shading, manipulation, logo design, social media design, graphic design, motion graphics, animation, and video editing. Our passion for the art of image editing drives us to exceed expectations, ensuring that every project we undertake meets the highest standards of excellence. We are committed to building lasting relationships with our clients through innovative solutions and exceptional service.
   `,
   image: missionImg,
 });

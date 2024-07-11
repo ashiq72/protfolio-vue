@@ -1,10 +1,35 @@
 <template>
   <div class="pb-40">
-    <div>
-      <img
-        src="https://t4.ftcdn.net/jpg/04/81/72/77/360_F_481727770_1u2ylNpie8WRosMVbv1COXDnnEK6ofwh.jpg"
-        class="w-full h-96"
-      />
+    <div className="relative w-full bg-white ">
+      <div
+        className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full   rounded-2xl"
+      >
+        <div
+          className="w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6"
+        >
+          <h1
+            className="mt-8 text-3xl font-bold  text-yellow-500 md:text-4xl lg:text-7xl"
+          >
+            Contact Us
+          </h1>
+          <h3 class="text-2xl">Graphical Creative</h3>
+          <p className="mt-8 text-lg text-gray-700">
+            At Graphical Creative, we’re excited to connect with you and assist
+            with all your design needs. Whether you have a question about our
+            services, need a quote, or just want to discuss your next big
+            project, we’re here to help!
+          </p>
+        </div>
+        <div
+          className="w-1/2 relative lg:col-span-5 lg:-mr-8 xl:col-span-6  flex justify-center"
+        >
+          <img
+            className=" bg-gray-50  h-[350px]"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/463d31fa-a6f1-4aa5-96e6-8a536421afc1.jpg"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
 
     <div class="mx-auto container flex gap-10 pt-10 px-4">
@@ -27,7 +52,7 @@
             </div>
             <div>
               <h2 class="font-bold text-gray-500">Call Us</h2>
-              <p class="text-gray-400">+880 1518927686</p>
+              <p class="text-gray-400">+880 1849989679</p>
             </div>
           </div>
           <div class="flex gap-3 items-center">
@@ -36,7 +61,7 @@
             </div>
             <div>
               <h2 class="font-bold text-gray-500">Email</h2>
-              <p class="text-gray-400">joydebnath.yahoo@gmail.com</p>
+              <p class="text-gray-400">hello.graphicalcreative@gmail.com</p>
             </div>
           </div>
           <div class="flex gap-3 items-center">
@@ -45,7 +70,7 @@
             </div>
             <div>
               <h2 class="font-bold text-gray-500">Linkedin</h2>
-              <p class="text-gray-400">live: cid.2ad094c718de760c</p>
+              <p class="text-gray-400">/in/graphicalcreative</p>
             </div>
           </div>
         </div>
@@ -81,7 +106,7 @@
       <div class="w-1/2">
         <div class="pb-2">
           <h1 class="text-xl font-medium text-gray-600 capitalize">
-            Try Our Image Editing Services For Free!
+            Try Our Services For Free!
           </h1>
         </div>
         <form>

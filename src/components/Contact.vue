@@ -62,7 +62,7 @@
     <div class="w-1/2">
       <div class="pb-2">
         <h1 class="text-xl font-medium text-gray-600 capitalize">
-          Try Our Image Editing Services For Free!
+          Try Our Services For Free!
         </h1>
       </div>
       <form>

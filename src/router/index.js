@@ -13,7 +13,7 @@ import LogoDesign from "../views/Services/NavSubCategory/LogoDesign.vue";
 
 import Home from "../views/Home/Home.vue";
 import Contact from "../views/Contact/Contact.vue";
-import Portfolio from "../views/Portfolio/potfolio.vue";
+import Portfolio from "../views/Portfolio/Potfolio.vue";
 import About from "../views/About/About.vue";
 
 const routes = [
@@ -35,7 +35,7 @@ const routes = [
   {
     path: "/about",
     name: "About",
-    component: About
+    component: About,
   },
 
   // Services
