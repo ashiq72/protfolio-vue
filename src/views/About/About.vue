@@ -1,6 +1,6 @@
 <template>
-  <main class="pb-14">
-    <div className="relative w-full bg-white ">
+  <main class="pb-14 bg-[#0d0e11]">
+    <div className="relative w-full bg-[#0d0e11] pt-10">
       <div
         className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full   rounded-2xl"
       >
@@ -8,12 +8,12 @@
           className="w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6"
         >
           <h1
-            className="mt-8 text-3xl font-bold  text-yellow-500 md:text-4xl lg:text-7xl"
+            className="mt-8 text-3xl font-bold  text-[#f8d315] md:text-4xl lg:text-7xl"
           >
             About
           </h1>
-          <h3 class="text-2xl">Graphical Creative</h3>
-          <p className="mt-8 text-lg text-gray-700">
+          <h3 class="text-2xl text-gray-100">Graphical Creative</h3>
+          <p className="mt-8 text-lg text-gray-50">
             We’re a team of passionate designers dedicated to bringing your
             ideas to life. Our goal is to deliver high-quality design solutions
             that make your brand stand out.
@@ -23,8 +23,8 @@
           className="w-1/2 relative lg:col-span-5 lg:-mr-8 xl:col-span-6  flex justify-center"
         >
           <img
-            className=" bg-gray-50  h-[350px]"
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/463d31fa-a6f1-4aa5-96e6-8a536421afc1.jpg"
+            className=" bg-[#231f20]  h-[550px]"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1c398a72-3ecd-49db-b235-ffedc3a7a4c7.jpg"
             alt=""
           />
         </div>
@@ -34,11 +34,13 @@
     <!-- faq section -->
     <section class="pt-20 pb-10">
       <div class="container mx-auto px-4">
-        <h2 class="text-2xl md:text-4xl font-bold text-center mb-8">
-          About <span class="text-yellow-400">Us</span>
+        <h2
+          class="text-2xl md:text-4xl font-bold text-center mb-8 text-gray-100"
+        >
+          About <span class="text-[#f8d315]">Us</span>
         </h2>
         <div class="max-w-5xl mx-auto">
-          <p class="text-gray-400 text-center">
+          <p class="text-gray-200 text-center">
             What We Do at Graphical Creative? Welcome to Graphical Creative,
             where your brand’s vision becomes a visual masterpiece! 🌟 At
             Graphical Creative, we are passionate about delivering top-notch
@@ -87,7 +89,7 @@
             <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4">
               {{ missionSection.title }}
             </h2>
-            <p class="text-gray-500 text-justify">
+            <p class="text-gray-200 text-justify">
               {{ missionSection.description }}
             </p>
           </div>
@@ -119,7 +121,7 @@
             <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4">
               {{ visionSection.title }}
             </h2>
-            <p class="text-gray-500 text-justify">
+            <p class="text-gray-200 text-justify">
               {{ visionSection.description }}
             </p>
           </div>

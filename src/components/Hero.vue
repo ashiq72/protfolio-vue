@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-6 py-16 mx-auto">
+  <!-- <div class="container px-6 py-16 mx-auto">
     <div class="items-center lg:flex">
       <div class="w-full lg:w-1/2">
         <div class="lg:max-w-lg">
@@ -29,10 +29,15 @@
       >
         <img
           class="w-full h-full lg:max-w-3xl"
-          src="https://merakiui.com/images/components/Catalogue-pana.svg"
+          src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/8a200ca6-d494-4d6b-b7dd-271db86cbae7.jpg"
           alt="Catalogue-pana.svg"
         />
       </div>
     </div>
-  </div>
+  </div> -->
+  <img
+    class="w-full h-full"
+    src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/8a200ca6-d494-4d6b-b7dd-271db86cbae7.jpg"
+    alt="Catalogue-pana.svg"
+  />
 </template>

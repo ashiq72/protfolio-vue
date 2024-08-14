@@ -8,7 +8,7 @@
           className="w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6"
         >
           <h1
-            className="mt-8 text-3xl font-bold  text-yellow-500 md:text-4xl lg:text-7xl"
+            className="mt-8 text-3xl font-bold  text-[#f8d315] md:text-4xl lg:text-7xl"
           >
             Contact Us
           </h1>
@@ -47,8 +47,11 @@
         </div>
         <div class="flex flex-col gap-8 py-10">
           <div class="flex gap-3 items-center">
-            <div class="bg-yellow-400 w-fit h-fit p-2 rounded-full">
-              <PhoneIcon class="w-6 text-white" />
+            <div class="w-fit h-fit rounded-full">
+              <img
+                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/197e240f-1a9c-4d34-8cf1-b25d7ba3f545.png"
+                class="rounded-full w-14 h-14"
+              />
             </div>
             <div>
               <h2 class="font-bold text-gray-500">Call Us</h2>
@@ -56,51 +59,78 @@
             </div>
           </div>
           <div class="flex gap-3 items-center">
-            <div class="bg-yellow-400 w-fit h-fit p-2 rounded-full">
-              <PhoneIcon class="w-6 text-white" />
+            <div class="w-fit h-fit rounded-full">
+              <img
+                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/13c75e27-bcc6-4773-a22c-b42463e666e7.png"
+                class="rounded-full w-14 h-14"
+              />
             </div>
             <div>
               <h2 class="font-bold text-gray-500">Email</h2>
               <p class="text-gray-400">hello.graphicalcreative@gmail.com</p>
             </div>
           </div>
-          <div class="flex gap-3 items-center">
-            <div class="bg-yellow-400 w-fit h-fit p-2 rounded-full">
-              <PhoneIcon class="w-6 text-white" />
+          <a
+            href="https://www.linkedin.com/in/graphicalcreative/"
+            target="_blank"
+            class="flex gap-3 items-center cursor-pointer"
+          >
+            <div class="w-fit h-fit rounded-full">
+              <img
+                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b4e83a92-6f21-4aca-8ea3-f5743f1fb5b1.png"
+                class="rounded-full w-14 h-14"
+              />
             </div>
+
             <div>
               <h2 class="font-bold text-gray-500">Linkedin</h2>
               <p class="text-gray-400">/in/graphicalcreative</p>
             </div>
-          </div>
+          </a>
         </div>
         <div class="flex gap-6 justify-center py-4">
-          <router-link to="" class="cursor-pointer">
+          <a
+            href="https://www.facebook.com/GraphicalCreativeAgency"
+            target="_blank"
+            class="cursor-pointer"
+          >
             <img
-              class="w-5 h-5"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d5efdfa7-45be-482c-838e-51a60a91b801.png"
+              class="w-12 h-12"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/08d5d097-d2de-4d5e-a2fe-3bb33027c7eb.png"
             />
-          </router-link>
-          <router-link to="/" class="cursor-pointer">
+          </a>
+          <a
+            href="https://dribbble.com/GraphicalCreative"
+            target="_blank"
+            class="cursor-pointer"
+          >
             <img
-              class="w-5 h-5"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/42e128c0-5c12-48d4-ac2f-b46533a576b8.png"
+              class="w-12 h-12"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1a3ffab8-229f-4e22-91b0-c051911289e3.png"
             />
-          </router-link>
+          </a>
 
-          <router-link to="/" class="cursor-pointer">
+          <a
+            href="https://dribbble.com/GraphicalCreative"
+            target="_blank"
+            class="cursor-pointer"
+          >
             <img
-              class="w-5 h-5"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/7151fda2-8d48-4918-9360-941d3db35af2.png"
+              class="w-12 h-12"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/42ac301d-7783-40a8-b1d5-2fd2698daa38.png"
             />
-          </router-link>
+          </a>
 
-          <router-link to="/" class="cursor-pointer">
+          <a
+            href="https://x.com/hello_graphical?prefetchTimestamp=1722579697401"
+            target="_blank"
+            class="cursor-pointer"
+          >
             <img
-              class="w-5 h-5"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/63badd59-a70f-415d-bb1d-5f978b8475f0.png"
+              class="w-12 h-12"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ad709941-6ffd-40f9-93d5-df86c6e18004.png"
             />
-          </router-link>
+          </a>
         </div>
       </div>
       <div class="w-1/2">

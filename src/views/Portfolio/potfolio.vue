@@ -8,7 +8,7 @@
           className="w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6"
         >
           <h1
-            className="mt-8 text-3xl font-bold  text-yellow-500 md:text-4xl lg:text-7xl"
+            className="mt-8 text-3xl font-bold  text-[#f8d315] md:text-4xl lg:text-7xl"
           >
             Portfolio
           </h1>
