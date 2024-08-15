@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-600 py-20">
+  <section class="bg-black py-20">
     <div class="max-w-7xl mx-auto">
       <div class="flex flex-col items-center justify-center">
         <p class="text-gray-300">Our Patner</p>
@@ -12,13 +12,22 @@
       >
         <div v-for="i in 6">
           <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/0e7553db-41bd-4409-afaa-33f39ab4f2d4.png"
-            class="w-40 rounded"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/39e30aae-cfa1-4613-afb9-78c3273eb212.jpg"
+            class="w-32 rounded"
           />
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div v-for="i in 6">
+          <img
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/39e30aae-cfa1-4613-afb9-78c3273eb212.jpg"
+            class="w-32 rounded"
+          />
+        </div>
+        <div v-for="i in 6">
+          <img
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/39e30aae-cfa1-4613-afb9-78c3273eb212.jpg"
+            class="w-32 rounded"
+          />
+        </div>
       </div>
     </div>
   </section>

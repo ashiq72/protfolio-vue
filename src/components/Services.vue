@@ -1,5 +1,5 @@
 <template>
-  <div className="relative w-full  py-20">
+  <div className="relative w-full bg-[#0d0e11] py-20">
     <div className="mx-auto flex flex-col justify-center  max-w-7xl lg:px-8">
       <div class="text-center">
         <h1 class="text-4xl text-yellow-400 whitespace-nowrap">Our Services</h1>
@@ -12,10 +12,12 @@
           class="flex flex-col items-center rounded py-4 w-[150px] h-[150px]"
         >
           <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4efcc0b1-3c2c-4f81-9663-53bbe4d0344a.png"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d426699c-e9a9-4df4-93c6-78090721245b.jpg"
             class=""
           />
-          <h2 class="text-xl font-semibold pt-2 whitespace-nowrap">
+          <h2
+            class="text-xl font-semibold pt-2 whitespace-nowrap text-gray-200"
+          >
             Image Editing
           </h2>
         </router-link>
@@ -24,10 +26,12 @@
           class="flex flex-col items-center rounded py-4 w-[150px] h-[150px]"
         >
           <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3dd432d8-0fe8-4303-bfd1-0e4060ec5fee.png"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c317cadc-c28d-4ce4-b3a4-eaf9f58fb743.jpg"
             class=""
           />
-          <h2 class="text-xl font-semibold pt-2 whitespace-nowrap">
+          <h2
+            class="text-xl font-semibold pt-2 whitespace-nowrap text-gray-200"
+          >
             Graphic Design
           </h2>
         </router-link>
@@ -36,10 +40,12 @@
           class="flex flex-col items-center rounded py-4 w-[150px] h-[150px]"
         >
           <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a6d7a174-4819-4655-9003-ee2b59b66351.png"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/f8e97d1b-63ad-46ae-8e6c-69d25fc8da44.jpg"
             class=""
           />
-          <h2 class="text-xl font-semibold pt-2 whitespace-nowrap">
+          <h2
+            class="text-xl font-semibold pt-2 whitespace-nowrap text-gray-200"
+          >
             Motion Graphics
           </h2>
         </router-link>
@@ -48,10 +54,12 @@
           class="flex flex-col items-center rounded py-4 w-[150px] h-[150px]"
         >
           <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3733ef68-023f-4af3-a508-487614e385f4.png"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ab219507-4de8-468e-903a-596c5c517103.jpg"
             class=""
           />
-          <h2 class="text-xl font-semibold pt-2 whitespace-nowrap">
+          <h2
+            class="text-xl font-semibold pt-2 whitespace-nowrap text-gray-200"
+          >
             Video Editing
           </h2>
         </router-link>

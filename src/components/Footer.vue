@@ -1,57 +1,348 @@
 <template>
-    <footer className="w-full pb-4 pt-8 bg-slate-800 text-gray-300">
-        <div className="mx-auto flex max-w-7xl flex-col items-start space-x-8 md:flex-row">
-          <div className="w-full px-4 md:w-1/2 lg:px-0">
-            <h1 className="max-w-sm text-3xl font-bold">Subscribe to our Newsletter</h1>
-            <form action="" className="mt-4 inline-flex w-full items-center md:w-3/4">
-              <input
-                className="flex h-10 w-full rounded-md border border-gay-400/20 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
-                type="email"
-                placeholder="Email"
-              ></input>
-              <button
-                type="button"
-                className="ml-4 rounded-full bg-gray-400 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-white/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-              >
-                <ChevronRight className="h-4 w-4" />
-              </button>
-            </form>
+  <div>
+    <footer class="py-12 bg-[#0d0e11] sm:py-16 lg:py-20">
+      <div class="px-4 mx-auto container sm:px-6 lg:px-8">
+        <div class="relative">
+          <div class="absolute -inset-2">
+            <div
+              class="w-full h-full mx-auto opacity-30 blur-lg filter"
+              style="
+                background: linear-gradient(
+                  90deg,
+                  #44ff9a -0.55%,
+                  #44b0ff 22.86%,
+                  #8b44ff 48.36%,
+                  #ff6644 73.33%,
+                  #ebff70 99.34%
+                );
+              "
+            ></div>
           </div>
-          <div className="mt-8 grid grid-cols-2 gap-6 md:mt-0 lg:w-3/4 lg:grid-cols-3">
-           
-              <div v-for="i in 3" className="mb-8 lg:mb-0">
-                <p className="mb-6 text-lg font-semibold text-gray-100 ">Company</p>
-                <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-400">
-                  <li>About us</li>
-                  <li>Company History</li>
-                  <li>Our Team</li>
-                  <li>Our Vision</li>
-                  <li>Press Release</li>
-                </ul>
+
+          <div
+            class="relative overflow-hidden text-center bg-gray-900 rounded-3xl lg:text-left"
+          >
+            <div class="p-6 lg:py-8 lg:px-14">
+              <div class="lg:flex lg:items-center lg:justify-between">
+                <h5
+                  class="max-w-md mx-auto text-3xl font-bold text-white xl:max-w-xl lg:mx-0 font-pj"
+                >
+                  Enter email to find me
+                </h5>
+
+                <div class="flex-1 mt-7 lg:mt-0 lg:ml-8">
+                  <form action="#" method="POST">
+                    <div class="md:flex">
+                      <div class="flex-1">
+                        <input
+                          type="email"
+                          name=""
+                          id=""
+                          placeholder="Enter email address"
+                          class="block w-full px-4 py-4 text-base text-center text-gray-900 placeholder-gray-600 bg-white border-gray-300 md:text-left focus:ring-white focus:border-white rounded-t-xl md:rounded-t-none md:rounded-l-xl font-pj caret-gray-900"
+                          required
+                        />
+                      </div>
+
+                      <button
+                        type="submit"
+                        class="w-full px-6 py-4 text-base font-bold text-gray-900 transition-all duration-200 bg-white border border-transparent xl:px-16 md:w-auto focus:ring-2 focus:ring-offset-2 focus:ring-white rounded-b-xl md:rounded-b-none md:rounded-r-xl font-pj focus:outline-none"
+                      >
+                        Subscribe
+                      </button>
+                    </div>
+                  </form>
+                </div>
               </div>
-      
+            </div>
           </div>
         </div>
-        <hr className="my-4" />
-        <div className="mx-auto max-w-6xl items-center justify-between px-4 md:flex lg:px-0">
-          <div className="inline-flex items-center">
-            <svg
-              width="40"
-              height="46"
-              viewBox="0 0 50 56"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M23.2732 0.2528C20.8078 1.18964 2.12023 12.2346 1.08477 13.3686C0 14.552 0 14.7493 0 27.7665C0 39.6496 0.0986153 41.1289 0.83823 42.0164C2.12023 43.5449 23.2239 55.4774 24.6538 55.5267C25.9358 55.576 46.1027 44.3832 48.2229 42.4602C49.3077 41.474 49.3077 41.3261 49.3077 27.8158C49.3077 14.3055 49.3077 14.1576 48.2229 13.1714C46.6451 11.7415 27.1192 0.450027 25.64 0.104874C24.9497 -0.0923538 23.9142 0.00625992 23.2732 0.2528ZM20.2161 21.8989C20.2161 22.4906 18.9835 23.8219 17.0111 25.3997C15.2361 26.7803 13.8061 27.9637 13.8061 28.0623C13.8061 28.1116 15.2361 29.0978 16.9618 30.2319C18.6876 31.3659 20.2655 32.6479 20.4134 33.0917C20.8078 34.0286 19.871 35.2119 18.8355 35.2119C17.8001 35.2119 9.0233 29.3936 8.67815 28.5061C8.333 27.6186 9.36846 26.5338 14.3485 22.885C17.6521 20.4196 18.4904 20.0252 19.2793 20.4196C19.7724 20.7155 20.2161 21.3565 20.2161 21.8989ZM25.6893 27.6679C23.4211 34.9161 23.0267 35.7543 22.1391 34.8668C21.7447 34.4723 22.1391 32.6479 23.6677 27.9637C26.2317 20.321 26.5275 19.6307 27.2671 20.3703C27.6123 20.7155 27.1685 22.7864 25.6893 27.6679ZM36.0932 23.2302C40.6788 26.2379 41.3198 27.0269 40.3337 28.1609C39.1503 29.5909 31.6555 35.2119 30.9159 35.2119C29.9298 35.2119 28.9436 33.8806 29.2394 33.0424C29.3874 32.6479 30.9652 31.218 32.7403 29.8867L35.9946 27.4706L32.5431 25.1532C30.6201 23.9205 29.0915 22.7371 29.0915 22.5892C29.0915 21.7509 30.2256 20.4196 30.9159 20.4196C31.3597 20.4196 33.6771 21.7016 36.0932 23.2302Z"
-                fill="black"
+
+        <div class="grid grid-cols-2 gap-16 mt-16 md:mt-24 md:grid-cols-5">
+          <div class="col-span-2">
+            <a href="#" title="" class="flex">
+              <img
+                class="w-auto h-32"
+                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a2bfd60d-c6a4-405f-83ea-46288304a6fa.jpg"
+                alt=""
               />
-            </svg>
-            <span className="ml-4 text-lg font-bold">Ami Joy Debnath</span>
+            </a>
+            <p class="mt-6 text-base font-normal text-gray-400">
+              Graphical Creative is a leading provider of image editing, graphic
+              design, motion graphics, and video editing services based in
+              Bangladesh. Our dedicated team of graphic designers ensures
+              top-notch quality and fast service, with 24/7 support to meet all
+              your needs. We are committed to delivering high-quality work at
+              competitive prices, always within the agreed timeframe. Client
+              satisfaction is our highest priority, and we strive to exceed your
+              expectations. Visit our website or contact us directly. We look
+              forward to working with you and hope you enjoy our exceptional
+              work.
+            </p>
           </div>
-          <div className="mt-4 md:mt-0">
-            <p className="text-sm font-medium text-gray-300">© 2024 Bponi. All rights reserved. I proud of Bponi.</p>
+          <div>
+            <h6 class="text-base font-bold text-white font-pj">Services</h6>
+
+            <ul class="mt-8 space-y-5">
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Clipping path Background Removal
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Photo Retoucng
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Neck joint/ghost mannequin Service
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Logo Design
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Graphic Design
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Video editing
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Motion Graphics
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h6 class="text-base font-bold text-white font-pj">Links</h6>
+
+            <ul class="mt-8 space-y-5">
+              <li>
+                <a
+                  href="/"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/services/"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Services
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/protfolio/"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Protfolio
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/about/"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/contact/"
+                  title=""
+                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="max-w-sm mt-8 md:mt-0">
+              <ul class="space-y-7">
+                <li class="flex items-start">
+                  <svg
+                    class="flex-shrink-0 w-6 h-6 text-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <span class="ml-5 text-sm font-normal text-white font-pj">
+                    Kaderabad Housing Society, Mohammadpur, Dhaka-1207
+                  </span>
+                </li>
+
+                <li class="flex items-start">
+                  <svg
+                    class="flex-shrink-0 w-6 h-6 text-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+                  <span class="ml-5 text-sm font-normal text-white font-pj">
+                    hello.graphicalcreative@gmail.com
+                  </span>
+                </li>
+                <li class="flex items-start">
+                  <img
+                    src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/af44fa2d-cb16-408c-b755-bd15fa1419e5.png"
+                    class="w-6"
+                  />
+                  <span class="ml-5 text-sm font-normal text-white font-pj">
+                    +880 1849989679
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="flex items-center justify-center mt-12 space-x-6">
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  target="_blank"
+                  rel="noopener"
+                  class="inline-flex transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                >
+                  <span class="sr-only"> Twitter </span>
+                  <svg
+                    class="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  target="_blank"
+                  rel="noopener"
+                  class="inline-flex transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                >
+                  <span class="sr-only"> LinkedIn </span>
+                  <svg
+                    class="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle cx="4.983" cy="5.009" r="2.188"></circle>
+                    <path
+                      d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  title=""
+                  target="_blank"
+                  rel="noopener"
+                  class="inline-flex transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
+                >
+                  <span class="sr-only"> Google </span>
+                  <svg
+                    class="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M20.283 10.356h-8.327v3.451h4.792c-.446 2.193-2.313 3.453-4.792 3.453a5.27 5.27 0 0 1-5.279-5.28 5.27 5.27 0 0 1 5.279-5.279c1.259 0 2.397.447 3.29 1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233a8.908 8.908 0 0 0-8.934 8.934 8.907 8.907 0 0 0 8.934 8.934c4.467 0 8.529-3.249 8.529-8.934 0-.528-.081-1.097-.202-1.625z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div>
+              <img
+                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b0f0fd30-393c-4f2d-ba8d-f17009c2c70e.png"
+                class="w-full h-32"
+              />
+            </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
+  </div>
 </template>

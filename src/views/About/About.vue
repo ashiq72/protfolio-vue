@@ -93,11 +93,11 @@
               {{ missionSection.description }}
             </p>
           </div>
-          <div class="w-full">
+          <div class="w-full flex justify-end">
             <img
-              class="max-h-96"
-              :src="missionImg"
-              :alt="missionSection.title"
+              class="max-h-[420px]"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fb3dfe3e-e9a6-426f-a315-175e9be6dcdc.jpg"
+              alt="missionSection.title"
             />
           </div>
         </div>
@@ -112,9 +112,9 @@
         >
           <div class="w-full">
             <img
-              class="max-h-96"
-              :src="missionImg"
-              :alt="visionSection.title"
+              class="max-h-[420px]"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1737de1a-934e-40a3-86f8-1ea8d1b9b95f.jpg"
+              alt="visionSection.title"
             />
           </div>
           <div class="w-full">

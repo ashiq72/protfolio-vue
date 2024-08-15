@@ -11,7 +11,7 @@
           <router-link to="/" class="cursor-pointer">
             <img
               class="w-auto h-10 sm:h-16 cursor-pointer"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c25391ec-b9cd-43dd-a6ba-c18cb77ed3f3.png"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a2bfd60d-c6a4-405f-83ea-46288304a6fa.jpg"
               alt=""
             />
           </router-link>
@@ -82,8 +82,8 @@
               class="relative"
             >
               <router-link
-                to="/services"
-                class="my-2 text-gray-700 transition-colors duration-300 transform hover:text-yellow-400 dark:hover:text-yellow-600 md:mx-4 md:my-0"
+                to="/services/clicking-path"
+                class="my-2 text-gray-100 transition-colors duration-300 transform hover:text-yellow-400 dark:hover:text-yellow-600 md:mx-4 md:my-0"
                 >Services
               </router-link>
               <div
