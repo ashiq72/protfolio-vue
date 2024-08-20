@@ -1,5 +1,8 @@
 <template>
-  <div class="px-6 py-16 mx-auto container">
+  <div class="bg-[#0d0e11]">
+
+  
+  <div class="px-6 py-16 mx-auto container ">
     <div class="pb-12">
       <div class="flex justify-center flex-col items-center gap-2">
         <h1 class="text-yellow-400 font-semibold uppercase text-3xl">
@@ -165,6 +168,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script setup>

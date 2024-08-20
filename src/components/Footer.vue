@@ -39,7 +39,7 @@
                           name=""
                           id=""
                           placeholder="Enter email address"
-                          class="block w-full px-4 py-4 text-base text-center text-gray-900 placeholder-gray-600 bg-white border-gray-300 md:text-left focus:ring-white focus:border-white rounded-t-xl md:rounded-t-none md:rounded-l-xl font-pj caret-gray-900"
+                          class="block w-full px-4 py-6 text-base text-center text-gray-900 placeholder-gray-600 bg-white border-gray-300 md:text-left focus:ring-white focus:border-white rounded-t-xl md:rounded-tr-none md:rounded-l-xl font-pj caret-gray-900"
                           required
                         />
                       </div>
@@ -58,8 +58,8 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-16 mt-16 md:mt-24 md:grid-cols-5">
-          <div class="col-span-2">
+        <div class="grid grid-cols-2 gap-10 mt-16 md:mt-24 md:grid-cols-12">
+          <div class="col-span-5 mr-20">
             <a href="#" title="" class="flex">
               <img
                 class="w-auto h-32"
@@ -67,7 +67,7 @@
                 alt=""
               />
             </a>
-            <p class="mt-6 text-base font-normal text-gray-400">
+            <p class="mt-6 text-base font-normal text-gray-400 text-justify">
               Graphical Creative is a leading provider of image editing, graphic
               design, motion graphics, and video editing services based in
               Bangladesh. Our dedicated team of graphic designers ensures
@@ -80,7 +80,7 @@
               work.
             </p>
           </div>
-          <div>
+          <div class="col-span-3 ">
             <h6 class="text-base font-bold text-white font-pj">Services</h6>
 
             <ul class="mt-8 space-y-5">
@@ -152,7 +152,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="col-span-1 ">
             <h6 class="text-base font-bold text-white font-pj">Links</h6>
 
             <ul class="mt-8 space-y-5">
@@ -206,7 +206,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="col-span-3">
             <div class="max-w-sm mt-8 md:mt-0">
               <ul class="space-y-7">
                 <li class="flex items-start">

@@ -30,13 +30,15 @@
           your goals.
         </p>
         <form action="" className="mt-8 flex items-start space-x-2">
-          <router-link to="/contact">
-            <button
-              type="button"
-              className="rounded-md bg-[#f8d315] px-3 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-            >
-              Contact Us
-            </button>
+          <router-link to="/protfolio">
+            <div class="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
+              <div class="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-yellow-500 group-hover:shadow-lg group-hover:shadow-yellow-500/50">
+                  
+              </div>
+              <span title="" class="relative inline-flex items-center justify-center px-8 py-3 text-base font-normal text-[#f8d315] bg-black border border-transparent rounded-full" role="button">
+              See Protfolio
+              </span>
+          </div>
           </router-link>
         </form>
       </div>

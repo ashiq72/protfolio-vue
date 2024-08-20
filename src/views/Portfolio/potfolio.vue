@@ -1,6 +1,7 @@
 <template>
-  <div class="pb-24">
-    <div className="relative w-full bg-white ">
+  <div class="pb-24 bg-[#0d0e11]">
+    <div className="relative w-full  ">
+      
       <div
         className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full   rounded-2xl"
       >
@@ -10,10 +11,10 @@
           <h1
             className="mt-8 text-3xl font-bold  text-[#f8d315] md:text-4xl lg:text-7xl"
           >
-            Portfolio
+          Portfolio
           </h1>
-          <h3 class="text-2xl">Graphical Creative</h3>
-          <p className="mt-8 text-lg text-gray-700">
+          <h3 class="text-2xl text-gray-100">Graphical Creative</h3>
+          <p className="mt-8 text-lg text-gray-50">
             Welcome to the Graphical Creative Portfolio! Here, you’ll find a
             collection of our finest work that showcases our creativity,
             expertise, and dedication to delivering exceptional design
@@ -24,8 +25,8 @@
           className="w-1/2 relative lg:col-span-5 lg:-mr-8 xl:col-span-6  flex justify-center"
         >
           <img
-            className=" bg-gray-50  h-[350px]"
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4a9c1533-5ba8-4c24-9976-9b4e95daed7b.jpg"
+            className=" bg-[#231f20]  h-[650px]"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/2f4ecd3b-8003-4100-a23c-65404822ae73.jpg"
             alt=""
           />
         </div>
