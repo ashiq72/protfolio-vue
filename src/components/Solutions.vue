@@ -21,7 +21,7 @@
           v-for="tab in tabs"
           @click="selectedTab = tab.name"
           class="py-3 whitespace-nowrap w-full flex flex-col items-center justify-center cursor-pointer"
-          :class="selectedTab == tab.name ? 'border shadow bg-gray-50' : ''"
+          :class="selectedTab == tab.name ? 'border shadow bg-yellow-500   ' : 'text-gray-50'"
         >
           {{ tab.name }}
         </div>
