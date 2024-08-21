@@ -1,7 +1,7 @@
 <template>
-  <div className="relative w-full bg-white py-20">
+  <div className="relative w-full bg-[#0d0e11] py-20">
     <div className="mx-auto flex flex-col justify-center  container lg:px-8">
-      <div className="relative w-full bg-white flex flex-col gap-8">
+      <div className="relative w-full bg-[#0d0e11] flex flex-col gap-8">
         <div
           className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl"
         >
@@ -16,11 +16,11 @@
             className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 w-6/12"
           >
             <h1
-              className="mt-8 text-xl font-bold tracking-tight text-black md:text-xl lg:text-2xl"
+              className="mt-8 text-xl font-bold tracking-tight text-yellow-500 md:text-xl lg:text-2xl"
             >
               Clipping Path Service
             </h1>
-            <p className="mt-8 text-lg text-gray-700">
+            <p className="mt-8 text-lg text-gray-300">
               Our clipping path company offers sharp, niche-looking paths at
               competitive prices. We focus on highlighting the dedicated part of
               your image, ensuring the audience's attention is on the product or
@@ -36,11 +36,11 @@
             className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 w-6/12"
           >
             <h1
-              className="mt-8 text-xl font-bold tracking-tight text-black md:text-xl lg:text-2xl"
+              className="mt-8 text-xl font-bold tracking-tight text-[#f8d315] md:text-xl lg:text-2xl"
             >
               Clipping Path Service
             </h1>
-            <p className="mt-8 text-lg text-gray-700">
+            <p className="mt-8 text-lg text-gray-300">
               Our clipping path company offers sharp, niche-looking paths at
               competitive prices. We focus on highlighting the dedicated part of
               your image, ensuring the audience's attention is on the product or
@@ -70,11 +70,11 @@
             className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 w-6/12"
           >
             <h1
-              className="mt-8 text-xl font-bold tracking-tight text-black md:text-xl lg:text-2xl"
+              className="mt-8 text-xl font-bold tracking-tight text-[#f8d315] md:text-xl lg:text-2xl"
             >
               Clipping Path Service
             </h1>
-            <p className="mt-8 text-lg text-gray-700">
+            <p className="mt-8 text-lg text-gray-300">
               Our clipping path company offers sharp, niche-looking paths at
               competitive prices. We focus on highlighting the dedicated part of
               your image, ensuring the audience's attention is on the product or

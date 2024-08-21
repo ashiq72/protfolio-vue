@@ -46,7 +46,8 @@
           </p>
         </div>
         <div class="flex flex-col gap-8 py-10">
-          <div class="flex gap-3 items-center">
+         <a href="https://wa.me/8801849989679"
+          target="_blank" class="flex gap-3 items-center">
             <div class="w-fit h-fit rounded-full">
               <img
                 src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/f7464c40-5cd5-40c7-abb0-ded3c6a17b02.jpeg"
@@ -57,8 +58,10 @@
               <h2 class="font-bold text-gray-300">Call Us</h2>
               <p class="text-gray-400">+880 1849989679</p>
             </div>
-          </div>
-          <div class="flex gap-3 items-center">
+          </a>
+          <a
+           href="mailto:hello.graphicalcreative@gmail.com"
+          target="_blank" class="flex gap-3 items-center">
             <div class="w-fit h-fit rounded-full">
               <img
                 src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/61e7178e-e285-4de0-acad-53f2e2ae7da8.jpeg"
@@ -69,7 +72,7 @@
               <h2 class="font-bold text-gray-300">Email</h2>
               <p class="text-gray-400">hello.graphicalcreative@gmail.com</p>
             </div>
-          </div>
+          </a>
           <a
             href="https://www.linkedin.com/in/graphicalcreative/"
             target="_blank"
@@ -99,16 +102,7 @@
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/0e7720ef-3b26-47a7-a7c0-814f336b4c15.jpeg"
             />
           </a>
-          <!-- <a
-            href="https://dribbble.com/GraphicalCreative"
-            target="_blank"
-            class="cursor-pointer"
-          >
-            <img
-              class="w-12 h-12"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/f7464c40-5cd5-40c7-abb0-ded3c6a17b02.jpeg"
-            />
-          </a> -->
+          
 
           <a
             href="https://dribbble.com/GraphicalCreative"

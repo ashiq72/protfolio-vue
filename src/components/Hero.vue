@@ -5,8 +5,8 @@
     <section class="py-12 bg-[#0d0e11] sm:pb-16 lg:pb-20 xl:pb-24">
         <div class="px-4 mx-auto sm:px-6 lg:px-8 container">
             <div class="relative">
-                <div class="lg:w-2/3">
-                    <p class="text-sm font-normal tracking-widest text-gray-300 uppercase">A Hub for Designers, Developers & Marketers</p>
+                <div class="lg:w-2/3 pt-6">
+                    <!-- <p class="text-sm font-normal tracking-widest text-gray-300 uppercase">A Hub for Designers, Developers & Marketers</p> -->
                     <h1 class="mt-6 text-4xl font-normal text-white sm:mt-10 sm:text-5xl lg:text-6xl xl:text-8xl"><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500">Unlimited Design</span> Inspiration</h1>
                     <p class="max-w-lg mt-4 text-xl font-normal text-gray-400 sm:mt-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.</p>
                     <div class="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">

@@ -235,7 +235,12 @@
                   </span>
                 </li>
 
-                <li class="flex items-start">
+                <li>
+                  <a
+                  href="mailto:hello.graphicalcreative@gmail.com"
+                  target="_blank"
+                  class="flex items-start"
+                    >
                   <svg
                     class="flex-shrink-0 w-6 h-6 text-white"
                     xmlns="http://www.w3.org/2000/svg"
@@ -253,15 +258,21 @@
                   <span class="ml-5 text-sm font-normal text-white font-pj">
                     hello.graphicalcreative@gmail.com
                   </span>
+                </a>
                 </li>
-                <li class="flex items-start">
-                  <img
-                    src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/af44fa2d-cb16-408c-b755-bd15fa1419e5.png"
-                    class="w-6"
-                  />
-                  <span class="ml-5 text-sm font-normal text-white font-pj">
-                    +880 1849989679
-                  </span>
+                <li >
+                  <a href="https://wa.me/8801849989679"
+                    target="_blank" 
+                    class="flex items-start">
+
+                    <img
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/af44fa2d-cb16-408c-b755-bd15fa1419e5.png"
+                      class="w-6"
+                    />
+                    <span class="ml-5 text-sm font-normal text-white font-pj">
+                      +880 1849989679
+                    </span>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -269,9 +280,10 @@
             <ul class="flex items-center justify-center mt-12 space-x-6">
               <li>
                 <a
-                  href="#"
+                href="https://x.com/hello_graphical?prefetchTimestamp=1722579697401"
+                target="_blank"
                   title=""
-                  target="_blank"
+          
                   rel="noopener"
                   class="inline-flex transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
                 >
@@ -291,9 +303,10 @@
 
               <li>
                 <a
-                  href="#"
+                href="https://www.linkedin.com/in/graphicalcreative/"
+                target="_blank"
                   title=""
-                  target="_blank"
+                 
                   rel="noopener"
                   class="inline-flex transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
                 >

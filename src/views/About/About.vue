@@ -50,7 +50,7 @@
             elevate your brand and capture your audience’s attention.
           </p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center mt-16">
           <div class="w-full">
             <Disclosure
               v-for="faq in faqs"
@@ -68,7 +68,7 @@
                   class="h-5 w-5 text-gray-700"
                 />
               </DisclosureButton>
-              <DisclosurePanel class="px-4 pb-2 pt-4 text-sm text-gray-500">
+              <DisclosurePanel class="px-4 pb-2 pt-4 text-sm text-gray-300">
                 {{ faq.answer }}
               </DisclosurePanel>
             </Disclosure>
