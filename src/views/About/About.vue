@@ -3,7 +3,7 @@
   <main class="pb-14 bg-[#0d0e11]">
     <div className="relative w-full bg-[#0d0e11] pt-10">
       <div
-        className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full   rounded-2xl"
+        className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full rounded-2xl"
       >
         <div
           className="w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6"
