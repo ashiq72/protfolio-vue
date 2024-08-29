@@ -27,13 +27,13 @@
     <div class="mx-auto max-w-4xl gap-10 pt-10 px-4 min-h-screen">
       <div class="flex">
         <div class="grid grid-cols-2 justify-items-center w-full gap-5">
-          <button v-for="item in services" @click="selectedService = item"
+          <button v-for="item in services" @click="selectedService = item.title"
             class="bg-yellow-500 text-white w-full flex items-center justify-center py-5 rounded cursor-pointer hover:bg-yellow-400 duration-300 focus:ring-4 focus:ring-yellow-500 focus:ring-offset-4 focus:ring-offset-black">
             {{ item.title }}
           </button>
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-4 py-10">
+      <div v-if="selectedService == 'Image Editing'" class="grid grid-cols-2 gap-4 py-10">
         <!-- <div v-for="(item, index) in selectedService.images" :key="index">
           <img :src="item" class="shadow rounded" />
         </div> -->
@@ -191,15 +191,27 @@
         </div>
 
       </div>
+      <div v-if="selectedService == 'Graphic Design'" class="grid grid-cols-2 gap-4 py-10">
+        <img class="w-full h-full object-cover object-left"
+          src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
+          alt="black and white" />
+      </div>
+      <div v-if="selectedService == 'Motion Graphics'" class="grid grid-cols-2 gap-4 py-10">
+        <img class="w-full h-full object-cover object-left"
+          src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
+          alt="black and white" />
+      </div>
+      <div v-if="selectedService == 'Video Editing'" class="grid grid-cols-2 gap-4 py-10">
+        <img class="w-full h-full object-cover object-left"
+          src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
+          alt="black and white" />
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref, watch } from "vue";
-import { PhoneIcon } from "@heroicons/vue/20/solid";
-import { Switch, SwitchGroup, SwitchLabel } from "@headlessui/vue";
-
 const services = ref([
   {
     id: 1,
@@ -244,7 +256,7 @@ const services = ref([
     ],
   },
 ]);
-const selectedService = ref(services.value[0]);
+const selectedService = ref('Image Editing');
 
 // image re-touching
 const position1 = ref(50);
