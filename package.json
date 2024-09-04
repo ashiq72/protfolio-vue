@@ -11,6 +11,8 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.22",
     "@heroicons/vue": "^2.1.3",
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-auto-scroll": "github:splidejs/splide-extension-auto-scroll",
     "gsap": "^3.12.5",
     "gsap-trial": "^3.12.5",
     "swiper": "^11.1.9",
