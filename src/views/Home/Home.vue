@@ -12,11 +12,12 @@
 
     <div>
       <div ref="splide" class="splide scrollbar-hide ">
-        <div class="splide__track">
-          <ul class="splide__list">
+        <div class="splide__track scrollbar-hide">
+          <ul class="splide__list flex scrollbar-none scroll">
             <li class="splide__slide">Slide 1</li>
             <li class="splide__slide">Slide 2</li>
             <li class="splide__slide">Slide 3</li>
+
             <!-- Add more slides as needed -->
           </ul>
         </div>
@@ -41,12 +42,10 @@ const splide = ref(null);
 onMounted(() => {
   const splideInstance = new Splide(splide.value, {
     type: 'loop',
-    drag: 'free',
+
     focus: 'center',
     perPage: 3,
-    autoScroll: {
-      speed: 1,
-    },
+    autoplay: true,
   });
 
   splideInstance.mount({ AutoScroll });
