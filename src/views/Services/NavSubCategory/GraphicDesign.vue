@@ -6,7 +6,7 @@
           className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
           <div className="relative  w-8/12 ">
             <img className=" bg-gray-50 object-cover  w-full h-full"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/41e6281e-3fb6-4b3f-bcd8-c7d672c69431.jpg"
               alt="" />
           </div>
           <div
@@ -41,7 +41,7 @@
           </div>
           <div className="relative  w-8/12 ">
             <img className=" bg-gray-50 object-cover  w-full h-full"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c51f2948-1f2a-439a-8ee6-0af745f10a06.jpg"
               alt="" />
           </div>
         </div>
@@ -49,7 +49,7 @@
           className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
           <div className="relative  w-8/12 ">
             <img className=" bg-gray-50 object-cover  w-full h-full"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/256be4b3-2b1d-4a43-ac7e-bcb0357eec6c.jpg"
               alt="" />
           </div>
           <div
@@ -68,27 +68,7 @@
             </p>
           </div>
         </div>
-        <div
-          className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
-          <div
-            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 w-6/12">
-            <h1 className="mt-8 text-xl font-bold tracking-tight text-[#f8d315] md:text-xl lg:text-2xl">
-              Clipping Path Service
-            </h1>
-            <p className="mt-8 text-lg text-gray-300">
-              Elevate your brand identity with our reliable and seasoned graphic design agency. With more
-              than a decade of industry experience, we recognize that crafting a successful brand identity
-              requires more than just surface-level aesthetics. Our approach integrates meticulous research,
-              strategic planning, and creative expertise to produce cohesive designs that authentically reflect
-              your brand's values and connect with your target audience.
-            </p>
-          </div>
-          <div className="relative  w-8/12 ">
-            <img className=" bg-gray-50 object-cover  w-full h-full"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
-              alt="" />
-          </div>
-        </div>
+
       </div>
     </div>
   </div>

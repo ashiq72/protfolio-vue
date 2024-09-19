@@ -1,6 +1,16 @@
 <template>
   <div className="relative w-full bg-[#0d0e11] py-20">
     <div className="mx-auto flex flex-col justify-center  container lg:px-8">
+
+
+
+      <div class="flex justify-center items-center py-44">
+
+        <h2 class="text-[#f8d315] text-5xl font-semibold">
+          Coming soon...
+        </h2>
+      </div>
+      <!-- 
       <div className="relative w-full bg-[#0d0e11] flex flex-col gap-8">
         <div
           className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
@@ -72,7 +82,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

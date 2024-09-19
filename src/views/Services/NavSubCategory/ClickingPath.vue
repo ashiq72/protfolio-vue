@@ -1,12 +1,12 @@
 <template>
   <div className="relative w-full bg-[#0d0e11] py-20">
     <div className="mx-auto flex flex-col justify-center  container lg:px-8">
-      <div className="relative w-full  flex flex-col gap-8">
+      <div className="relative w-full  flex flex-col gap-20">
         <div
           className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
           <div className="relative  w-8/12 ">
-            <img className=" bg-gray-50 object-cover  w-full h-full"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
+            <img className=" bg-gray-50 object-cover  w-full h-full rounded"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1a0b5e93-20f1-4e67-8f5c-5c023c31c4e4.jpg"
               alt="" />
           </div>
           <div
@@ -39,16 +39,16 @@
             </p>
           </div>
           <div className="relative  w-8/12 ">
-            <img className=" bg-gray-50 object-cover  w-full h-full"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
+            <img className=" bg-gray-50 object-cover  w-full h-full rounded"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/897ee591-0fe3-446b-87d2-fd8f22eb8133.jpg"
               alt="" />
           </div>
         </div>
         <div
           className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
           <div className="relative  w-8/12 ">
-            <img className=" bg-gray-50 object-cover  w-full h-full"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
+            <img className=" bg-gray-50 object-cover  w-full h-full rounded"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/48f962b1-fa31-4847-9fe7-299347833655.jpg"
               alt="" />
           </div>
           <div

@@ -6,7 +6,7 @@
           className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
           <div className="relative  w-8/12 ">
             <img className=" bg-gray-50 object-cover  w-full h-full"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e757c259-87f6-4cb9-b509-a31d43a52907.jpg"
               alt="" />
           </div>
           <div
@@ -49,7 +49,7 @@
           </div>
           <div className="relative  w-8/12 ">
             <img className=" bg-gray-50 object-cover  w-full h-full"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c979ce48-b96d-4ddc-8d5c-b48fae8200da.jpg"
               alt="" />
           </div>
         </div>
@@ -57,7 +57,7 @@
           className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
           <div className="relative  w-8/12 ">
             <img className=" bg-gray-50 object-cover  w-full h-full"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/da46df05-10ca-4380-8de7-56a664f0d8ff.jpg"
               alt="" />
           </div>
           <div

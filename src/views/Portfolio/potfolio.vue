@@ -1,7 +1,6 @@
 <template>
   <div class="pb-24 bg-[#0d0e11]">
-    <div className="relative w-full  ">
-
+    <div className="relative w-full">
       <div
         className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full   rounded-2xl">
         <div className="w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6">
@@ -38,7 +37,7 @@
         <div v-if="selectedService == 'Image Editing'">
           <!-- <div v-for="(item, index) in selectedService.images" :key="index">
           <img :src="item" class="shadow rounded" />
-        </div> -->
+          </div> -->
           <div>
             <div class="border mt-10 rounded-md">
               <h2 class="text-white text-center text-xl py-2">Clipping path Background Removal</h2>
@@ -1095,10 +1094,10 @@
                 <div ref="clippingPath1" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/9c6895b8-d99a-4708-9257-361de9ebfda8.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3febd1c0-e5ee-4d40-9f8c-51da01e42fc6.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position1"
@@ -1134,10 +1133,10 @@
                 <div ref="clippingPath3" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c950a50c-64ca-4ffa-bf68-a8306480a15b.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e6a2f177-0f53-41bc-aca9-5d6be1f8dc23.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/5b78b39d-f250-4f95-bf6b-a42004c3f2b1.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position3"
@@ -1260,15 +1259,27 @@
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/7778d009-1d62-4cdb-b742-bf37bfe26dab.jpg"
             alt="black and white" />
         </div>
-        <div v-if="selectedService == 'Motion Graphics'" class="grid grid-cols-2 gap-4 py-10">
-          <img class="w-full h-full object-cover object-left"
+        <div v-if="selectedService == 'Motion Graphics'" class="">
+          <!-- <img class="w-full h-full object-cover object-left"
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
-            alt="black and white" />
+            alt="black and white" /> -->
+          <div class="flex justify-center items-center py-44">
+
+            <h2 class="text-[#f8d315] text-5xl font-semibold">
+              Coming soon...
+            </h2>
+          </div>
         </div>
-        <div v-if="selectedService == 'Video Editing'" class="grid grid-cols-2 gap-4 py-10">
-          <img class="w-full h-full object-cover object-left"
+        <div v-if="selectedService == 'Video Editing'" class="">
+          <!-- <img class="w-full h-full object-cover object-left"
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
-            alt="black and white" />
+            alt="black and white" /> -->
+          <div class="flex justify-center items-center py-44">
+
+            <h2 class="text-[#f8d315] text-5xl font-semibold">
+              Coming soon...
+            </h2>
+          </div>
         </div>
       </div>
     </div>

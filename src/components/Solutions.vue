@@ -27,7 +27,7 @@
           <div class="flex flex-col items-center justify-center">
             <img class="w-[800px] pt-4"
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg" />
-            <p class="pt-2 italic text-gray-800 font-medium">
+            <p class="pt-2 italic text-gray-100 font-medium">
               Perfect Your Photos with Professional Clipping Path & Background
               Removal!
             </p>
@@ -46,8 +46,8 @@
         <div v-if="selectedTab === 'Photo Retoucng'" class="w-8/12 border">
           <div class="flex flex-col items-center justify-center">
             <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/2b2fad49-2092-4a5a-bad4-4f1b286bf92b.jpg" />
-            <p class="pt-2 italic text-gray-400">
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ca990023-b1d8-453c-8663-493c76722875.jpg" />
+            <p class="pt-2 italic text-gray-100">
               Transform Your Photos with Expert Retouching Services!
             </p>
           </div>
@@ -63,8 +63,8 @@
         <div v-if="selectedTab === 'Neck joint/ghost mannequin Service'" class="w-8/12 border">
           <div class="flex flex-col items-center justify-center">
             <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg" />
-            <p class="pt-2 italic text-gray-400">
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1e5c4e85-d388-4572-9cf5-275baa84e6e5.jpg" />
+            <p class="pt-2 italic text-gray-100">
               Neck Joint/Ghost Mannequin Service
             </p>
           </div>
@@ -80,8 +80,8 @@
         <div v-if="selectedTab === 'Logo Design'" class="w-8/12 border">
           <div class="flex flex-col items-center justify-center">
             <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg" />
-            <p class="pt-2 italic text-gray-400">
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/53b891d1-3220-406d-8f52-5f877e1d6e49.jpg" />
+            <p class="pt-2 italic text-gray-100">
               Create a Strong Brand Identity with Professional Logo Design!
             </p>
           </div>
@@ -96,8 +96,8 @@
         <div v-if="selectedTab === 'Graphic Design'" class="w-8/12 border">
           <div class="flex flex-col items-center justify-center">
             <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg" />
-            <p class="pt-2 italic text-gray-400">
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ba09c330-8a18-4b5f-86be-9653b2e572cf.jpg" />
+            <p class="pt-2 italic text-gray-100">
               Bring Your Ideas to Life with Expert Graphic Design Services!
             </p>
           </div>
@@ -111,37 +111,47 @@
         </div>
         <div v-if="selectedTab === 'Video editing'" class="w-8/12 border">
           <div class="flex flex-col items-center justify-center">
-            <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg" />
-            <p class="pt-2 italic text-gray-400">
+            <div class="flex justify-center items-center py-[280px]">
+
+              <h2 class="text-[#f8d315] text-5xl font-semibold">
+                Coming soon...
+              </h2>
+            </div>
+            <!-- <p class="pt-2 italic text-gray-400">
               Elevate Your Content with Professional Video Editing Services!
-            </p>
+            </p> -->
           </div>
-          <div class="p-4 text-center">
+          <!-- <div class="p-4 text-center">
             <p class="text-gray-400">
               Our Video Editing services turn your raw footage into polished,
               engaging content. Perfect for marketing videos, social media, or
               personal projects, we provide comprehensive editing solutions for
               outstanding results.
             </p>
-          </div>
+          </div> -->
         </div>
         <div v-if="selectedTab === 'Motion Graphics'" class="w-8/12 border">
           <div class="flex flex-col items-center justify-center">
-            <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg" />
-            <p class="pt-2 italic text-gray-400">
+            <div class="flex justify-center items-center py-[280px]">
+
+              <h2 class="text-[#f8d315] text-5xl font-semibold">
+                Coming soon...
+              </h2>
+            </div>
+            <!-- <img class="w-[800px] pt-4"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg" /> -->
+            <!-- <p class="pt-2 italic text-gray-400">
               Add Excitement to Your Content with Professional Motion Graphics!
-            </p>
+            </p> -->
           </div>
-          <div class="p-4 text-center">
+          <!-- <div class="p-4 text-center">
             <p class="text-gray-400">
               Our Motion Graphics services bring your ideas to life with engaging
               animations and visual effects. Ideal for explainer videos,
               advertisements, and more, we create dynamic content that captures
               attention.
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
