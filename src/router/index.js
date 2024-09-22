@@ -1,9 +1,9 @@
 import { createWebHistory, createRouter } from "vue-router";
 
-import ImageEditing from "../views/Services/ImageEditing.vue";
-import GraphicDesign from "../views/Services/GraphicDesign.vue";
-import MotionGraphics from "../views/Services/MotionGraphics.vue";
-import VideoEditing from "../views/Services/VideoEditing.vue";
+import ImageEditing from "../views/Services/NavSubCategory/ImageEditing.vue";
+import GraphicDesign from "../views/Services/NavSubCategory/GraphicDesign.vue";
+import MotionGraphics from "../views/Services/NavSubCategory/MotionGraphics.vue";
+import VideoEditing from "../views/Services/NavSubCategory/VideoEditing.vue";
 
 // NavSubCategoryServices
 import ClickingPath from "../views/Services/NavSubCategory/ClickingPath.vue";

@@ -39,7 +39,7 @@
                           name=""
                           id=""
                           placeholder="Enter email address"
-                          class="block w-full px-4 py-4 text-base text-center text-gray-900 placeholder-gray-600 bg-white border-gray-300 md:text-left focus:ring-white focus:border-white rounded-t-xl md:rounded-t-none md:rounded-l-xl font-pj caret-gray-900"
+                          class="block w-full px-4 py-6 text-base text-center text-gray-900 placeholder-gray-600 bg-white border-gray-300 md:text-left focus:ring-white focus:border-white rounded-t-xl md:rounded-tr-none md:rounded-l-xl font-pj caret-gray-900"
                           required
                         />
                       </div>
@@ -58,8 +58,8 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-16 mt-16 md:mt-24 md:grid-cols-5">
-          <div class="col-span-2">
+        <div class="grid grid-cols-2 gap-10 mt-16 md:mt-24 md:grid-cols-12">
+          <div class="col-span-5 mr-20">
             <a href="#" title="" class="flex">
               <img
                 class="w-auto h-32"
@@ -67,7 +67,7 @@
                 alt=""
               />
             </a>
-            <p class="mt-6 text-base font-normal text-gray-400">
+            <p class="mt-6 text-base font-normal text-gray-400 text-justify">
               Graphical Creative is a leading provider of image editing, graphic
               design, motion graphics, and video editing services based in
               Bangladesh. Our dedicated team of graphic designers ensures
@@ -80,7 +80,7 @@
               work.
             </p>
           </div>
-          <div>
+          <div class="col-span-3 ">
             <h6 class="text-base font-bold text-white font-pj">Services</h6>
 
             <ul class="mt-8 space-y-5">
@@ -152,7 +152,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="col-span-1 ">
             <h6 class="text-base font-bold text-white font-pj">Links</h6>
 
             <ul class="mt-8 space-y-5">
@@ -206,7 +206,7 @@
               </li>
             </ul>
           </div>
-          <div>
+          <div class="col-span-3">
             <div class="max-w-sm mt-8 md:mt-0">
               <ul class="space-y-7">
                 <li class="flex items-start">
@@ -235,7 +235,12 @@
                   </span>
                 </li>
 
-                <li class="flex items-start">
+                <li>
+                  <a
+                  href="mailto:hello.graphicalcreative@gmail.com"
+                  target="_blank"
+                  class="flex items-start"
+                    >
                   <svg
                     class="flex-shrink-0 w-6 h-6 text-white"
                     xmlns="http://www.w3.org/2000/svg"
@@ -253,15 +258,21 @@
                   <span class="ml-5 text-sm font-normal text-white font-pj">
                     hello.graphicalcreative@gmail.com
                   </span>
+                </a>
                 </li>
-                <li class="flex items-start">
-                  <img
-                    src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/af44fa2d-cb16-408c-b755-bd15fa1419e5.png"
-                    class="w-6"
-                  />
-                  <span class="ml-5 text-sm font-normal text-white font-pj">
-                    +880 1849989679
-                  </span>
+                <li >
+                  <a href="https://wa.me/8801849989679"
+                    target="_blank" 
+                    class="flex items-start">
+
+                    <img
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/af44fa2d-cb16-408c-b755-bd15fa1419e5.png"
+                      class="w-6"
+                    />
+                    <span class="ml-5 text-sm font-normal text-white font-pj">
+                      +880 1849989679
+                    </span>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -269,9 +280,10 @@
             <ul class="flex items-center justify-center mt-12 space-x-6">
               <li>
                 <a
-                  href="#"
+                href="https://x.com/hello_graphical?prefetchTimestamp=1722579697401"
+                target="_blank"
                   title=""
-                  target="_blank"
+          
                   rel="noopener"
                   class="inline-flex transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
                 >
@@ -291,9 +303,10 @@
 
               <li>
                 <a
-                  href="#"
+                href="https://www.linkedin.com/in/graphicalcreative/"
+                target="_blank"
                   title=""
-                  target="_blank"
+                 
                   rel="noopener"
                   class="inline-flex transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary"
                 >
