@@ -12,11 +12,12 @@
       circular: true,
       circularFallback: 'bound',
       panelsPerView: perView,
-    }">
-      <div class="flex flex-col  shadow-xl">
+
+    }" :plugins="plugins">
+      <div class="flex flex-col  shadow-xl w-[400px] h-[300px] mx-4">
         <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
           <div class="flex-1">
-            <div class="flex items-center">
+            <div class="flex items-center ">
               <svg class="w-5 h-5 text-[#FDB241]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                 fill="currentColor">
                 <path
@@ -68,7 +69,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col  shadow-xl">
+      <div class="flex flex-col  shadow-xl w-[400px] mx-4">
         <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
           <div class="flex-1">
             <div class="flex items-center">
@@ -122,7 +123,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col  shadow-xl">
+      <div class="flex flex-col  shadow-xl w-[400px] mx-4">
         <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
           <div class="flex-1">
             <div class="flex items-center">
@@ -177,7 +178,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col  shadow-xl">
+      <div class="flex flex-col  shadow-xl w-[400px] mx-4">
         <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
           <div class="flex-1">
             <div class="flex items-center">
@@ -232,7 +233,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col shadow-xl">
+      <div class="flex flex-col shadow-xl w-[400px] mx-4">
         <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
           <div class="flex-1">
             <div class="flex items-center">
@@ -287,18 +288,7 @@
       </div>
     </Flicking>
   </div>
-  <div class="logos">
-    <div class="logos-slide">
-      <img src="./logos/3m.svg" />
-      <img src="./logos/barstool-store.svg" />
-      <img src="./logos/budweiser.svg" />
-      <img src="./logos/buzzfeed.svg" />
-      <img src="./logos/forbes.svg" />
-      <img src="./logos/macys.svg" />
-      <img src="./logos/menshealth.svg" />
-      <img src="./logos/mrbeast.svg" />
-    </div>
-  </div>
+
 </template>
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
@@ -342,70 +332,4 @@ onUnmounted(() => {
 
 </script>
 
-<style>
-h1 {
-  font-size: 3rem;
-  padding: 20px;
-  margin: 20px 0px;
-}
-
-.slider,
-.slider3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  background: rgb(255, 255, 255);
-  border-radius: 16px;
-  backdrop-filter: blur(7.4px);
-  -webkit-backdrop-filter: blur(7.4px);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-}
-
-.slider-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  animation: scrolling 20s linear infinite;
-}
-
-
-.slider-items3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  animation: scrolling 20s linear infinite;
-}
-
-@keyframes scrolling {
-
-  0% {
-    transform: translateX(-90%);
-  }
-
-  100% {
-    transform: translateX(20%);
-  }
-}
-
-.slider-items img {
-  width: 6%;
-  margin: 20px;
-}
-
-
-.logo-container {
-  display: flex;
-  overflow-x: scroll;
-  white-space: nowrap;
-  scroll-behavior: smooth;
-}
-
-.logo {
-  margin-right: 10px;
-}
-</style>
+<style></style>
