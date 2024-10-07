@@ -43,10 +43,10 @@
               <h2 class="text-white text-center text-xl py-2">Clipping path Background Removal</h2>
             </div>
             <!-- image editing -->
-            <div class="grid grid-cols-3 gap-4 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
 
               <!-- Clipping Path 01 -->
-              <div class="w-fit h-full">
+              <div class="w-full h-full">
                 <div ref="clippingPath1" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
@@ -62,13 +62,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position1 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position1 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -86,7 +86,7 @@
               </div>
 
               <!-- Clipping Path 02 -->
-              <div class="w-fit h-full">
+              <div class="w-full h-full">
                 <div ref="clippingPath2" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
@@ -102,13 +102,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position2 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position2 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -126,7 +126,7 @@
               </div>
 
               <!-- Clipping Path 03 -->
-              <div class="w-fit h-full">
+              <div class="w-full h-full">
                 <div ref="clippingPath3" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
@@ -142,13 +142,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position3 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position3 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -170,9 +170,9 @@
               <div class="border mt-10 rounded-md">
                 <h2 class="text-white text-center text-xl py-2">Photo Retouching</h2>
               </div>
-              <div class="grid grid-cols-3 gap-4 py-10">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
                 <!-- Clipping Path 04 -->
-                <div class="w-fit h-full">
+                <div class="w-full h-full">
                   <div ref="clippingPath4"
                     class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                     <div class="relative w-full overflow-hidden max-w-lg aspect-square">
@@ -189,13 +189,13 @@
                     <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                       :style="{ left: position4 + '%' }" aria-hidden="true"></div>
                     <div
-                      class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                      class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                       :style="{
                         left: position4 + '%',
                         transform: 'translateX(-50%)',
                       }" aria-hidden="true">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                        viewBox="0 0 256 256">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                        fill="currentColor" viewBox="0 0 256 256">
                         <rect width="256" height="256" fill="none"></rect>
                         <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor"
                           stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
@@ -212,8 +212,8 @@
                   </div>
                 </div>
                 <!-- Clipping Path 05 -->
-                <div class="w-fit h-full">
-                  <div ref="clippingPath3"
+                <div class="w-full h-full">
+                  <div ref="clippingPath5"
                     class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                     <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                       <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
@@ -229,13 +229,13 @@
                     <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                       :style="{ left: position5 + '%' }" aria-hidden="true"></div>
                     <div
-                      class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                      class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                       :style="{
                         left: position5 + '%',
                         transform: 'translateX(-50%)',
                       }" aria-hidden="true">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                        viewBox="0 0 256 256">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                        fill="currentColor" viewBox="0 0 256 256">
                         <rect width="256" height="256" fill="none"></rect>
                         <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor"
                           stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
@@ -252,8 +252,8 @@
                   </div>
                 </div>
                 <!-- Clipping Path 06 -->
-                <div class="w-fit h-full">
-                  <div ref="clippingPath4"
+                <div class="w-full h-full">
+                  <div ref="clippingPath6"
                     class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                     <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                       <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
@@ -269,13 +269,13 @@
                     <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                       :style="{ left: position6 + '%' }" aria-hidden="true"></div>
                     <div
-                      class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                      class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                       :style="{
                         left: position6 + '%',
                         transform: 'translateX(-50%)',
                       }" aria-hidden="true">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                        viewBox="0 0 256 256">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                        fill="currentColor" viewBox="0 0 256 256">
                         <rect width="256" height="256" fill="none"></rect>
                         <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor"
                           stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
@@ -299,10 +299,10 @@
             <div class="border mt-10 rounded-md">
               <h2 class="text-white text-center text-xl py-2">Photo Retouching</h2>
             </div>
-            <div class="grid grid-cols-3 gap-4 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
               <!-- Clipping Path 01 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath1" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath7" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
@@ -317,13 +317,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position7 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position7 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -340,8 +340,8 @@
                 </div>
               </div>
               <!-- Clipping Path 02 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath3" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath8" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
@@ -356,13 +356,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position8 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position8 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -379,8 +379,8 @@
                 </div>
               </div>
               <!-- Clipping Path 03 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath4" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath9" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
@@ -395,13 +395,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position9 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position9 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -424,10 +424,10 @@
             <div class="border mt-10 rounded-md">
               <h2 class="text-white text-center text-xl py-2">Neck Joint And Manipulation</h2>
             </div>
-            <div class="grid grid-cols-3 gap-4 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
               <!-- Clipping Path 01 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath1" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath10" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
@@ -442,13 +442,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position10 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position10 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -465,8 +465,8 @@
                 </div>
               </div>
               <!-- Clipping Path 02 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath3" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath11" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
@@ -481,13 +481,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position11 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position11 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -504,8 +504,8 @@
                 </div>
               </div>
               <!-- Clipping Path 03 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath4" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath12" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
@@ -520,13 +520,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position12 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position12 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -549,10 +549,10 @@
             <div class="border mt-10 rounded-md">
               <h2 class="text-white text-center text-xl py-2">Jewelry Retouching Service</h2>
             </div>
-            <div class="grid grid-cols-3 gap-4 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
               <!-- Clipping Path 01 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath1" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath13" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
@@ -567,13 +567,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position13 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position13 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -590,8 +590,8 @@
                 </div>
               </div>
               <!-- Clipping Path 02 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath3" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath14" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
@@ -606,13 +606,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position14 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position14 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -629,8 +629,8 @@
                 </div>
               </div>
               <!-- Clipping Path 03 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath4" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath15" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
@@ -645,13 +645,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position15 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position15 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -674,10 +674,10 @@
             <div class="border mt-10 rounded-md">
               <h2 class="text-white text-center text-xl py-2">Skin Retouching Service</h2>
             </div>
-            <div class="grid grid-cols-3 gap-4 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
               <!-- Clipping Path 01 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath1" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath16" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
@@ -692,13 +692,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position16 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position16 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -715,8 +715,8 @@
                 </div>
               </div>
               <!-- Clipping Path 02 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath3" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath17" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
@@ -731,13 +731,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position17 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position17 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -754,8 +754,8 @@
                 </div>
               </div>
               <!-- Clipping Path 03 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath4" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath18" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
@@ -770,13 +770,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position18 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position18 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -799,10 +799,10 @@
             <div class="border mt-10 rounded-md">
               <h2 class="text-white text-center text-xl py-2">Shadow Service</h2>
             </div>
-            <div class="grid grid-cols-3 gap-4 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
               <!-- Clipping Path 01 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath1" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath19" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
@@ -817,13 +817,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position19 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position19 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -840,8 +840,8 @@
                 </div>
               </div>
               <!-- Clipping Path 02 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath3" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath20" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
@@ -856,13 +856,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position20 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position20 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -879,8 +879,8 @@
                 </div>
               </div>
               <!-- Clipping Path 03 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath4" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath21" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
@@ -895,13 +895,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position21 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position21 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -924,10 +924,10 @@
             <div class="border mt-10 rounded-md">
               <h2 class="text-white text-center text-xl py-2">Color Correction Service</h2>
             </div>
-            <div class="grid grid-cols-3 gap-4 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
               <!-- Clipping Path 01 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath1" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath22" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
@@ -942,13 +942,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position22 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position22 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -965,8 +965,8 @@
                 </div>
               </div>
               <!-- Clipping Path 02 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath3" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath23" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
@@ -981,13 +981,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position23 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position23 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -1004,8 +1004,8 @@
                 </div>
               </div>
               <!-- Clipping Path 03 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath4" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath24" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
@@ -1020,13 +1020,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position24 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position24 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -1049,10 +1049,10 @@
             <div class="border mt-10 rounded-md">
               <h2 class="text-white text-center text-xl py-2">High Quality Masking</h2>
             </div>
-            <div class="grid grid-cols-3 gap-4 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
               <!-- Clipping Path 01 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath1" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath25" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/9c6895b8-d99a-4708-9257-361de9ebfda8.jpg"
@@ -1061,19 +1061,19 @@
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3febd1c0-e5ee-4d40-9f8c-51da01e42fc6.jpg"
                       alt="black and white" />
                   </div>
-                  <input type="range" min="0" max="100" v-model="position24"
+                  <input type="range" min="0" max="100" v-model="position25"
                     aria-label="Percentage of before photo shown"
                     class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
-                    :style="{ left: position24 + '%' }" aria-hidden="true"></div>
+                    :style="{ left: position25 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
-                      left: position24 + '%',
+                      left: position25 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -1090,8 +1090,8 @@
                 </div>
               </div>
               <!-- Clipping Path 02 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath3" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath26" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c950a50c-64ca-4ffa-bf68-a8306480a15b.jpg"
@@ -1100,19 +1100,19 @@
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/5b78b39d-f250-4f95-bf6b-a42004c3f2b1.jpg"
                       alt="black and white" />
                   </div>
-                  <input type="range" min="0" max="100" v-model="position25"
+                  <input type="range" min="0" max="100" v-model="position26"
                     aria-label="Percentage of before photo shown"
                     class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
-                    :style="{ left: position25 + '%' }" aria-hidden="true"></div>
+                    :style="{ left: position26 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
-                      left: position25 + '%',
+                      left: position26 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -1129,8 +1129,8 @@
                 </div>
               </div>
               <!-- Clipping Path 03 -->
-              <div class="w-fit h-full">
-                <div ref="clippingPath4" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+              <div class="w-full h-full">
+                <div ref="clippingPath27" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
                       src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
@@ -1145,13 +1145,13 @@
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
                     :style="{ left: position27 + '%' }" aria-hidden="true"></div>
                   <div
-                    class="absolute flex items-center justify-center w-10 h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[50%]"
+                    class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
                       left: position27 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                      viewBox="0 0 256 256">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
+                      fill="currentColor" viewBox="0 0 256 256">
                       <rect width="256" height="256" fill="none"></rect>
                       <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="16"></line>
@@ -1552,10 +1552,9 @@ watch(position27, (newValue) => {
 <style scoped>
 .wrapper {
   --position: 50%;
-}
-
-.wrapper {
-  --position: 50%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 .image-before {
