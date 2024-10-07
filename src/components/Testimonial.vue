@@ -1,7 +1,7 @@
 <template>
-  <div class="py-20 bg-[#0d0e11]">
+  <div class="py-20 bg-[#0d0e11]  px-4">
     <div class="text-center py-10">
-      <h2 class="my-10 text-3xl font-bold text-[#f8d315] sm:text-4xl xl:text-5xl font-pj">
+      <h2 class="my-10 text-3xl font-bold text-[#f8d315] sm:text-4xl xl:text-5xl">
         Our happy clients say about us
       </h2>
     </div>
@@ -14,8 +14,8 @@
       panelsPerView: perView,
 
     }" :plugins="plugins">
-      <div class="flex flex-col  shadow-xl w-[400px] h-[300px] mx-4">
-        <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
+      <div class="flex flex-col  shadow-xl w-fit md:w-[400px] h-[300px] ml-4 ">
+        <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7 rounded-md">
           <div class="flex-1">
             <div class="flex items-center ">
               <svg class="w-5 h-5 text-[#FDB241]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
@@ -46,7 +46,7 @@
             </div>
 
             <blockquote class="flex-1 mt-8">
-              <p class="text-lg leading-relaxed text-gray-900 font-pj">
+              <p class="text-sm leading-relaxed text-gray-900 ">
                 “You made it so simple. My new site is so much faster and
                 easier to work with than my old site. I just choose the
                 page, make the change.”
@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col  shadow-xl w-[400px] mx-4">
+      <div class="flex flex-col  shadow-xl w-fit md:w-[400px] ml-4 rounded">
         <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
           <div class="flex-1">
             <div class="flex items-center">
@@ -101,7 +101,7 @@
             </div>
 
             <blockquote class="flex-1 mt-8">
-              <p class="text-lg leading-relaxed text-gray-900 font-pj">
+              <p class="text-sm leading-relaxed text-gray-900 font-pj">
                 “Simply the best. Better than all the rest. I’d recommend
                 this product to beginners and advanced users.”
               </p>
@@ -123,7 +123,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col  shadow-xl w-[400px] mx-4">
+      <div class="flex flex-col  shadow-xl w-fit md:w-[400px] ml-4 rounded">
         <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
           <div class="flex-1">
             <div class="flex items-center">
@@ -155,7 +155,7 @@
             </div>
 
             <blockquote class="flex-1 mt-8">
-              <p class="text-lg leading-relaxed text-gray-900 font-pj">
+              <p class="text-sm leading-relaxed text-gray-900 font-pj">
                 “I cannot believe that I have got a brand new landing page
                 after getting Omega. It was super easy to edit and
                 publish.”
@@ -178,7 +178,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col  shadow-xl w-[400px] mx-4">
+      <div class="flex flex-col  shadow-xl w-fit md:w-[400px] ml-4 rounded">
         <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
           <div class="flex-1">
             <div class="flex items-center">
@@ -210,7 +210,7 @@
             </div>
 
             <blockquote class="flex-1 mt-8">
-              <p class="text-lg leading-relaxed text-gray-900 font-pj">
+              <p class="text-sm leading-relaxed text-gray-900 font-pj">
                 “You made it so simple. My new site is so much faster and
                 easier to work with than my old site. I just choose the
                 page, make the change.”
@@ -233,7 +233,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col shadow-xl w-[400px] mx-4">
+      <div class="flex flex-col shadow-xl w-fit md:w-[400px] ml-4 rounded">
         <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
           <div class="flex-1">
             <div class="flex items-center">
@@ -265,7 +265,7 @@
             </div>
 
             <blockquote class="flex-1 mt-8">
-              <p class="text-lg leading-relaxed text-gray-900 font-pj">
+              <p class="text-sm leading-relaxed text-gray-900 font-pj">
                 “Simply the best. Better than all the rest. I’d recommend
                 this product to beginners and advanced users.”
               </p>

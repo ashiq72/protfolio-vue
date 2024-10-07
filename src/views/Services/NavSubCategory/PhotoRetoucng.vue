@@ -2,15 +2,14 @@
   <div className="relative w-full bg-[#0d0e11] py-20">
     <div className="mx-auto flex flex-col justify-center  container lg:px-8">
       <div className="relative w-full bg-[#0d0e11] flex flex-col gap-8">
-        <div
-          className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
-          <div className="relative  w-8/12 ">
+        <div className="mx-auto container flex flex-col md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
+          <div className="relative  md:w-8/12 px-4">
             <img className=" bg-gray-50 object-cover  w-full h-full"
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3c3d4f50-e66e-4b79-8f73-941d474831b5.jpg"
               alt="" />
           </div>
           <div
-            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 w-6/12">
+            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 md:w-6/12">
             <h1 className="mt-8 text-xl font-bold tracking-tight text-[#f8d315] md:text-xl lg:text-2xl">
               Jewelry Retouching Services
             </h1>
@@ -30,7 +29,7 @@
         <div
           className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
           <div
-            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 w-6/12">
+            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 md:w-6/12">
             <h1 className="mt-8 text-xl font-bold tracking-tight text-[#f8d315] md:text-xl lg:text-2xl">
               HOW WE DO PHOTO RETOUCHING?
             </h1>
@@ -44,21 +43,20 @@
               projects opt to engage experienced image retouchers to ensure impeccable results.
             </p>
           </div>
-          <div className="relative  w-8/12 ">
+          <div className="relative  md:w-8/12 px-4">
             <img className=" bg-gray-50 object-cover  w-full h-full"
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/61354732-cd01-4d41-acc3-bda408d5beb3.jpg"
               alt="" />
           </div>
         </div>
-        <div
-          className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
-          <div className="relative  w-8/12 ">
+        <div className="mx-auto container flex flex-col md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
+          <div className="relative  md:w-8/12 px-4">
             <img className=" bg-gray-50 object-cover  w-full h-full"
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/96fb2bbc-6151-4def-8524-8734e9e0921f.jpg"
               alt="" />
           </div>
           <div
-            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 w-6/12">
+            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 md:w-6/12">
             <h1 className="mt-8 text-xl font-bold tracking-tight text-[#f8d315] md:text-xl lg:text-2xl">
               Fashion Photo Retouching
             </h1>

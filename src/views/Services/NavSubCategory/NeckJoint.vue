@@ -2,15 +2,14 @@
   <div className="relative w-full bg-[#0d0e11] py-20">
     <div className="mx-auto flex flex-col justify-center  container lg:px-8">
       <div className="relative w-full bg-[#0d0e11] flex flex-col gap-8">
-        <div
-          className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
-          <div className="relative  w-8/12 ">
+        <div className="mx-auto container flex flex-col md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
+          <div className="relative  md:w-8/12 px-4">
             <img className=" bg-gray-50 object-cover  w-full h-full"
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e757c259-87f6-4cb9-b509-a31d43a52907.jpg"
               alt="" />
           </div>
           <div
-            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 w-6/12">
+            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 md:w-6/12">
             <h1 className="mt-8 text-xl font-bold tracking-tight text-[#f8d315] md:text-xl lg:text-2xl">
               Importance of Ghost Mannequin Services
             </h1>
@@ -30,7 +29,7 @@
         <div
           className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
           <div
-            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 w-6/12">
+            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 md:w-6/12">
             <h1 className="mt-8 text-xl font-bold tracking-tight text-[#f8d315] md:text-xl lg:text-2xl">
               HOW GHOST MANNEQUIN BREATHES LIFE INTO PHOTOS
             </h1>
@@ -47,21 +46,20 @@
               to focus solely on the product itself without any distractions.
             </p>
           </div>
-          <div className="relative  w-8/12 ">
+          <div className="relative md:w-8/12 px-4">
             <img className=" bg-gray-50 object-cover  w-full h-full"
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c979ce48-b96d-4ddc-8d5c-b48fae8200da.jpg"
               alt="" />
           </div>
         </div>
-        <div
-          className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
-          <div className="relative  w-8/12 ">
+        <div className="mx-auto container flex flex-col md:flex-row lg:gap-x-8 lg:px-8 items-center  shadow rounded-xl">
+          <div className="relative  md:w-8/12 px-4">
             <img className=" bg-gray-50 object-cover  w-full h-full"
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/da46df05-10ca-4380-8de7-56a664f0d8ff.jpg"
               alt="" />
           </div>
           <div
-            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 w-6/12">
+            className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6 md:w-6/12">
             <h1 className="mt-8 text-xl font-bold tracking-tight text-[#f8d315] md:text-xl lg:text-2xl">
               Clipping Path Service
             </h1>

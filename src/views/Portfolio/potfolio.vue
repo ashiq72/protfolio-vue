@@ -3,7 +3,7 @@
     <div className="relative w-full">
       <div
         className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full   rounded-2xl">
-        <div className="w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6">
+        <div className="md:w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6">
           <h1 className="mt-8 text-3xl font-bold  text-[#f8d315] md:text-4xl lg:text-7xl">
             Portfolio
           </h1>
@@ -15,7 +15,7 @@
             solutions.
           </p>
         </div>
-        <div className="w-1/2 relative lg:col-span-5 lg:-mr-8 xl:col-span-6  flex justify-center">
+        <div className="md:w-1/2 relative lg:col-span-5 lg:-mr-8 xl:col-span-6  flex justify-center">
           <img className=" bg-[#231f20]  h-[650px]"
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/2f4ecd3b-8003-4100-a23c-65404822ae73.jpg"
             alt="" />
@@ -1172,8 +1172,6 @@
         </div>
         <div v-if="selectedService == 'Graphic Design'">
           <div class="grid grid-cols-3 gap-4 py-10">
-
-
             <img class="w-full h-full object-cover object-left"
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e2c66546-f832-4464-b7cb-5e692da88ea5.jpg"
               alt="black and white" />

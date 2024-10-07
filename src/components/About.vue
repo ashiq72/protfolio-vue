@@ -7,7 +7,7 @@
           alt="" />
       </div>
       <div
-        className="w-1/2 flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
+        className="md:w-1/2 flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
         <h1 className="mt-8 text-3xl font-bold tracking-tight text-[#f8d315] md:text-4xl lg:text-6xl">
           Who Are We
         </h1>
@@ -22,7 +22,7 @@
           digital realm. Partner with us today to elevate your brand and realize
           your goals.
         </p>
-        <form action="" className="mt-8 flex items-start space-x-2">
+        <form action="" className="md:mt-8 flex items-start space-x-2">
           <router-link to="/protfolio">
             <div class="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
               <div
