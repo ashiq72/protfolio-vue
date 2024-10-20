@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@egjs/flicking-plugins": "^4.7.1",
+    "@egjs/vue3-flicking": "^4.11.4",
     "@headlessui/vue": "^1.7.22",
     "@heroicons/vue": "^2.1.3",
     "@splidejs/splide": "^4.1.4",
@@ -17,7 +19,8 @@
     "gsap-trial": "^3.12.5",
     "swiper": "^11.1.9",
     "vue": "^3.4.21",
-    "vue-router": "^4.4.0"
+    "vue-router": "^4.4.0",
+    "vue-virtual-auto-scroller": "^1.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
