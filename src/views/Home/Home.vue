@@ -8,21 +8,6 @@
     <Testimonial />
 
     <Patner />
-
-
-    <div>
-      <div ref="splide" class="splide scrollbar-hide ">
-        <div class="splide__track scrollbar-hide">
-          <ul class="splide__list flex scrollbar-none scroll">
-            <li class="splide__slide">Slide 1</li>
-            <li class="splide__slide">Slide 2</li>
-            <li class="splide__slide">Slide 3</li>
-
-            <!-- Add more slides as needed -->
-          </ul>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 <script setup>
@@ -32,25 +17,63 @@ import Services from "../../components/Services.vue";
 import Soluations from "../../components/Solutions.vue";
 import Testimonial from "../../components/Testimonial.vue";
 import Patner from "../../components/Patner.vue";
-
-import { ref, onMounted } from 'vue';
-import Splide from '@splidejs/splide';
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
-
-const splide = ref(null);
-
-onMounted(() => {
-  const splideInstance = new Splide(splide.value, {
-    type: 'loop',
-
-    focus: 'center',
-    perPage: 3,
-    autoplay: true,
-  });
-
-  splideInstance.mount({ AutoScroll });
-});
-
-
-
+import { ref, onMounted } from "vue";
 </script>
+
+<style>
+body {
+  background: #f2f2f2;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 0px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+
+  width: 100%;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  animation: 20s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+}
+</style>
