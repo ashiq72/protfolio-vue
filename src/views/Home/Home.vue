@@ -8,12 +8,7 @@
     <Testimonial />
 
     <Patner />
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 3c4f7ba57d2382a9533b2dc6e6721af2549b3601
+    <<<<<<< HEAD=======>>>>>>> 3c4f7ba57d2382a9533b2dc6e6721af2549b3601
   </div>
 </template>
 <script setup>
@@ -23,16 +18,6 @@ import Services from "../../components/Services.vue";
 import Soluations from "../../components/Solutions.vue";
 import Testimonial from "../../components/Testimonial.vue";
 import Patner from "../../components/Patner.vue";
-<<<<<<< HEAD
-import { ref, onMounted } from "vue";
-=======
-
-
-
-
-
-
->>>>>>> 3c4f7ba57d2382a9533b2dc6e6721af2549b3601
 </script>
 
 <style>
@@ -44,6 +29,7 @@ body {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-100%);
   }
