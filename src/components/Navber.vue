@@ -1,6 +1,6 @@
 <template>
-  <header class="bg-gray-900 dark:bg-gray-900">
-    <nav x-data="{ isOpen: false }" class="relative bg-gray-900 dark:bg-gray-900 border-b">
+  <header class="bg-black dark:bg-gray-900">
+    <nav x-data="{ isOpen: false }" class="relative bg-gray-950 dark:bg-gray-900 border-b">
       <div class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div class="flex items-center justify-between cursor-pointer">
           <router-link to="/" class="cursor-pointer">
