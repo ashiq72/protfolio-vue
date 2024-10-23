@@ -105,12 +105,11 @@
 
 <script setup>
 
+import { ref } from "vue";
 import aboutUs from "../../assets/images/about-Page01.png";
 import missionImg from "../../assets/images/our-mission-vision.png";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
-
-
 
 
 const faqs = ref([

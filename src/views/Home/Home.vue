@@ -6,9 +6,7 @@
     <Services />
     <!-- <Contact /> -->
     <Testimonial />
-
     <Patner />
-    <<<<<<< HEAD=======>>>>>>> 3c4f7ba57d2382a9533b2dc6e6721af2549b3601
   </div>
 </template>
 <script setup>
