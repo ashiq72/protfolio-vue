@@ -90,10 +90,10 @@
                 <div ref="clippingPath2" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/sy2589wcrbm3jhd.tif"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c506f44a-1261-4629-a676-06bf15e24e03.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/89660eb9-e418-4354-adcf-d1733dec3c62.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c5f8f02f-f102-4bce-8ae9-9ccbfdc0228d.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position2"
@@ -166,133 +166,7 @@
               </div>
             </div>
 
-            <div>
-              <div class="border mt-10 rounded-md">
-                <h2 class="text-white text-center text-xl py-2">Photo Retouching</h2>
-              </div>
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
-                <!-- Clipping Path 04 -->
-                <div class="w-full h-full">
-                  <div ref="clippingPath4"
-                    class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
-                    <div class="relative w-full overflow-hidden max-w-lg aspect-square">
-                      <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                        src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
-                        alt="color photo" />
-                      <img class="w-full h-full object-cover object-left"
-                        src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a87893ca-15cb-472d-97f0-5f8d31dc79df.jpg"
-                        alt="black and white" />
-                    </div>
-                    <input type="range" min="0" max="100" v-model="position4"
-                      aria-label="Percentage of before photo shown"
-                      class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
-                    <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
-                      :style="{ left: position4 + '%' }" aria-hidden="true"></div>
-                    <div
-                      class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
-                      :style="{
-                        left: position4 + '%',
-                        transform: 'translateX(-50%)',
-                      }" aria-hidden="true">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
-                        fill="currentColor" viewBox="0 0 256 256">
-                        <rect width="256" height="256" fill="none"></rect>
-                        <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor"
-                          stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
-                        <line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round"
-                          stroke-linejoin="round" stroke-width="16"></line>
-                        <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round"
-                          stroke-linejoin="round" stroke-width="16"></polyline>
-                        <line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor"
-                          stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
-                        <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor"
-                          stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <!-- Clipping Path 05 -->
-                <div class="w-full h-full">
-                  <div ref="clippingPath5"
-                    class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
-                    <div class="relative w-full overflow-hidden max-w-lg aspect-square">
-                      <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                        src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
-                        alt="color photo" />
-                      <img class="w-full h-full object-cover object-left"
-                        src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e6a2f177-0f53-41bc-aca9-5d6be1f8dc23.jpg"
-                        alt="black and white" />
-                    </div>
-                    <input type="range" min="0" max="100" v-model="position5"
-                      aria-label="Percentage of before photo shown"
-                      class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
-                    <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
-                      :style="{ left: position5 + '%' }" aria-hidden="true"></div>
-                    <div
-                      class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
-                      :style="{
-                        left: position5 + '%',
-                        transform: 'translateX(-50%)',
-                      }" aria-hidden="true">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
-                        fill="currentColor" viewBox="0 0 256 256">
-                        <rect width="256" height="256" fill="none"></rect>
-                        <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor"
-                          stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
-                        <line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round"
-                          stroke-linejoin="round" stroke-width="16"></line>
-                        <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round"
-                          stroke-linejoin="round" stroke-width="16"></polyline>
-                        <line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor"
-                          stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
-                        <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor"
-                          stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <!-- Clipping Path 06 -->
-                <div class="w-full h-full">
-                  <div ref="clippingPath6"
-                    class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
-                    <div class="relative w-full overflow-hidden max-w-lg aspect-square">
-                      <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                        src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
-                        alt="color photo" />
-                      <img class="w-full h-full object-cover object-left"
-                        src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a87893ca-15cb-472d-97f0-5f8d31dc79df.jpg"
-                        alt="black and white" />
-                    </div>
-                    <input type="range" min="0" max="100" v-model="position6"
-                      aria-label="Percentage of before photo shown"
-                      class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
-                    <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
-                      :style="{ left: position6 + '%' }" aria-hidden="true"></div>
-                    <div
-                      class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
-                      :style="{
-                        left: position6 + '%',
-                        transform: 'translateX(-50%)',
-                      }" aria-hidden="true">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
-                        fill="currentColor" viewBox="0 0 256 256">
-                        <rect width="256" height="256" fill="none"></rect>
-                        <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor"
-                          stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
-                        <line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round"
-                          stroke-linejoin="round" stroke-width="16"></line>
-                        <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round"
-                          stroke-linejoin="round" stroke-width="16"></polyline>
-                        <line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor"
-                          stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
-                        <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor"
-                          stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
           <!-- Photo Retouching -->
           <div>
@@ -300,26 +174,26 @@
               <h2 class="text-white text-center text-xl py-2">Photo Retouching</h2>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
-              <!-- Clipping Path 01 -->
+              <!-- Clipping Path 04 -->
               <div class="w-full h-full">
-                <div ref="clippingPath7" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+                <div ref="clippingPath4" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/bf63d249-5d9a-4827-9a1c-6f57e2163231.JPG"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/dc5bea02-a581-4ea3-afdf-3d98a5cd05b7.jpg"
                       alt="black and white" />
                   </div>
-                  <input type="range" min="0" max="100" v-model="position7"
+                  <input type="range" min="0" max="100" v-model="position4"
                     aria-label="Percentage of before photo shown"
                     class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
-                    :style="{ left: position7 + '%' }" aria-hidden="true"></div>
+                    :style="{ left: position4 + '%' }" aria-hidden="true"></div>
                   <div
                     class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
-                      left: position7 + '%',
+                      left: position4 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
@@ -339,26 +213,26 @@
                   </div>
                 </div>
               </div>
-              <!-- Clipping Path 02 -->
+              <!-- Clipping Path 05 -->
               <div class="w-full h-full">
-                <div ref="clippingPath8" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+                <div ref="clippingPath5" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d6c58f85-2912-4d94-9575-6cb4552fb47f.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e6a2f177-0f53-41bc-aca9-5d6be1f8dc23.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/9198d753-5dbd-49e6-9fa1-5b38b2c4a4e8.jpg"
                       alt="black and white" />
                   </div>
-                  <input type="range" min="0" max="100" v-model="position8"
+                  <input type="range" min="0" max="100" v-model="position5"
                     aria-label="Percentage of before photo shown"
                     class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
-                    :style="{ left: position8 + '%' }" aria-hidden="true"></div>
+                    :style="{ left: position5 + '%' }" aria-hidden="true"></div>
                   <div
                     class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
-                      left: position8 + '%',
+                      left: position5 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
@@ -378,26 +252,26 @@
                   </div>
                 </div>
               </div>
-              <!-- Clipping Path 03 -->
+              <!-- Clipping Path 06 -->
               <div class="w-full h-full">
-                <div ref="clippingPath9" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
+                <div ref="clippingPath6" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/92c28b5c-3d29-4523-bac9-733559cdaec8.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a87893ca-15cb-472d-97f0-5f8d31dc79df.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d48db08e-905a-419a-9f24-bdc6cb67b73c.jpg"
                       alt="black and white" />
                   </div>
-                  <input type="range" min="0" max="100" v-model="position9"
+                  <input type="range" min="0" max="100" v-model="position6"
                     aria-label="Percentage of before photo shown"
                     class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" />
                   <div class="absolute inset-0 w-0.5 h-full bg-white pointer-events-none slider-line"
-                    :style="{ left: position9 + '%' }" aria-hidden="true"></div>
+                    :style="{ left: position6 + '%' }" aria-hidden="true"></div>
                   <div
                     class="absolute flex items-center justify-center w-5 h-5 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-white rounded-full shadow-lg pointer-events-none slider-button top-[45%]"
                     :style="{
-                      left: position9 + '%',
+                      left: position6 + '%',
                       transform: 'translateX(-50%)',
                     }" aria-hidden="true">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 md:w-5 md:h-5 lg:w-6 lg:h-6"
@@ -430,10 +304,10 @@
                 <div ref="clippingPath10" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/410da31a-e043-485f-b06a-a06451b02229.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a80dd554-a521-46c9-8bd9-294b844e89b1.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position10"
@@ -469,10 +343,10 @@
                 <div ref="clippingPath11" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/defc02b7-2030-422f-8053-7ccb8d8e6569.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e6a2f177-0f53-41bc-aca9-5d6be1f8dc23.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/7762c893-0968-4c70-b5c0-3c84b6b5e8de.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position11"
@@ -508,10 +382,10 @@
                 <div ref="clippingPath12" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e220df97-d43d-4bb7-9914-b91f7031eef3.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a87893ca-15cb-472d-97f0-5f8d31dc79df.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3e97f39b-7dfe-4a73-b9ac-695b5e7b3459.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position12"
@@ -555,10 +429,10 @@
                 <div ref="clippingPath13" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/5faad362-54aa-4b66-98fd-279814f235d3.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/952a86a8-7b57-4857-95d4-f33a68397dfd.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position13"
@@ -594,10 +468,10 @@
                 <div ref="clippingPath14" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/364d3d87-effc-4e99-a058-f54a223b446c.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e6a2f177-0f53-41bc-aca9-5d6be1f8dc23.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/79b91c27-48ae-44d1-8972-fd30aec47945.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position14"
@@ -633,10 +507,10 @@
                 <div ref="clippingPath15" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e9cd866d-a97f-46a3-a8ed-eee3df385169.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a87893ca-15cb-472d-97f0-5f8d31dc79df.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d874e637-4be4-482d-ba60-2745015ad21f.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position15"
@@ -680,10 +554,10 @@
                 <div ref="clippingPath16" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a1d7c5c9-98b7-4310-a2bb-564cd0e3a604.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3f4e0258-27ed-4573-8252-e5b5ad0e3a71.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position16"
@@ -719,10 +593,10 @@
                 <div ref="clippingPath17" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/98be2fbd-9f4b-45d1-ac6c-79a78797f073.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e6a2f177-0f53-41bc-aca9-5d6be1f8dc23.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/bf452467-7141-4910-a693-9f4a395b0682.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position17"
@@ -758,10 +632,10 @@
                 <div ref="clippingPath18" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c4320bdf-e9c8-4ebd-8407-6dac98062b3f.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a87893ca-15cb-472d-97f0-5f8d31dc79df.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/7c2ff536-0857-4027-8acc-4a5ccc5fe583.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position18"
@@ -805,10 +679,10 @@
                 <div ref="clippingPath19" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/96ef1d34-3f56-4808-b7ca-430ff4d8f757.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4a0d44e9-1e6e-4d3d-b3d3-1129d04869fb.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position19"
@@ -844,10 +718,10 @@
                 <div ref="clippingPath20" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/2390989e-b173-404c-9bb3-947b621a5b67.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e6a2f177-0f53-41bc-aca9-5d6be1f8dc23.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/0b3a1ed8-b208-45a7-97db-e2084ba2e146.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position20"
@@ -883,10 +757,10 @@
                 <div ref="clippingPath21" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/30c3d6ef-8007-40d8-a501-168df58051ec.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a87893ca-15cb-472d-97f0-5f8d31dc79df.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c102cece-e780-4da6-8f05-180b30cd9e6a.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position21"
@@ -930,10 +804,10 @@
                 <div ref="clippingPath22" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/51fa3fb5-010d-4a51-86df-33b1d0152fff.JPG"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/94e68382-c40c-4f6c-b61e-5a376e9e44d3.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fe3db054-64f3-4186-8765-6edca96c33aa.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/5e030e33-4f78-43b0-9fa8-ebd8641f3f51.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position22"
@@ -969,10 +843,10 @@
                 <div ref="clippingPath23" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4b8659de-1a1f-46f9-b231-b1a69d51aed5.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/22923d78-b584-4419-a0dd-0336d7fb5d67.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e6a2f177-0f53-41bc-aca9-5d6be1f8dc23.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/9ab6e39e-acfe-4e1b-a307-8441d66b8969.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position23"
@@ -1008,10 +882,10 @@
                 <div ref="clippingPath24" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1945477f-425f-45a6-b676-ff53b41db34d.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a87893ca-15cb-472d-97f0-5f8d31dc79df.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/26e3006a-28c5-4168-9671-e28cbf5b30cc.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position24"
@@ -1055,10 +929,10 @@
                 <div ref="clippingPath25" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/9c6895b8-d99a-4708-9257-361de9ebfda8.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/feabeeac-f121-47fe-8887-8aeba733e3b9.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3febd1c0-e5ee-4d40-9f8c-51da01e42fc6.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/586c99d5-aeb9-4ea8-aa44-808b75b3baaf.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position25"
@@ -1094,10 +968,10 @@
                 <div ref="clippingPath26" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c950a50c-64ca-4ffa-bf68-a8306480a15b.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ec24299d-7f51-4cad-8efa-2c993b5b3adc.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/5b78b39d-f250-4f95-bf6b-a42004c3f2b1.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ec5adcc6-fcce-4bdf-a05f-a6d886e0b273.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position26"
@@ -1133,10 +1007,10 @@
                 <div ref="clippingPath27" class="relative grid place-content-center overflow-hidden rounded-sm wrapper">
                   <div class="relative w-full overflow-hidden max-w-lg aspect-square">
                     <img class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c2dbd0b7-237f-4d94-8d0c-23f55f97ebc2.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/60478a82-aa84-4eb4-8eb8-261bb6916d88.jpg"
                       alt="color photo" />
                     <img class="w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a87893ca-15cb-472d-97f0-5f8d31dc79df.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/6add90db-80da-4aef-ae64-080bddc7dbd3.jpg"
                       alt="black and white" />
                   </div>
                   <input type="range" min="0" max="100" v-model="position27"

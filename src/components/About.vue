@@ -23,7 +23,7 @@
           your goals.
         </p>
         <form action="" className="md:mt-8 flex items-start space-x-2">
-          <router-link to="/protfolio">
+          <router-link to="/portfolio">
             <div class="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
               <div
                 class="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-cyan-500 to-yellow-500 group-hover:shadow-lg group-hover:shadow-yellow-500/50">

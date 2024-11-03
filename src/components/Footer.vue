@@ -2,7 +2,7 @@
   <div>
     <footer class="py-12 bg-[#0d0e11] sm:py-16 lg:py-20">
       <div class="px-4 mx-auto container sm:px-6 lg:px-8">
-        <div class="relative">
+        <div class="relative  flex items-center justify-center">
           <div class="absolute -inset-2">
             <div class="w-full h-full mx-auto opacity-30 blur-lg filter" style="
                 background: linear-gradient(
@@ -16,10 +16,10 @@
               "></div>
           </div>
 
-          <div class="relative overflow-hidden text-center bg-gray-900 rounded-3xl lg:text-left">
-            <div class="p-6 lg:py-8 lg:px-14">
+          <div class="relative overflow-hidden text-center bg-gray-900 rounded-3xl lg:text-left w-[820px]">
+            <div class="p-4 lg:py-4 lg:px-10">
               <div class="lg:flex lg:items-center lg:justify-between">
-                <h5 class="max-w-md mx-auto text-3xl font-bold text-white xl:max-w-xl lg:mx-0 font-pj">
+                <h5 class="max-w-md mx-auto text-2xl font-semibold text-white xl:max-w-xl lg:mx-0 font-pj">
                   Enter email to find me
                 </h5>
 
@@ -28,12 +28,12 @@
                     <div class="md:flex">
                       <div class="flex-1">
                         <input type="email" name="" id="" placeholder="Enter email address"
-                          class="block w-full px-4 py-6 text-base text-center text-gray-900 placeholder-gray-600 bg-white border-gray-300 md:text-left focus:ring-white focus:border-white rounded-t-xl md:rounded-tr-none md:rounded-l-xl font-pj caret-gray-900"
+                          class="block w-full px-4 py-3 text-base text-center text-gray-900 placeholder-gray-600 bg-white border-gray-300 md:text-left focus:ring-white focus:border-white rounded-t-xl md:rounded-tr-none md:rounded-l-xl font-pj caret-gray-900"
                           required />
                       </div>
 
                       <button type="submit"
-                        class="w-full px-6 py-4 text-base font-bold text-gray-900 transition-all duration-200 bg-white border border-transparent xl:px-16 md:w-auto focus:ring-2 focus:ring-offset-2 focus:ring-white rounded-b-xl md:rounded-b-none md:rounded-r-xl font-pj focus:outline-none">
+                        class="w-full px-2 py-2 text-base font-bold text-gray-900 transition-all duration-200 bg-white border border-transparent xl:px-6 md:w-auto focus:ring-2 focus:ring-offset-2 focus:ring-white rounded-b-xl md:rounded-b-none md:rounded-r-xl font-pj focus:outline-none">
                         Subscribe
                       </button>
                     </div>

@@ -109,11 +109,11 @@
           <div class="py-2">
             <input type="number" placeholder="Phone Number" class="bg-white shadow w-full py-2 px-4" />
           </div>
-          <div class="flex gap-4">
+          <!-- <div class="flex gap-4">
             <div class="py-2 w-full">
               <input type="text" placeholder="Website" class="bg-white shadow w-full py-2 px-4" />
             </div>
-          </div>
+          </div> -->
           <div class="py-2">
             <textarea rows="6" cols="50" type="text" placeholder="Message" class="bg-white shadow w-full py-2 px-4" />
           </div>
