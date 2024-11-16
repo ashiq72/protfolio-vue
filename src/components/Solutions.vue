@@ -42,7 +42,6 @@
             </p>
           </div>
         </div>
-
         <div v-if="selectedTab === 'Photo Retoucng'" class="md:w-8/12 border">
           <div class="flex flex-col items-center justify-center">
             <img class="w-[800px] pt-4"
@@ -59,7 +58,6 @@
             </p>
           </div>
         </div>
-
         <div v-if="selectedTab === 'Neck joint/ghost mannequin Service'" class="md:w-8/12 border">
           <div class="flex flex-col items-center justify-center">
             <img class="w-[800px] pt-4"
@@ -80,7 +78,7 @@
         <div v-if="selectedTab === 'Logo Design'" class="md:w-8/12 border">
           <div class="flex flex-col items-center justify-center">
             <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/53b891d1-3220-406d-8f52-5f877e1d6e49.jpg" />
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e2cf30e7-e353-486e-9cb8-7dc39c8fab45.jpg" />
             <p class="pt-2 italic text-gray-100">
               Create a Strong Brand Identity with Professional Logo Design!
             </p>

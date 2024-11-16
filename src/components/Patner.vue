@@ -3,7 +3,7 @@
     <div class="">
       <div class="flex flex-col items-center justify-center max-w-7xl mx-auto">
         <p class="text-gray-800">Our Patner</p>
-        <h1 class="font-bold text-2xl font-serif text-black">
+        <h1 class="font-bold text-2xl text-black">
           Our Working Patner
         </h1>
       </div>

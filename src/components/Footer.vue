@@ -4,7 +4,7 @@
       <div class="px-4 mx-auto container sm:px-6 lg:px-8">
         <div class="relative  flex items-center justify-center">
           <div class="absolute -inset-2">
-            <div class="w-full h-full mx-auto opacity-30 blur-lg filter" style="
+            <div class="w-[830px] h-full mx-auto opacity-30 blur-lg filter" style="
                 background: linear-gradient(
                   90deg,
                   #44ff9a -0.55%,
@@ -15,7 +15,6 @@
                 );
               "></div>
           </div>
-
           <div class="relative overflow-hidden text-center bg-gray-900 rounded-3xl lg:text-left w-[820px]">
             <div class="p-4 lg:py-4 lg:px-10">
               <div class="lg:flex lg:items-center lg:justify-between">
@@ -65,9 +64,9 @@
             </p>
           </div>
           <div class="col-span-3 ">
-            <h6 class="text-base font-bold text-white font-pj">Services</h6>
+            <h6 class="text-xl font-bold text-white font-pj">Services</h6>
 
-            <ul class="mt-8 space-y-5">
+            <ul class="mt-8 space-y-4">
               <li>
                 <a href="#" title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1">
@@ -116,9 +115,8 @@
             </ul>
           </div>
           <div class="col-span-1 ">
-            <h6 class="text-base font-bold text-white font-pj">Links</h6>
-
-            <ul class="mt-8 space-y-5">
+            <h6 class="text-xl font-bold text-white font-pj">Links</h6>
+            <ul class="mt-8 space-y-4">
               <li>
                 <a href="/" title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1">
@@ -155,8 +153,9 @@
             </ul>
           </div>
           <div class="col-span-3 ">
-            <div class="max-w-sm mt-8 md:mt-0">
-              <ul class="space-y-7">
+            <h6 class=" text-xl font-bold text-white font-pj">Address</h6>
+            <div class="max-w-sm mt-8">
+              <ul class="space-y-4">
                 <li class="flex items-start">
                   <svg class="flex-shrink-0 w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
                     viewBox="0 0 24 24" stroke="currentColor">
