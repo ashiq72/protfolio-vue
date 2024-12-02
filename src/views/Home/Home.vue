@@ -1,6 +1,7 @@
 <template>
   <div>
     <Hero />
+    <VideoPart />
     <About />
     <Soluations />
     <Services />
@@ -16,6 +17,7 @@ import Services from "../../components/Services.vue";
 import Soluations from "../../components/Solutions.vue";
 import Testimonial from "../../components/Testimonial.vue";
 import Patner from "../../components/Patner.vue";
+import VideoPart from "../../components/VideoPart.vue";
 </script>
 
 <style>
