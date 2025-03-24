@@ -9,7 +9,7 @@
       </div>
 
     </div>
-    <div class="wrapper">
+    <!-- <div class="wrapper">
       <div class="item item1"><img
           src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/c975531b-4c8e-428c-bd59-87dc25fcd96b.jpg"
           class="w-32 rounded" /></div>
@@ -38,7 +38,7 @@
       <div class="item item8"><img
           src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e330b155-761d-45b4-8f9e-3335c2b455ce.jpg"
           class="w-32 rounded" /></div>
-    </div>
+    </div> -->
 
     <div class="wrapperM">
       <div class="itemM item1M"><img
@@ -68,7 +68,7 @@
 
 
 
-    <div class="wrapper">
+    <!-- <div class="wrapper">
       <div class="item item1"><img
           src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d5762bdd-096d-4f19-adf0-b76dc6240d4b.jpg"
           class="w-32 rounded" /></div>
@@ -93,7 +93,7 @@
       <div class="item item8"><img
           src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/039bed06-dd03-4218-a7dc-8f40e2ba78ec.jpg"
           class="w-32 rounded" /></div>
-    </div>
+    </div> -->
   </section>
 
 </template>
@@ -108,7 +108,7 @@ const logos = ref([
   'https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/bdb1fdf9-00b7-4c64-b9a2-7a8cd4176c5b.jpg',
   'https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1307193a-8dd2-475d-8e82-703865bdc5be.jpg',
   'https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/544383b5-14b5-412e-81eb-4aea92ff6f04.jpg',
-  // Add more logos here
+
 ]);
 const plugins = [new AutoPlay({ duration: 2000, direction: "NEXT", stopOnHover: false })];
 const logoContainer = ref(null);
@@ -119,12 +119,11 @@ const startAutoScroll = () => {
     scrollInterval = setInterval(() => {
       const container = logoContainer.value;
       if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
-        // When the container reaches the end, reset to the start
         container.scrollLeft = 0;
       } else {
-        container.scrollLeft += 1; // Control scroll speed by adjusting this value
+        container.scrollLeft += 1;
       }
-    }, 10); // Adjust the interval for smooth scrolling (lower is faster)
+    }, 10);
   }
 };
 

@@ -1,18 +1,15 @@
 <template>
-  <div class="py-20 bg-[#0d0e11]  px-4">
+  <div class=" bg-[#0d0e11] ">
     <div class="text-center py-10">
-      <h2 class="my-10 text-3xl font-bold text-[#f8d315] sm:text-4xl xl:text-5xl">
+      <h2 class="mt-10 text-3xl font-bold text-[#f8d315] sm:text-4xl xl:text-5xl">
         Our happy clients say about us
       </h2>
     </div>
-
-
     <Flicking :key="'5'" :options="{
       align: 'prev',
       circular: true,
       circularFallback: 'bound',
       panelsPerView: perView,
-
     }" :plugins="plugins">
       <div class="flex flex-col  shadow-xl w-fit md:w-[400px] h-[300px] ml-4 ">
         <div class="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7 rounded-md">
@@ -287,6 +284,7 @@
         </div>
       </div>
     </Flicking>
+
   </div>
 
 </template>

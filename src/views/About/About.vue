@@ -2,8 +2,8 @@
   <main class="pb-14 bg-[#0d0e11]">
     <div className="relative w-full bg-[#0d0e11] pt-10">
       <div
-        className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full rounded-2xl">
-        <div className="md:w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6">
+        className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-4 items-center w-full rounded-2xl">
+        <!-- <div className="md:w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6">
           <h1 className="mt-8 text-3xl font-bold  text-[#f8d315] md:text-4xl lg:text-7xl">
             About
           </h1>
@@ -13,32 +13,152 @@
             ideas to life. Our goal is to deliver high-quality design solutions
             that make your brand stand out.
           </p>
-        </div>
-        <div className="md:w-1/2 relative lg:col-span-5 lg:-mr-8 xl:col-span-6  flex justify-center">
-          <img className=" bg-[#231f20]  h-[550px]"
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1c398a72-3ecd-49db-b235-ffedc3a7a4c7.jpg"
+        </div> -->
+        <div className="w-full">
+          <img className=" bg-[#231f20]  h-[550px]" src="https://bkacontent.com/wp-content/uploads/2020/06/about-us.jpg"
             alt="" />
         </div>
       </div>
     </div>
 
-    <!-- faq section -->
-    <section class="pt-20 pb-10">
+
+
+    <!-- our mission -->
+    <section class="pb-10 pt-24">
       <div class="container mx-auto px-4">
-        <h2 class="text-2xl md:text-4xl font-bold text-center mb-8 text-gray-100">
-          About <span class="text-[#f8d315]">Us</span>
-        </h2>
-        <div class="max-w-5xl mx-auto">
-          <p class="text-gray-200 text-center">
-            What We Do at Graphical Creative? Welcome to Graphical Creative,
-            where your brand’s vision becomes a visual masterpiece! 🌟 At
-            Graphical Creative, we are passionate about delivering top-notch
-            design solutions that make a real impact. Our team of skilled
-            designers is here to help you with a range of services that will
-            elevate your brand and capture your audience’s attention.
-          </p>
+        <div class=" items-center justify-between">
+          <div class="w-full">
+            <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center">
+              Our Story – Graphical Creative
+
+            </h2>
+            <p class="text-gray-200 text-justify  text-3xl pt-5">
+              At Graphical Creative, we are driven by one simple truth: exceptional design is the key to elevating
+              brands.
+              What began as a passion for creative excellence has since evolved into a strategic design agency,
+              specializing in solutions that not only captivate but also drive measurable business success.
+              <br />
+              <br />
+
+              We blend creativity, strategy, and innovation to craft bespoke designs that align with your brand's
+              vision.
+              Each project is meticulously executed with a focus on delivering both aesthetic appeal and tangible
+              impact.
+              <br />
+              <br />
+              Our Mission: To empower businesses by providing cutting-edge design solutions that foster
+              growth, enhance brand recognition, and create lasting impressions.
+            </p>
+          </div>
+          <!-- <div class="w-full flex justify-end">
+            <img class="max-h-[420px]"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fb3dfe3e-e9a6-426f-a315-175e9be6dcdc.jpg"
+              alt="missionSection.title" />
+          </div> -->
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center mt-16">
+      </div>
+    </section>
+
+
+    <div class="container mx-auto px-4 mt-16">
+      <div class="">
+        <!-- <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center">
+          Our Story – Graphical Creative
+        </h2> -->
+        <!-- <p class="text-center text-gray-200 text-xl">
+          A dynamic team of skilled experts, united in our passion for crafting
+          exceptional, impactful designs that elevate your brand.
+        </p> -->
+      </div>
+
+      <div class="wrapperItem">
+        <div class="imageItem item1">
+          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
+        </div>
+        <div class="imageItem item2">
+          <img src="https://www.greatplacetowork.ca/images/Asset_3.webp" class="w-full h-full rounded" />
+        </div>
+        <div class="imageItem item3">
+          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
+        </div>
+        <div class="imageItem item4">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDlU5Se8ZseJWm4wkXGe-UtVLVYDFE3JyBJQXiVR8hibh8JSSWBctLSV74hVUQazWeeAM&usqp=CAU"
+            class="w-full h-full rounded" />
+        </div>
+        <div class="imageItem item5">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PeN-pfhkJ7XuxFQ-qavdWLYntUbI1QU1Sb63NgeHzflu9BbqEKXRwPADheBAmWT-3rc&usqp=CAU"
+            class="w-full h-full rounded" />
+        </div>
+        <div class="imageItem item6">
+          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
+        </div>
+        <div class="imageItem item7">
+          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
+        </div>
+        <div class="imageItem item8">
+          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
+        </div>
+        <div class="imageItem item9">
+          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
+        </div>
+        <div class="imageItem item10">
+          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container mx-auto mt-32 px-4 mb-10">
+      <div class="pb-10">
+        <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center">
+          Our Creative Family
+        </h2>
+        <p class="text-center text-gray-200 text-xl">
+          A dynamic team of skilled experts, united in our passion for crafting
+          exceptional, impactful designs that elevate your brand.
+        </p>
+      </div>
+      <Flicking :key="'5'" :options="{
+        align: 'prev',
+        circular: true,
+        circularFallback: 'bound',
+        panelsPerView: perView,
+      }" :plugins="plugins">
+        <div v-for="i in 12" class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4">
+          <div class="flex flex-col rounded-md justify-between flex-1 p-6 bg-white lg:py-4 lg:px-4">
+            <div class="flex-1">
+              <img class="flex-shrink-0 rounded-md object-cover w-56 h-56"
+                src="https://b1688923.smushcdn.com/1688923/wp-content/uploads/2022/05/Melbourne-Corporate-Headshots-Julia-Nance-Portraits1.jpg?lossy=2&strip=1&webp=1"
+                alt="" />
+            </div>
+            <div class="flex items-center mt-2">
+              <div class="">
+                <p class="text-base font-bold text-gray-900 font-pj">
+                  Leslie Alexander
+                </p>
+                <p class="mt-0.5 text-sm font-pj text-gray-600">
+                  Freelance React Developer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Flicking>
+    </div>
+    <!-- faq section -->
+    <section class="pt-20">
+      <div>
+        <p class="text-center text-gray-200 text-xl">
+          Find Answers
+        </p>
+        <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center">
+          Frequently Asked Questions
+        </h2>
+      </div>
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="px-4 mt-16">
           <div class="w-full">
             <Disclosure v-for="faq in faqs" :key="faq.id" as="div" class="mt-3" v-slot="{ open }">
               <DisclosureButton
@@ -51,65 +171,66 @@
               </DisclosurePanel>
             </Disclosure>
           </div>
-          <div class="w-full">
-            <img :src="aboutUs" alt="about us" />
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- our mission -->
-    <section class="py-10">
-      <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-between">
-          <div class="w-full">
-            <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4">
-              {{ missionSection.title }}
-            </h2>
-            <p class="text-gray-200 text-justify">
-              {{ missionSection.description }}
-            </p>
-          </div>
-          <div class="w-full flex justify-end">
-            <img class="max-h-[420px]"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fb3dfe3e-e9a6-426f-a315-175e9be6dcdc.jpg"
-              alt="missionSection.title" />
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- our vision -->
-    <section class="py-10">
-      <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-between">
-          <div class="w-full">
-            <img class="max-h-[420px]"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1737de1a-934e-40a3-86f8-1ea8d1b9b95f.jpg"
-              alt="visionSection.title" />
-          </div>
-          <div class="w-full">
-            <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4">
-              {{ visionSection.title }}
-            </h2>
-            <p class="text-gray-200 text-justify">
-              {{ visionSection.description }}
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="container mx-auto mt-32 mb-10">
+
+      <Testimonial />
+    </div>
+
   </main>
 
 </template>
 
 <script setup>
-
-import { ref } from "vue";
 import aboutUs from "../../assets/images/about-Page01.png";
 import missionImg from "../../assets/images/our-mission-vision.png";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
+import Testimonial from "../../components/Testimonial.vue";
+import { ref, onMounted, onUnmounted } from 'vue';
+import VueVirtualAutoScroller from 'vue-virtual-auto-scroller'
+import 'vue-virtual-auto-scroller/dist/vue-virtual-auto-scroller.css'
+import Flicking from "@egjs/vue3-flicking";
+import { AutoPlay } from "@egjs/flicking-plugins";
+const logos = ref([
+  'https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/bdb1fdf9-00b7-4c64-b9a2-7a8cd4176c5b.jpg',
+  'https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1307193a-8dd2-475d-8e82-703865bdc5be.jpg',
+  'https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/544383b5-14b5-412e-81eb-4aea92ff6f04.jpg',
+  // Add more logos here
+]);
+const plugins = [new AutoPlay({ duration: 2000, direction: "NEXT", stopOnHover: false })];
+const logoContainer = ref(null);
+let scrollInterval = null;
+
+const startAutoScroll = () => {
+  if (logoContainer.value) {
+    scrollInterval = setInterval(() => {
+      const container = logoContainer.value;
+      if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
+        // When the container reaches the end, reset to the start
+        container.scrollLeft = 0;
+      } else {
+        container.scrollLeft += 1; // Control scroll speed by adjusting this value
+      }
+    }, 10); // Adjust the interval for smooth scrolling (lower is faster)
+  }
+};
+
+onMounted(() => {
+  startAutoScroll();
+});
+
+onUnmounted(() => {
+  if (scrollInterval) {
+    clearInterval(scrollInterval);
+  }
+});
+
 
 
 const faqs = ref([
@@ -194,3 +315,74 @@ const visionSection = ref({
 
 
 </script>
+<style>
+.wrapperItem {
+  width: 100%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 300px;
+  margin-top: 5rem;
+  overflow: hidden;
+
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+.imageItem {
+  width: 350px;
+  height: 400px;
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc(350px * 10), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* Synchronized animation delays */
+.item1 {
+  animation-delay: calc(-30s / 10 * 9);
+}
+
+.item2 {
+  animation-delay: calc(-30s / 10 * 8);
+}
+
+.item3 {
+  animation-delay: calc(-30s / 10 * 7);
+}
+
+.item4 {
+  animation-delay: calc(-30s / 10 * 6);
+}
+
+.item5 {
+  animation-delay: calc(-30s / 10 * 5);
+}
+
+.item6 {
+  animation-delay: calc(-30s / 10 * 4);
+}
+
+.item7 {
+  animation-delay: calc(-30s / 10 * 3);
+}
+
+.item8 {
+  animation-delay: calc(-30s / 10 * 2);
+}
+
+.item9 {
+  animation-delay: calc(-30s / 10 * 1);
+}
+
+.item10 {
+  animation-delay: 0s;
+}
+</style>
