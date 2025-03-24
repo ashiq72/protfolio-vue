@@ -7,7 +7,9 @@ import { RouterView } from "vue-router";
 <template>
   <div class="bg-gray-100">
     <Navber />
-    <RouterView />
+    <div class="pt-20">
+      <RouterView />
+    </div>
     <Footer />
   </div>
 </template>

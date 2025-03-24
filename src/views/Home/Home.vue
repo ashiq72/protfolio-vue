@@ -2,14 +2,19 @@
   <div>
     <Hero />
     <VideoPart />
+    <Patner />
+    <Portfolio />
     <About />
     <Soluations />
     <!-- <Services /> -->
     <!-- <Contact /> -->
+    <Gallery />
+    <FAQ />
     <div class="">
       <Testimonial />
     </div>
-    <Patner />
+    <ContactOnly />
+    <SocialMedia />
   </div>
 </template>
 <script setup>
@@ -20,6 +25,11 @@ import Soluations from "../../components/Solutions.vue";
 import Testimonial from "../../components/Testimonial.vue";
 import Patner from "../../components/Patner.vue";
 import VideoPart from "../../components/VideoPart.vue";
+import Portfolio from "../../components/Portfolio.vue";
+import Gallery from "../../components/Gallery.vue";
+import FAQ from "../../components/FAQ.vue";
+import ContactOnly from "../../components/ContactOnly.vue";
+import SocialMedia from "../../components/SocialMedia.vue";
 </script>
 
 <style>
