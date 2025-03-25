@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- faq section -->
-    <section class="py-20">
+    <section class="py-10">
       <div>
         <p class="text-center text-gray-900 text-xl">Find Answers</p>
         <h2

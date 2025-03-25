@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#0d0e11]">
-    <div className="relative w-full py-10">
+    <div className="relative w-full md:pt-10">
       <div
         className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full rounded-2xl"
       >

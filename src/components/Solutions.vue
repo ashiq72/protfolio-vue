@@ -1,8 +1,6 @@
 <template>
   <div class="bg-[#0d0e11]">
-
-
-    <div class="px-6 py-16 mx-auto container ">
+    <div class="px-6 pt-8 mx-auto container">
       <div class="pb-12">
         <div class="flex justify-center flex-col items-center gap-2">
           <h1 class="text-yellow-400 font-semibold uppercase text-3xl">
@@ -17,16 +15,28 @@
       </div>
       <div class="flex flex-col md:flex-row w-full">
         <div class="md:w-4/12">
-          <div v-for="tab in tabs" @click="selectedTab = tab.name"
+          <div
+            v-for="tab in tabs"
+            @click="selectedTab = tab.name"
             class="py-3 whitespace-nowrap w-full flex flex-col items-center justify-center cursor-pointer"
-            :class="selectedTab == tab.name ? 'border shadow bg-yellow-500   ' : 'text-gray-50'">
+            :class="
+              selectedTab == tab.name
+                ? 'border shadow bg-yellow-500   '
+                : 'text-gray-50'
+            "
+          >
             {{ tab.name }}
           </div>
         </div>
-        <div v-if="selectedTab === 'Clipping path Background Removal'" class="md:w-8/12 border">
+        <div
+          v-if="selectedTab === 'Clipping path Background Removal'"
+          class="md:w-8/12 border"
+        >
           <div class="flex flex-col items-center justify-center">
-            <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg" />
+            <img
+              class="w-[800px] pt-4"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg"
+            />
             <p class="pt-2 italic text-gray-100 font-medium">
               Perfect Your Photos with Professional Clipping Path & Background
               Removal!
@@ -44,8 +54,10 @@
         </div>
         <div v-if="selectedTab === 'Photo Retoucng'" class="md:w-8/12 border">
           <div class="flex flex-col items-center justify-center">
-            <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ca990023-b1d8-453c-8663-493c76722875.jpg" />
+            <img
+              class="w-[800px] pt-4"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ca990023-b1d8-453c-8663-493c76722875.jpg"
+            />
             <p class="pt-2 italic text-gray-100">
               Transform Your Photos with Expert Retouching Services!
             </p>
@@ -58,27 +70,34 @@
             </p>
           </div>
         </div>
-        <div v-if="selectedTab === 'Neck joint/ghost mannequin Service'" class="md:w-8/12 border">
+        <div
+          v-if="selectedTab === 'Neck joint/ghost mannequin Service'"
+          class="md:w-8/12 border"
+        >
           <div class="flex flex-col items-center justify-center">
-            <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1e5c4e85-d388-4572-9cf5-275baa84e6e5.jpg" />
+            <img
+              class="w-[800px] pt-4"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1e5c4e85-d388-4572-9cf5-275baa84e6e5.jpg"
+            />
             <p class="pt-2 italic text-gray-100">
               Neck Joint/Ghost Mannequin Service
             </p>
           </div>
           <div class="p-4 text-center">
             <p class="text-gray-400">
-              Our Neck Joint and Ghost Mannequin services provide a realistic and
-              professional presentation for your clothing products. Perfect for
-              online stores and fashion catalogs, we create stunning visuals for
-              your apparel.
+              Our Neck Joint and Ghost Mannequin services provide a realistic
+              and professional presentation for your clothing products. Perfect
+              for online stores and fashion catalogs, we create stunning visuals
+              for your apparel.
             </p>
           </div>
         </div>
         <div v-if="selectedTab === 'Logo Design'" class="md:w-8/12 border">
           <div class="flex flex-col items-center justify-center">
-            <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e2cf30e7-e353-486e-9cb8-7dc39c8fab45.jpg" />
+            <img
+              class="w-[800px] pt-4"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e2cf30e7-e353-486e-9cb8-7dc39c8fab45.jpg"
+            />
             <p class="pt-2 italic text-gray-100">
               Create a Strong Brand Identity with Professional Logo Design!
             </p>
@@ -86,15 +105,17 @@
           <div class="p-4 text-center">
             <p class="text-gray-400">
               A well-designed logo is the cornerstone of your brand’s identity.
-              Our Logo Design services help you craft a unique and memorable logo
-              that represents your business vision and values.
+              Our Logo Design services help you craft a unique and memorable
+              logo that represents your business vision and values.
             </p>
           </div>
         </div>
         <div v-if="selectedTab === 'Graphic Design'" class="md:w-8/12 border">
           <div class="flex flex-col items-center justify-center">
-            <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ba09c330-8a18-4b5f-86be-9653b2e572cf.jpg" />
+            <img
+              class="w-[800px] pt-4"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ba09c330-8a18-4b5f-86be-9653b2e572cf.jpg"
+            />
             <p class="pt-2 italic text-gray-100">
               Bring Your Ideas to Life with Expert Graphic Design Services!
             </p>
@@ -110,7 +131,6 @@
         <div v-if="selectedTab === 'Video editing'" class="md:w-8/12 border">
           <div class="flex flex-col items-center justify-center">
             <div class="flex justify-center items-center py-[280px]">
-
               <h2 class="text-[#f8d315] text-5xl font-semibold">
                 Coming soon...
               </h2>
@@ -131,7 +151,6 @@
         <div v-if="selectedTab === 'Motion Graphics'" class="md:w-8/12 border">
           <div class="flex flex-col items-center justify-center">
             <div class="flex justify-center items-center py-[280px]">
-
               <h2 class="text-[#f8d315] text-5xl font-semibold">
                 Coming soon...
               </h2>

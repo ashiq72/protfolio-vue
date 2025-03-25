@@ -2,7 +2,9 @@
   <div class="portfolio-main bg-[#0d0e11]">
     <div class="container mx-auto px-6">
       <p class="text-[#f8d315] text-2xl pt-10">Our Works</p>
-      <h1 class="text-white text-7xl pb-10 font-bold">Our Portfolio</h1>
+      <h1 class="text-white text-3xl xl:text-7xl pb-10 font-bold">
+        Our Portfolio
+      </h1>
       <div class="flex flex-col gap-20">
         <div class="grid grid-cols-1 lg:grid-cols-[7fr_5fr] gap-6 xl:gap-16">
           <div class="image w-full">
@@ -37,14 +39,14 @@
           </div>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-[5fr_7fr] gap-16">
-          <div class="image w-full order-2">
+          <div class="image w-full lg:order-2">
             <img
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/kuyvjwr7vw69vyn.webp"
               alt=""
               class="w-full rounded-[50px]"
             />
           </div>
-          <div class="order-1 right-text flex items-center">
+          <div class="lg:order-1 right-text flex items-center">
             <div class="text w-fit">
               <h6 class="bg-gray-800 w-fit py-1 px-2 text-white rounded-full">
                 EdTech

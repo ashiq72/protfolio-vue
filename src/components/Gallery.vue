@@ -1,17 +1,17 @@
 <template>
-  <div class="div bg-[#0d0e11]">
-    <div class="container mx-auto px-4 py-8">
-      <div class="">
-        <!-- <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center">
+  <div class="div bg-[#0d0e11] py-12">
+    <div class="container mx-auto px-4">
+      <!-- <div class=""> -->
+      <!-- <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center">
                   Our Story – Graphical Creative
                 </h2> -->
-        <!-- <p class="text-center text-gray-200 text-xl">
+      <!-- <p class="text-center text-gray-200 text-xl">
                   A dynamic team of skilled experts, united in our passion for crafting
                   exceptional, impactful designs that elevate your brand.
                 </p> -->
-      </div>
+      <!-- </div> -->
 
-      <div class="wrapperItem">
+      <div class="wrapperItem2">
         <div class="imageItem item1">
           <img
             src="https://finerva.com/wp-content/uploads/2023/07/office.jpg"
@@ -76,3 +76,13 @@
     </div>
   </div>
 </template>
+<style>
+.wrapperItem2 {
+  width: 100%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+</style>

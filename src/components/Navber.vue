@@ -7,7 +7,7 @@
       <div
         class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center"
       >
-        <div class="flex items-center justify-between cursor-pointer bg-black">
+        <div class="flex items-center justify-between cursor-pointer">
           <router-link to="/" class="cursor-pointer">
             <img
               class="w-auto h-10 sm:h-16 cursor-pointer"
