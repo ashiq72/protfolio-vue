@@ -11,20 +11,17 @@
             <img
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/kuyvjwr7vw69vyn.webp"
               alt=""
-              class="w-full rounded-[50px]"
+              class="w-full rounded-[20px]"
             />
           </div>
           <div class="right-text flex items-center">
             <div class="text w-fit">
-              <h6 class="bg-gray-800 w-fit py-1 px-2 text-white rounded-full">
-                EdTech
-              </h6>
               <h1
                 class="text-3xl xl:text-5xl text-white font-bold py-3 xl:py-6"
               >
                 Transforming Mucro-Book Experiences
               </h1>
-              <p class="text-gray-500 text-sm lg:text-md">
+              <p class="text-gray-400 text-md lg:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
                 officiis earum ipsum et vitae deleniti, iusto harum a quos nemo
                 quo nostrum, excepturi modi quod assumenda repudiandae fugit
@@ -43,20 +40,17 @@
             <img
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/kuyvjwr7vw69vyn.webp"
               alt=""
-              class="w-full rounded-[50px]"
+              class="w-full rounded-[20px]"
             />
           </div>
           <div class="lg:order-1 right-text flex items-center">
             <div class="text w-fit">
-              <h6 class="bg-gray-800 w-fit py-1 px-2 text-white rounded-full">
-                EdTech
-              </h6>
               <h1
                 class="text-3xl xl:text-5xl text-white font-bold py-3 xl:py-6"
               >
                 Transforming Mucro-Book Experiences
               </h1>
-              <p class="text-gray-500 text-sm lg:text-md">
+              <p class="text-gray-400 text-md lg:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
                 officiis earum ipsum et vitae deleniti, iusto harum a quos nemo
                 quo nostrum, excepturi modi quod assumenda repudiandae fugit
@@ -75,20 +69,17 @@
             <img
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/kuyvjwr7vw69vyn.webp"
               alt=""
-              class="w-full rounded-[50px]"
+              class="w-full rounded-[20px]"
             />
           </div>
           <div class="right-text flex items-center">
             <div class="text w-fit">
-              <h6 class="bg-gray-800 w-fit py-1 px-2 text-white rounded-full">
-                EdTech
-              </h6>
               <h1
                 class="text-3xl xl:text-5xl text-white font-bold py-3 xl:py-6"
               >
                 Transforming Mucro-Book Experiences
               </h1>
-              <p class="text-gray-500 text-sm lg:text-md">
+              <p class="text-gray-400 text-md lg:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
                 officiis earum ipsum et vitae deleniti, iusto harum a quos nemo
                 quo nostrum, excepturi modi quod assumenda repudiandae fugit

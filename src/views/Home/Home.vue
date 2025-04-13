@@ -4,15 +4,13 @@
     <VideoPart />
     <Patner />
     <Portfolio />
-    <About />
-    <Soluations />
+    <!-- <About /> -->
+    <!-- <Soluations /> -->
     <!-- <Services /> -->
     <!-- <Contact /> -->
     <Gallery />
     <FAQ />
-    <div class="">
-      <Testimonial />
-    </div>
+    <Testimonial />
     <ContactOnly />
     <SocialMedia />
   </div>

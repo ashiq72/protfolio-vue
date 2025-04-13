@@ -1,8 +1,9 @@
 <template>
-  <main class="pb-14 bg-[#0d0e11]">
+  <main class="">
     <div className="relative w-full bg-[#0d0e11] pt-10">
       <div
-        className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-4 items-center w-full rounded-2xl">
+        className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-4 items-center w-full rounded-2xl"
+      >
         <!-- <div className="md:w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6">
           <h1 className="mt-8 text-3xl font-bold  text-[#f8d315] md:text-4xl lg:text-7xl">
             About
@@ -15,39 +16,43 @@
           </p>
         </div> -->
         <div className="w-full">
-          <img className=" bg-[#231f20]  h-[550px]" src="https://bkacontent.com/wp-content/uploads/2020/06/about-us.jpg"
-            alt="" />
+          <img
+            className=" bg-[#231f20]  h-[550px]"
+            src="https://bkacontent.com/wp-content/uploads/2020/06/about-us.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
 
-
-
     <!-- our mission -->
-    <section class="pb-10 pt-24">
+    <section class="pt-24 bg-[#0d0e11]">
       <div class="container mx-auto px-4">
-        <div class=" items-center justify-between">
+        <div class="items-center justify-between">
           <div class="w-full">
-            <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center">
+            <h2
+              class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center"
+            >
               Our Story – Graphical Creative
-
             </h2>
-            <p class="text-gray-200 text-justify  text-3xl pt-5">
-              At Graphical Creative, we are driven by one simple truth: exceptional design is the key to elevating
-              brands.
-              What began as a passion for creative excellence has since evolved into a strategic design agency,
-              specializing in solutions that not only captivate but also drive measurable business success.
+            <p class="text-gray-200 text-justify text-3xl pt-5">
+              At Graphical Creative, we are driven by one simple truth:
+              exceptional design is the key to elevating brands. What began as a
+              passion for creative excellence has since evolved into a strategic
+              design agency, specializing in solutions that not only captivate
+              but also drive measurable business success.
               <br />
               <br />
 
-              We blend creativity, strategy, and innovation to craft bespoke designs that align with your brand's
-              vision.
-              Each project is meticulously executed with a focus on delivering both aesthetic appeal and tangible
-              impact.
+              We blend creativity, strategy, and innovation to craft bespoke
+              designs that align with your brand's vision. Each project is
+              meticulously executed with a focus on delivering both aesthetic
+              appeal and tangible impact.
               <br />
               <br />
-              Our Mission: To empower businesses by providing cutting-edge design solutions that foster
-              growth, enhance brand recognition, and create lasting impressions.
+              Our Mission: To empower businesses by providing cutting-edge
+              design solutions that foster growth, enhance brand recognition,
+              and create lasting impressions.
             </p>
           </div>
           <!-- <div class="w-full flex justify-end">
@@ -59,131 +64,67 @@
       </div>
     </section>
 
-
-    <div class="container mx-auto px-4 mt-16">
-      <div class="">
-        <!-- <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center">
-          Our Story – Graphical Creative
-        </h2> -->
-        <!-- <p class="text-center text-gray-200 text-xl">
-          A dynamic team of skilled experts, united in our passion for crafting
-          exceptional, impactful designs that elevate your brand.
-        </p> -->
-      </div>
-
-      <div class="wrapperItem">
-        <div class="imageItem item1">
-          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
+    <Gallery />
+    <div class="b bg-[#0d0e11] pb-16">
+      <div class="container mx-auto px-4">
+        <div class="">
+          <h2
+            class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center"
+          >
+            Our Creative Family
+          </h2>
+          <p class="text-center text-gray-200 text-xl mb-6">
+            A dynamic team of skilled experts, united in our passion for
+            crafting exceptional, impactful designs that elevate your brand.
+          </p>
         </div>
-        <div class="imageItem item2">
-          <img src="https://www.greatplacetowork.ca/images/Asset_3.webp" class="w-full h-full rounded" />
-        </div>
-        <div class="imageItem item3">
-          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
-        </div>
-        <div class="imageItem item4">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDlU5Se8ZseJWm4wkXGe-UtVLVYDFE3JyBJQXiVR8hibh8JSSWBctLSV74hVUQazWeeAM&usqp=CAU"
-            class="w-full h-full rounded" />
-        </div>
-        <div class="imageItem item5">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PeN-pfhkJ7XuxFQ-qavdWLYntUbI1QU1Sb63NgeHzflu9BbqEKXRwPADheBAmWT-3rc&usqp=CAU"
-            class="w-full h-full rounded" />
-        </div>
-        <div class="imageItem item6">
-          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
-        </div>
-        <div class="imageItem item7">
-          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
-        </div>
-        <div class="imageItem item8">
-          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
-        </div>
-        <div class="imageItem item9">
-          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
-        </div>
-        <div class="imageItem item10">
-          <img src="https://finerva.com/wp-content/uploads/2023/07/office.jpg" class="w-full h-full rounded" />
-        </div>
-      </div>
-
-    </div>
-
-    <div class="container mx-auto mt-32 px-4 mb-10">
-      <div class="pb-10">
-        <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center">
-          Our Creative Family
-        </h2>
-        <p class="text-center text-gray-200 text-xl">
-          A dynamic team of skilled experts, united in our passion for crafting
-          exceptional, impactful designs that elevate your brand.
-        </p>
-      </div>
-      <Flicking :key="'5'" :options="{
-        align: 'prev',
-        circular: true,
-        circularFallback: 'bound',
-        panelsPerView: perView,
-      }" :plugins="plugins">
-        <div v-for="i in 12" class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4">
-          <div class="flex flex-col rounded-md justify-between flex-1 p-6 bg-white lg:py-4 lg:px-4">
-            <div class="flex-1">
-              <img class="flex-shrink-0 rounded-md object-cover w-56 h-56"
-                src="https://b1688923.smushcdn.com/1688923/wp-content/uploads/2022/05/Melbourne-Corporate-Headshots-Julia-Nance-Portraits1.jpg?lossy=2&strip=1&webp=1"
-                alt="" />
-            </div>
-            <div class="flex items-center mt-2">
-              <div class="">
-                <p class="text-base font-bold text-gray-900 font-pj">
-                  Leslie Alexander
-                </p>
-                <p class="mt-0.5 text-sm font-pj text-gray-600">
-                  Freelance React Developer
-                </p>
+        <Flicking
+          :key="'5'"
+          :options="{
+            align: 'prev',
+            circular: true,
+            circularFallback: 'bound',
+            panelsPerView: perView,
+          }"
+          :plugins="plugins"
+        >
+          <div
+            v-for="i in 12"
+            class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4"
+          >
+            <div
+              class="flex flex-col rounded-md justify-between flex-1 p-6 bg-white lg:py-4 lg:px-4"
+            >
+              <div class="flex-1">
+                <img
+                  class="flex-shrink-0 rounded-md object-cover w-56 h-56"
+                  src="https://b1688923.smushcdn.com/1688923/wp-content/uploads/2022/05/Melbourne-Corporate-Headshots-Julia-Nance-Portraits1.jpg?lossy=2&strip=1&webp=1"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center mt-2">
+                <div class="">
+                  <p class="text-base font-bold text-gray-900 font-pj">
+                    Leslie Alexander
+                  </p>
+                  <p class="mt-0.5 text-sm font-pj text-gray-600">
+                    Freelance React Developer
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </Flicking>
+        </Flicking>
+      </div>
     </div>
     <!-- faq section -->
-    <section class="pt-20">
-      <div>
-        <p class="text-center text-gray-200 text-xl">
-          Find Answers
-        </p>
-        <h2 class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center">
-          Frequently Asked Questions
-        </h2>
-      </div>
-      <div class="max-w-6xl mx-auto px-4">
-        <div class="px-4 mt-16">
-          <div class="w-full">
-            <Disclosure v-for="faq in faqs" :key="faq.id" as="div" class="mt-3" v-slot="{ open }">
-              <DisclosureButton
-                class="flex w-full justify-between rounded bg-white px-4 py-4 text-left text-sm font-medium text-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
-                <span>{{ faq.question }}</span>
-                <ChevronDownIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-gray-700" />
-              </DisclosureButton>
-              <DisclosurePanel class="px-4 pb-2 pt-4 text-sm text-gray-300">
-                {{ faq.answer }}
-              </DisclosurePanel>
-            </Disclosure>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <FAQ />
 
     <!-- our vision -->
-    <div class="container mx-auto mt-32 mb-10">
-
+    <div class="bg-[#0d0e11]">
       <Testimonial />
     </div>
-
   </main>
-
 </template>
 
 <script setup>
@@ -192,18 +133,63 @@ import missionImg from "../../assets/images/our-mission-vision.png";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
 import Testimonial from "../../components/Testimonial.vue";
-import { ref, onMounted, onUnmounted } from 'vue';
-import VueVirtualAutoScroller from 'vue-virtual-auto-scroller'
-import 'vue-virtual-auto-scroller/dist/vue-virtual-auto-scroller.css'
+import { ref, onMounted, onUnmounted } from "vue";
+import VueVirtualAutoScroller from "vue-virtual-auto-scroller";
+import "vue-virtual-auto-scroller/dist/vue-virtual-auto-scroller.css";
 import Flicking from "@egjs/vue3-flicking";
 import { AutoPlay } from "@egjs/flicking-plugins";
+import FAQ from "../../components/FAQ.vue";
+import Gallery from "../../components/Gallery.vue";
+const onEnter = (el) => {
+  el.style.height = "0px";
+  el.style.overflow = "hidden";
+
+  // Force reflow before setting height
+  requestAnimationFrame(() => {
+    el.style.transition = "height 600ms ease";
+    el.style.height = el.scrollHeight + "px";
+  });
+
+  el.addEventListener(
+    "transitionend",
+    () => {
+      el.style.height = "auto"; // <- reset to auto after animation
+    },
+    { once: true }
+  );
+};
+
+const onLeave = (el) => {
+  el.style.height = el.scrollHeight + "px"; // Set current height
+  el.style.overflow = "hidden";
+  el.style.transition = "height 600ms ease";
+
+  // Force reflow so transition takes effect
+  void el.offsetHeight;
+
+  requestAnimationFrame(() => {
+    el.style.height = "0px"; // Collapse to 0
+  });
+
+  el.addEventListener(
+    "transitionend",
+    () => {
+      el.style.height = "";
+      el.style.overflow = "";
+      el.style.transition = "";
+    },
+    { once: true }
+  );
+};
 const logos = ref([
-  'https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/bdb1fdf9-00b7-4c64-b9a2-7a8cd4176c5b.jpg',
-  'https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1307193a-8dd2-475d-8e82-703865bdc5be.jpg',
-  'https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/544383b5-14b5-412e-81eb-4aea92ff6f04.jpg',
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/bdb1fdf9-00b7-4c64-b9a2-7a8cd4176c5b.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1307193a-8dd2-475d-8e82-703865bdc5be.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/544383b5-14b5-412e-81eb-4aea92ff6f04.jpg",
   // Add more logos here
 ]);
-const plugins = [new AutoPlay({ duration: 2000, direction: "NEXT", stopOnHover: false })];
+const plugins = [
+  new AutoPlay({ duration: 2000, direction: "NEXT", stopOnHover: false }),
+];
 const logoContainer = ref(null);
 let scrollInterval = null;
 
@@ -211,7 +197,10 @@ const startAutoScroll = () => {
   if (logoContainer.value) {
     scrollInterval = setInterval(() => {
       const container = logoContainer.value;
-      if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
+      if (
+        container.scrollLeft + container.clientWidth >=
+        container.scrollWidth
+      ) {
         // When the container reaches the end, reset to the start
         container.scrollLeft = 0;
       } else {
@@ -230,8 +219,6 @@ onUnmounted(() => {
     clearInterval(scrollInterval);
   }
 });
-
-
 
 const faqs = ref([
   {
@@ -312,8 +299,6 @@ const visionSection = ref({
   `,
   image: missionImg,
 });
-
-
 </script>
 <style>
 .wrapperItem {
@@ -324,7 +309,6 @@ const visionSection = ref({
   height: 300px;
   margin-top: 5rem;
   overflow: hidden;
-
 }
 
 @keyframes scrollLeft {

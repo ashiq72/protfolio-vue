@@ -3,35 +3,49 @@
     <!-- faq section -->
     <section class="py-10">
       <div>
-        <p class="text-center text-gray-900 text-xl">Find Answers</p>
+        <p class="text-center text-xl text-yellow">Find Answers</p>
         <h2
-          class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center"
+          class="text-2xl md:text-4xl font-titillium lg:text-5xl text-gray-900 font-bold mb-4 text-center"
         >
           Frequently Asked Questions
         </h2>
       </div>
-      <div class="max-w-6xl mx-auto px-4">
+      <div class="max-w-4xl mx-auto px-4">
         <div class="px-4 mt-16">
           <div class="w-full">
             <Disclosure
               v-for="faq in faqs"
               :key="faq.id"
               as="div"
-              class="mt-3"
+              class="border-b border-gray-300"
               v-slot="{ open }"
             >
               <DisclosureButton
-                class="flex w-full justify-between rounded bg-white px-4 py-4 text-left text-sm font-medium text-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75"
+                class="flex w-full justify-between items-center px-5 py-5 text-left xl:text-2xl text-gray-900 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75"
               >
-                <span>{{ faq.question }}</span>
-                <ChevronDownIcon
-                  :class="open ? 'rotate-180 transform' : ''"
-                  class="h-5 w-5 text-gray-700"
-                />
+                <span class="font-titillium">{{ faq.question }}</span>
+                <div
+                  :class="open && 'bg-yellow'"
+                  class="p-2 border border-black rounded-full"
+                >
+                  <ChevronDownIcon
+                    :class="
+                      open
+                        ? 'rotate-180 transform duration-300'
+                        : ' duration-300'
+                    "
+                    class="h-5 w-5 text-gray-700"
+                  />
+                </div>
               </DisclosureButton>
-              <DisclosurePanel class="px-4 pb-2 pt-4 text-sm text-gray-600">
-                {{ faq.answer }}
-              </DisclosurePanel>
+              <Transition @enter="onEnter" @leave="onLeave">
+                <DisclosurePanel
+                  v-show="open"
+                  class="overflow-hidden px-4 pb-2 text-md text-gray-900"
+                >
+                  {{ faq.answer }}
+                </DisclosurePanel>
+              </Transition>
             </Disclosure>
           </div>
         </div>
@@ -43,6 +57,48 @@
 import { ref } from "vue";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
+const onEnter = (el) => {
+  el.style.height = "0px";
+  el.style.overflow = "hidden";
+
+  // Force reflow before setting height
+  requestAnimationFrame(() => {
+    el.style.transition = "height 600ms ease";
+    el.style.height = el.scrollHeight + "px";
+  });
+
+  el.addEventListener(
+    "transitionend",
+    () => {
+      el.style.height = "auto"; // <- reset to auto after animation
+    },
+    { once: true }
+  );
+};
+
+const onLeave = (el) => {
+  el.style.height = el.scrollHeight + "px"; // Set current height
+  el.style.overflow = "hidden";
+  el.style.transition = "height 600ms ease";
+
+  // Force reflow so transition takes effect
+  void el.offsetHeight;
+
+  requestAnimationFrame(() => {
+    el.style.height = "0px"; // Collapse to 0
+  });
+
+  el.addEventListener(
+    "transitionend",
+    () => {
+      el.style.height = "";
+      el.style.overflow = "";
+      el.style.transition = "";
+    },
+    { once: true }
+  );
+};
+
 const faqs = ref([
   {
     id: 1,

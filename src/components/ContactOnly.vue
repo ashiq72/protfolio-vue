@@ -26,9 +26,7 @@
       </div>
     </div>
 
-    <div
-      class="mx-auto container flex flex-col md:flex-row gap-10 pt-10 px-6 pb-16"
-    >
+    <div class="mx-auto container flex flex-col md:flex-row gap-10 pt-10 pb-16">
       <div class="md:w-1/2">
         <div>
           <h1 class="text-4xl font-medium text-gray-100 capitalize">
@@ -92,7 +90,7 @@
             </div>
           </a>
         </div>
-        <div class="flex gap-6 justify-center py-4">
+        <!-- <div class="flex gap-6 justify-center py-4">
           <a
             href="https://www.facebook.com/GraphicalCreativeAgency"
             target="_blank"
@@ -125,7 +123,7 @@
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/672ad440-5a97-489f-a4a1-a65d3d02532c.jpeg"
             />
           </a>
-        </div>
+        </div> -->
       </div>
       <div class="md:w-1/2">
         <div class="pb-2">

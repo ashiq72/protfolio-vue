@@ -3,61 +3,12 @@
     <footer class="py-12 bg-[#0d0e11] sm:py-16 lg:py-20 overflow-x-hidden">
       <div class="px-4 mx-auto container sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-center">
-          <div class="absolute -inset-2">
-            <div
-              class="w-[830px] h-full mx-auto opacity-30 blur-lg filter"
-              style="
-                background: linear-gradient(
-                  90deg,
-                  #44ff9a -0.55%,
-                  #44b0ff 22.86%,
-                  #8b44ff 48.36%,
-                  #ff6644 73.33%,
-                  #ebff70 99.34%
-                );
-              "
-            ></div>
-          </div>
           <div
             class="relative overflow-hidden text-center bg-gray-900 rounded-3xl lg:text-left w-[820px]"
-          >
-            <div class="p-4 lg:py-4 lg:px-10">
-              <div class="lg:flex lg:items-center lg:justify-between">
-                <h5
-                  class="max-w-md mx-auto text-2xl font-semibold text-white xl:max-w-xl lg:mx-0 font-pj"
-                >
-                  Enter email to find me
-                </h5>
-
-                <div class="flex-1 mt-7 lg:mt-0 lg:ml-8">
-                  <form action="#" method="POST">
-                    <div class="md:flex">
-                      <div class="flex-1">
-                        <input
-                          type="email"
-                          name=""
-                          id=""
-                          placeholder="Enter email address"
-                          class="block w-full px-4 py-3 text-base text-center text-gray-900 placeholder-gray-600 bg-white border-gray-300 md:text-left focus:ring-white focus:border-white rounded-t-xl md:rounded-tr-none md:rounded-l-xl font-pj caret-gray-900"
-                          required
-                        />
-                      </div>
-
-                      <button
-                        type="submit"
-                        class="w-full px-2 py-2 text-base font-bold text-gray-900 transition-all duration-200 bg-white border border-transparent xl:px-6 md:w-auto focus:ring-2 focus:ring-offset-2 focus:ring-white rounded-b-xl md:rounded-b-none md:rounded-r-xl font-pj focus:outline-none"
-                      >
-                        Subscribe
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+          ></div>
         </div>
 
-        <div class="grid grid-cols-2 gap-10 mt-16 md:mt-24 md:grid-cols-12">
+        <div class="grid grid-cols-2 gap-10 md:grid-cols-12">
           <div class="col-span-5 md:mr-20">
             <a href="#" title="" class="flex">
               <img
@@ -277,7 +228,7 @@
               </ul>
             </div>
 
-            <ul class="flex items-center justify-center mt-12 space-x-6">
+            <!-- <ul class="flex items-center justify-center mt-12 space-x-6">
               <li>
                 <a
                   href="https://x.com/hello_graphical?prefetchTimestamp=1722579697401"
@@ -350,7 +301,7 @@
                 src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b0f0fd30-393c-4f2d-ba8d-f17009c2c70e.png"
                 class="w-full h-32"
               />
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
