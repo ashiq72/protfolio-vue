@@ -1,29 +1,33 @@
 <template>
-  <section class="py-4 bg-[#0d0e11] sm:pb-16 lg:pb-10 xl:pb-2">
+  <section class="py-4 bg-[#0d0e11] lg:pb-10 xl:pb-2">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 container">
-      <div class="relative">
-        <div class="pt-2">
+      <div class="py-6 md:py-16">
+        <div>
           <!-- <p class="text-sm font-normal tracking-widest text-gray-300 uppercase">A Hub for Designers, Developers & Marketers</p> -->
 
           <div
-            class="positivity mt-5 text-2xl text-white sm:mt-5 sm:text-4xl lg:text-5xl xl:text-7xl font-bold leading-8"
+            class="positivity mt-5 text-2xl text-white sm:mt-5 md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-8"
           >
-            <span class="positivity__alone">
+            <span class="positivity__alone relative">
               Where Creativity Meets Strategy –
-              <span class="text-yellow-400">
+              <span class="text-yellow word-wrap">
                 Elevating Brands with Stunning Visuals and
-                <span class="text-white 2xl:hidden inline-block"
+                <span class="sm:hidden inline-block text-white"
                   >Perfect Precision</span
                 >
               </span>
 
-              <div class="positivity__words hidden 2xl:inline-block">
-                <span class="change">Perfect Precision</span>
-                <span class="change">Flawless Accuracy</span>
-                <span class="change">Impeccable Detail</span>
-              </div></span
-            >
+              <!-- Word wrapper with reserved space -->
+              <span class="hidden relative sm:inline-block word-wrap">
+                <div class="positivity__words whitespace-nowrap w-full">
+                  <span class="change">Perfect Precision</span>
+                  <span class="change">Flawless Accuracy</span>
+                  <span class="change">Impeccable Detail</span>
+                </div>
+              </span>
+            </span>
           </div>
+
           <p
             class="md:w-3/4 mt-4 text-md lg:text-xl font-normal text-gray-400 sm:mt-4"
           >
@@ -44,8 +48,8 @@
                                 </a>
                             </div> -->
           <div>
-            <div
-              class="inline-flex items-center pt-6 mt-8 border-t border-gray-800 sm:pt-10 sm:mt-14"
+            <!-- <div
+              class="inline-flex items-center pt-6 mt-8 border-t border-gray-800"
             >
               <svg
                 class="w-6 h-6"
@@ -80,7 +84,7 @@
                   </linearGradient>
                 </defs>
               </svg>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -92,20 +96,20 @@
 .positivity {
   height: auto;
   display: flex;
-  padding: 1rem;
-  margin-top: 1rem;
   overflow: hidden;
 
   .positivity__alone {
     display: inline-block;
     color: #fff;
-    position: relative;
+    position: relative; /* adjust based on text height */
   }
 
   .positivity__words {
+    overflow: visible;
     .change {
       opacity: 0;
-      bottom: 0;
+      bottom: -10px;
+      left: 0;
       position: absolute;
       animation: changeword 8s linear infinite;
       color: #fff;
@@ -149,7 +153,7 @@
 
   80% {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(0px);
   }
 }
 </style>
