@@ -6,7 +6,7 @@
           <!-- <p class="text-sm font-normal tracking-widest text-gray-300 uppercase">A Hub for Designers, Developers & Marketers</p> -->
 
           <div
-            class="positivity mt-5 text-2xl text-white sm:mt-5 md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-8"
+            class="positivity mt-5 text-2xl text-white sm:mt-5 md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[90px] font-bold leading-8"
           >
             <span class="positivity__alone relative">
               Where Creativity Meets Strategy –
