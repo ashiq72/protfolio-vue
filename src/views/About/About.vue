@@ -1,8 +1,8 @@
 <template>
   <main class="">
-    <div className="relative w-full bg-[#0d0e11] pt-10">
+    <div className="relative w-full bg-white">
       <div
-        className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-4 items-center w-full rounded-2xl"
+        className=" flex flex-col-reverse md:flex-row lg:gap-x-8  items-center w-full rounded-2xl"
       >
         <!-- <div className="md:w-1/2 flex flex-col justify-center px-4  lg:col-span-7 lg:gap-x-6 lg:px-6  xl:col-span-6">
           <h1 className="mt-8 text-3xl font-bold  text-[#f8d315] md:text-4xl lg:text-7xl">
@@ -20,13 +20,14 @@
             className=" bg-[#231f20]  h-[550px]"
             src="https://bkacontent.com/wp-content/uploads/2020/06/about-us.jpg"
             alt=""
+            class="w-full"
           />
         </div>
       </div>
     </div>
 
     <!-- our mission -->
-    <section class="pt-24 bg-[#0d0e11]">
+    <section class="py-16 bg-white font-poppins">
       <div class="container mx-auto px-4">
         <div class="items-center justify-between">
           <div class="w-full">
@@ -35,7 +36,7 @@
             >
               Our Story – Graphical Creative
             </h2>
-            <p class="text-gray-200 text-justify text-3xl pt-5">
+            <p class="text-gray-900 text-justify text-3xl pt-10">
               At Graphical Creative, we are driven by one simple truth:
               exceptional design is the key to elevating brands. What began as a
               passion for creative excellence has since evolved into a strategic
@@ -65,11 +66,11 @@
     </section>
 
     <Gallery />
-    <div class="b bg-[#0d0e11] pb-16">
+    <div class="b bg-[#0d0e11] pb-16 font-poppins">
       <div class="container mx-auto px-4">
         <div class="">
           <h2
-            class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center"
+            class="text-2xl md:text-4xl text-yellow font-bold mb-4 text-center"
           >
             Our Creative Family
           </h2>

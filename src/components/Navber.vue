@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-black dark:bg-gray-900 fixed w-full z-50">
+  <header class="bg-black dark:bg-gray-900 fixed w-full z-50 font-poppins">
     <nav
       x-data="{ isOpen: false }"
       class="relative bg-gray-950 dark:bg-gray-900 border-b"
@@ -86,13 +86,13 @@
               </router-link>
               <div
                 v-show="navberlinks"
-                class="absolute left-0 shadow-xl bg-white rounded pt-6"
+                class="absolute left-0 shadow-xl bg-white rounded"
               >
-                <div class="flex flex-col w-full bg-white rounded">
+                <div class="flex flex-col w-full bg-white rounded py-3">
                   <router-link
                     :to="i.href"
                     v-for="i in subservices"
-                    class="whitespace-nowrap text-sm hover:bg-yellow-400 hover:text-white duration-300 px-4 py-2 rounded cursor-pointer"
+                    class="whitespace-nowrap text-sm hover:bg-yellow-400 hover:text-gray-600 duration-300 px-4 py-2 rounded cursor-pointer"
                     >{{ i.name }}
                   </router-link>
                 </div>

@@ -22,24 +22,23 @@
           >
             <div class="w-full">
               <p class="text-sm sm:text-base text-gray-500 text-justify">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vel eum cum earum doloremque, pariatur in praesentium necessitatibus blanditiis eius consequuntur atque voluptate. Quos cumque consectetur architecto provident. Dolore, facilis eius tempore id quo consequuntur at saepe! Quasi sint ad, labore est odio repellat voluptate. Eveniet magnam maxime sequi neque ipsa? Placeat inventore qui similique, accusamus quod mollitia? Ullam exercitationem esse odit harum omnis, non itaque minima, excepturi molestiae illo soluta ducimus modi velit sit eius eaque officia alias minus iusto aut a laboriosam saepe! Eligendi veniam quod esse expedita, magnam animi illo nesciunt, libero aspernatur reprehenderit aut sunt quia?
+                Graphical Creative completely transformed our brand identity!
+                The logo and social media designs were not just creative but
+                also perfectly aligned with our brand vision. Highly
+                professional and talented team!
               </p>
               <div class="mt-4">
-                <p class="text-lg font-bold text-gray-900 font-pj">
-                  Leslie Alexander
-                </p>
-                <p class="text-sm font-pj text-gray-600">
-                  Freelance React Developer
-                </p>
+                <p class="text-lg font-bold text-gray-900 font-pj">Emma R.</p>
+                <p class="text-sm font-pj text-gray-600">Business Owner</p>
               </div>
             </div>
-  
+
             <div class="w-full">
               <img
                 class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
                 src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341"
                 alt=""
-              />             
+              />
             </div>
           </div>
 
@@ -48,24 +47,22 @@
           >
             <div class="w-full">
               <p class="text-sm sm:text-base text-gray-500 text-justify">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vel eum cum earum doloremque, pariatur in praesentium necessitatibus blanditiis eius consequuntur atque voluptate. Quos cumque consectetur architecto provident. Dolore, facilis eius tempore id quo consequuntur at saepe! Quasi sint ad, labore est odio repellat voluptate. Eveniet magnam maxime sequi neque ipsa? Placeat inventore qui similique, accusamus quod mollitia? Ullam exercitationem esse odit harum omnis, non itaque minima, excepturi molestiae illo soluta ducimus modi velit sit eius eaque officia alias minus iusto aut a laboriosam saepe! Eligendi veniam quod esse expedita, magnam animi illo nesciunt, libero aspernatur reprehenderit aut sunt quia?
+                I needed urgent image editing for my e-commerce store, and they
+                delivered within hours! The attention to detail was incredible.
+                Highly recommend their services!
               </p>
               <div class="mt-4">
-                <p class="text-lg font-bold text-gray-900 font-pj">
-                  Leslie Alexander
-                </p>
-                <p class="text-sm font-pj text-gray-600">
-                  Freelance React Developer
-                </p>
+                <p class="text-lg font-bold text-gray-900 font-pj">John D.</p>
+                <p class="text-sm font-pj text-gray-600">Online Store Owner</p>
               </div>
             </div>
-  
+
             <div class="w-full">
               <img
                 class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
                 src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6"
                 alt=""
-              />             
+              />
             </div>
           </div>
           <div
@@ -73,24 +70,22 @@
           >
             <div class="w-full">
               <p class="text-sm sm:text-base text-gray-500 text-justify">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vel eum cum earum doloremque, pariatur in praesentium necessitatibus blanditiis eius consequuntur atque voluptate. Quos cumque consectetur architecto provident. Dolore, facilis eius tempore id quo consequuntur at saepe! Quasi sint ad, labore est odio repellat voluptate. Eveniet magnam maxime sequi neque ipsa? Placeat inventore qui similique, accusamus quod mollitia? Ullam exercitationem esse odit harum omnis, non itaque minima, excepturi molestiae illo soluta ducimus modi velit sit eius eaque officia alias minus iusto aut a laboriosam saepe! Eligendi veniam quod esse expedita, magnam animi illo nesciunt, libero aspernatur reprehenderit aut sunt quia?
+                From branding to social media design, everything was flawless!
+                My brand now looks more premium, and the engagement on my pages
+                has increased significantly!
               </p>
               <div class="mt-4">
-                <p class="text-lg font-bold text-gray-900 font-pj">
-                  Leslie Alexander
-                </p>
-                <p class="text-sm font-pj text-gray-600">
-                  Freelance React Developer
-                </p>
+                <p class="text-lg font-bold text-gray-900 font-pj">Sophia K.</p>
+                <p class="text-sm font-pj text-gray-600">Entrepreneur</p>
               </div>
             </div>
-  
+
             <div class="w-full">
               <img
                 class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
                 src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341"
                 alt=""
-              />             
+              />
             </div>
           </div>
 
@@ -99,24 +94,24 @@
           >
             <div class="w-full">
               <p class="text-sm sm:text-base text-gray-500 text-justify">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vel eum cum earum doloremque, pariatur in praesentium necessitatibus blanditiis eius consequuntur atque voluptate. Quos cumque consectetur architecto provident. Dolore, facilis eius tempore id quo consequuntur at saepe! Quasi sint ad, labore est odio repellat voluptate. Eveniet magnam maxime sequi neque ipsa? Placeat inventore qui similique, accusamus quod mollitia? Ullam exercitationem esse odit harum omnis, non itaque minima, excepturi molestiae illo soluta ducimus modi velit sit eius eaque officia alias minus iusto aut a laboriosam saepe! Eligendi veniam quod esse expedita, magnam animi illo nesciunt, libero aspernatur reprehenderit aut sunt quia?
+                Graphical Creative's expertise in Facebook boosting and ad
+                creatives made a huge impact on my business. Our campaigns
+                started performing much better after working with them!
               </p>
               <div class="mt-4">
                 <p class="text-lg font-bold text-gray-900 font-pj">
-                  Leslie Alexander
+                  Michael T.
                 </p>
-                <p class="text-sm font-pj text-gray-600">
-                  Freelance React Developer
-                </p>
+                <p class="text-sm font-pj text-gray-600">Digital Marketer</p>
               </div>
             </div>
-  
+
             <div class="w-full">
               <img
                 class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
                 src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6"
                 alt=""
-              />             
+              />
             </div>
           </div>
           <div
@@ -124,24 +119,23 @@
           >
             <div class="w-full">
               <p class="text-sm sm:text-base text-gray-500 text-justify">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vel eum cum earum doloremque, pariatur in praesentium necessitatibus blanditiis eius consequuntur atque voluptate. Quos cumque consectetur architecto provident. Dolore, facilis eius tempore id quo consequuntur at saepe! Quasi sint ad, labore est odio repellat voluptate. Eveniet magnam maxime sequi neque ipsa? Placeat inventore qui similique, accusamus quod mollitia? Ullam exercitationem esse odit harum omnis, non itaque minima, excepturi molestiae illo soluta ducimus modi velit sit eius eaque officia alias minus iusto aut a laboriosam saepe! Eligendi veniam quod esse expedita, magnam animi illo nesciunt, libero aspernatur reprehenderit aut sunt quia?
+                Fast, reliable, and highly creative! The logo they designed for
+                my startup was exactly what I envisioned. They revised it
+                multiple times to perfection. Couldn’t have asked for a better
+                experience!
               </p>
               <div class="mt-4">
-                <p class="text-lg font-bold text-gray-900 font-pj">
-                  Leslie Alexander
-                </p>
-                <p class="text-sm font-pj text-gray-600">
-                  Freelance React Developer
-                </p>
+                <p class="text-lg font-bold text-gray-900 font-pj">Liam S.</p>
+                <p class="text-sm font-pj text-gray-600">Startup Founder</p>
               </div>
             </div>
-  
+
             <div class="w-full">
               <img
                 class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
                 src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341"
                 alt=""
-              />             
+              />
             </div>
           </div>
 
@@ -150,27 +144,25 @@
           >
             <div class="w-full">
               <p class="text-sm sm:text-base text-gray-500 text-justify">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi vel eum cum earum doloremque, pariatur in praesentium necessitatibus blanditiis eius consequuntur atque voluptate. Quos cumque consectetur architecto provident. Dolore, facilis eius tempore id quo consequuntur at saepe! Quasi sint ad, labore est odio repellat voluptate. Eveniet magnam maxime sequi neque ipsa? Placeat inventore qui similique, accusamus quod mollitia? Ullam exercitationem esse odit harum omnis, non itaque minima, excepturi molestiae illo soluta ducimus modi velit sit eius eaque officia alias minus iusto aut a laboriosam saepe! Eligendi veniam quod esse expedita, magnam animi illo nesciunt, libero aspernatur reprehenderit aut sunt quia?
+                Their team understands branding like no other! Every design they
+                created felt unique and professional. It helped my business
+                stand out in a crowded market.
               </p>
               <div class="mt-4">
-                <p class="text-lg font-bold text-gray-900 font-pj">
-                  Leslie Alexander
-                </p>
-                <p class="text-sm font-pj text-gray-600">
-                  Freelance React Developer
-                </p>
+                <p class="text-lg font-bold text-gray-900 font-pj">Rachel M.</p>
+                <p class="text-sm font-pj text-gray-600">Fashion Brand Owner</p>
               </div>
             </div>
-  
+
             <div class="w-full">
               <img
                 class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
                 src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6"
                 alt=""
-              />             
+              />
             </div>
           </div>
-  
+
           <template #viewport>
             <span class="flicking-arrow-prev"></span>
             <span class="flicking-arrow-next"></span>
@@ -199,7 +191,7 @@ const logos = ref([
 const plugins = [
   new AutoPlay({ duration: 2000, direction: "NEXT", stopOnHover: false }),
   new Arrow(),
-  new Pagination({ type: 'bullet' })
+  new Pagination({ type: "bullet" }),
 ];
 const logoContainer = ref(null);
 let scrollInterval = null;

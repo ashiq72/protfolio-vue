@@ -7,6 +7,11 @@
 
           <div
             class="positivity mt-5 text-2xl text-white sm:mt-5 md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[90px] font-bold leading-8"
+            style="
+              font-family: ui-sans-serif, system-ui, sans-serif,
+                'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+                'Noto Color Emoji';
+            "
           >
             <span class="positivity__alone relative">
               Where Creativity Meets Strategy –
@@ -20,9 +25,10 @@
               <!-- Word wrapper with reserved space -->
               <span class="hidden relative sm:inline-block word-wrap">
                 <div class="positivity__words whitespace-nowrap w-full">
-                  <span class="change">Perfect Precision</span>
-                  <span class="change">Flawless Accuracy</span>
-                  <span class="change">Impeccable Detail</span>
+                  <span class="change">Logo Design </span>
+                  <span class="change">Branding</span>
+                  <span class="change">Graphic Design</span>
+                  <span class="change">Brand Promotion</span>
                 </div>
               </span>
             </span>
@@ -96,7 +102,7 @@
 .positivity {
   height: auto;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
 
   .positivity__alone {
     display: inline-block;
@@ -107,6 +113,7 @@
   .positivity__words {
     overflow: visible;
     .change {
+      overflow: visible;
       opacity: 0;
       bottom: -10px;
       left: 0;

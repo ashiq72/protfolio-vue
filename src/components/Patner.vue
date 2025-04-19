@@ -229,7 +229,6 @@ onUnmounted(() => {
   margin-inline: auto;
   position: relative;
   height: 100px;
-  margin-top: 5rem;
   overflow: hidden;
 }
 

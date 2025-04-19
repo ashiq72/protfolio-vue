@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <div class="mx-auto container flex flex-col md:flex-row gap-10 pt-10 pb-16">
+    <div class="mx-auto container flex flex-col md:flex-row gap-10 py-16">
       <div class="md:w-1/2">
         <div>
           <h1 class="text-4xl font-medium text-gray-100 capitalize">

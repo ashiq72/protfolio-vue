@@ -1,5 +1,5 @@
 <template>
-  <div class="pb-40 bg-[#0d0e11]">
+  <div class="bg-[#0d0e11] font-poppins">
     <div className="relative w-full py-10">
       <div
         className="mx-auto container flex flex-col-reverse md:flex-row lg:gap-x-8 lg:px-8 items-center w-full rounded-2xl"
@@ -92,7 +92,7 @@
             </div>
           </a>
         </div>
-        <div class="flex gap-6 justify-center py-4">
+        <!-- <div class="flex gap-6 justify-center py-4">
           <a
             href="https://www.facebook.com/GraphicalCreativeAgency"
             target="_blank"
@@ -125,7 +125,7 @@
               src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/672ad440-5a97-489f-a4a1-a65d3d02532c.jpeg"
             />
           </a>
-        </div>
+        </div> -->
       </div>
       <div class="md:w-1/2">
         <div class="pb-2">
@@ -182,7 +182,7 @@
     </div>
 
     <div class="bg-gray-100 py-20">
-      <div class="py-10 mx-auto max-w-5xl bg-white rounded-lg shadow">
+      <div class="py-10 bg-[#f8f6ff] rounded-lg shadow">
         <div
           class="flex flex-col lg:flex-row items-start p-10 rounded-lg max-w-4xl mx-auto"
         >
@@ -202,11 +202,17 @@
               My name is Joy Debnath, Design Manager at Graphical Creative. I
               will answer all your questions.
             </p>
-            <div class="flex justify-center mt-4">
+            <div class="flex justify-start mt-4">
               <button
-                class="bg-white text-purple-600 px-4 py-2 rounded-lg flex items-center gap-2 shadow"
+                class="bg-white text-purple-600 px-4 py-2 rounded-full flex items-center gap-2 shadow"
               >
-                Ask Questions <span class="text-green-500">&#x1F4F1;</span>
+                Ask Questions
+                <span class="text-green-500"
+                  ><img
+                    src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/i1q8mkticeu99oc.webp"
+                    class="w-5"
+                    alt=""
+                /></span>
               </button>
             </div>
           </div>
@@ -218,7 +224,7 @@
               <div
                 v-for="(faq, index) in faqs"
                 :key="index"
-                class="bg-gray-200 p-4 rounded-lg"
+                class="bg-[#f0eeff] p-4 rounded-lg"
               >
                 <button
                   class="flex justify-between w-full text-left font-medium"

@@ -1,5 +1,5 @@
 <template>
-  <div class="div bg-[#0d0e11] py-12">
+  <div class="div bg-[#0d0e11] py-16">
     <div class="container mx-auto px-4">
       <!-- <div class="wrapperItem2">
         <div class="imageItem item1">
@@ -225,7 +225,6 @@ onUnmounted(() => {
   margin-inline: auto;
   position: relative;
   height: 400px;
-  margin-top: 5rem;
   overflow: hidden;
 }
 

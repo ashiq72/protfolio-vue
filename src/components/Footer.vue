@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <footer class="py-12 bg-[#0d0e11] sm:py-16 lg:py-20 overflow-x-hidden">
+  <div class="bg-[#0d0e11]">
+    <footer
+      class="py-12 font-poppins bg-[#0d0e11] sm:py-16 lg:py-20 overflow-x-hidden"
+    >
       <div class="px-4 mx-auto container sm:px-6 lg:px-8">
         <div class="relative flex items-center justify-center">
           <div
@@ -18,22 +20,15 @@
               />
             </a>
             <p class="mt-6 text-base font-normal text-gray-400 text-justify">
-              Graphical Creative is a leading provider of image editing, graphic
-              design, motion graphics, and video editing services based in
-              Bangladesh. Our dedicated team of graphic designers ensures
-              top-notch quality and fast service, with 24/7 support to meet all
-              your needs. We are committed to delivering high-quality work at
-              competitive prices, always within the agreed timeframe. Client
-              satisfaction is our highest priority, and we strive to exceed your
-              expectations. Visit our website or contact us directly. We look
-              forward to working with you and hope you enjoy our exceptional
-              work.
+              From branding to social media, we craft thoughtful, aesthetic, and
+              goal-driven designs that elevate your business and connect with
+              your audience.
             </p>
           </div>
           <div class="col-span-3">
             <h6 class="text-xl font-bold text-white font-pj">Services</h6>
 
-            <ul class="mt-8 space-y-4">
+            <ul class="mt-8 space-y-1">
               <li>
                 <a
                   href="#"

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- faq section -->
-    <section class="py-10">
+    <section class="py-16 font-poppins">
       <div>
         <p class="text-center text-xl text-yellow">Find Answers</p>
         <h2
@@ -23,7 +23,7 @@
               <DisclosureButton
                 class="flex w-full justify-between items-center px-5 py-5 text-left xl:text-2xl text-gray-900 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75"
               >
-                <span class="font-titillium">{{ faq.question }}</span>
+                <span>{{ faq.question }}</span>
                 <div
                   :class="open && 'bg-yellow'"
                   class="p-2 border border-black rounded-full"
@@ -102,63 +102,39 @@ const onLeave = (el) => {
 const faqs = ref([
   {
     id: 1,
-    question: "What is a clipping path, and why is it important?",
+    question: "How can I place an order?",
     answer:
-      "A clipping path is a technique used in photo editing to remove the background from an image. It is essential for creating clean and professional-looking photos, especially for product images in e-commerce, catalogs, and advertisements.",
+      "You can place an order by reaching out through the contact form on this page or directly via email or WhatsApp. We’ll discuss the details of your project and initiate the work immediately. Your satisfaction is our priority!",
   },
   {
     id: 2,
-    question: "How long does it take to complete a background removal project?",
+    question: "What services do you offer?",
     answer:
-      "The time required to complete a background removal project depends on the complexity and number of images. Typically, small batches can be completed within 24-48 hours.",
+      "At Graphical Creative, we specialize in a wide range of creative services, including: Logo Design & Branding – Crafting unique logos and brand identities that resonate with your target audience. Social Media Design – Engaging and visually compelling designs tailored to your brand's message. Image Editing & Retouching – Perfecting your images with professional edits and enhancements. Brand Promotion – Elevating your brand through impactful design and strategic marketing. Google Ads & Facebook Boosting – Improving your online presence with targeted ad strategies.",
   },
   {
     id: 3,
-    question: "What is photo retouching, and what does it involve?",
+    question: "How long does it take to complete a project?",
     answer:
-      "Photo retouching involves enhancing and correcting images to improve their overall appearance. This can include removing blemishes, adjusting colors, smoothing skin, and enhancing details to make the image look polished and professional.",
+      "The timeline depends on the complexity and type of project: Logo Designs typically take 2-3 days. Social Media Designs & Image Edits can be delivered within 24 hours, depending on the scope. For urgent projects, we offer expedited services to meet tight deadlines.",
   },
   {
     id: 4,
-    question: "What is a neck joint/ghost mannequin service?",
+    question: "Do you offer revisions?",
     answer:
-      "A neck joint or ghost mannequin service is used in apparel photography to create a 3D effect. It involves removing the mannequin or model from the image, making the clothing appear as if it is worn by an invisible person, which showcases the product more effectively.",
+      "Yes, we offer multiple revisions to ensure that the final design meets your expectations. We believe in collaboration and making sure your vision comes to life perfectly.",
   },
   {
     id: 5,
-    question: "Can you design a custom logo for my business?",
+    question: "What payment methods do you accept?",
     answer:
-      "Yes, I offer custom logo design services. I work closely with clients to understand their brand and create a unique logo that represents their business identity and values.",
+      "We accept a variety of payment methods for your convenience, including: PayPal payoneer Bank Transfer Mobile Payment Options (Bkash, Nagad, Rocket, etc.) Let us know your preferred payment method, and we’ll proceed accordingly.",
   },
   {
     id: 6,
-    question: "What types of graphic design services do you offer?",
+    question: "Can I get a custom package?",
     answer:
-      "I offer a wide range of graphic design services, including branding, marketing materials, social media graphics, website design, and more. My goal is to help businesses visually communicate their message and stand out in their industry.",
-  },
-  {
-    id: 7,
-    question: "Do you provide video editing services?",
-    answer:
-      "Yes, I provide professional video editing services. Whether you need a promotional video, a social media clip, or a full-length video, I can help bring your vision to life with high-quality editing.",
-  },
-  {
-    id: 8,
-    question: "What are motion graphics, and how can they benefit my project?",
-    answer:
-      "Motion graphics are animated visual elements that help convey information or tell a story in an engaging way. They can be used in videos, presentations, advertisements, and more to captivate the audience and enhance the overall message.",
-  },
-  {
-    id: 9,
-    question: "How can I get a quote for my project?",
-    answer:
-      "To get a quote, please contact me through the contact form on the website or email me directly with the details of your project. I will review your requirements and provide you with a customized quote based on the scope and complexity of the work.",
-  },
-  {
-    id: 10,
-    question: "What is the process for starting a project with you?",
-    answer:
-      "To start a project, simply reach out to me via the contact form or email. We will discuss your needs, objectives, and timeline. Once we agree on the project details and terms, I will begin working on your project and keep you updated throughout the process.",
+      "Absolutely! If you require multiple services or a bespoke design package, please reach out to us. We’ll work with you to create a personalized solution that fits your exact needs.",
   },
 ]);
 </script>

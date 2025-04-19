@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        titillium: ["Titillium Web", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       colors: {
         yellow: "#facf1b",
