@@ -112,7 +112,7 @@
 
               <li>
                 <a
-                  href="/services/"
+                  href="/services/clicking-path"
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
@@ -122,7 +122,7 @@
 
               <li>
                 <a
-                  href="/protfolio/"
+                  href="/portfolio"
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
@@ -301,5 +301,12 @@
         </div>
       </div>
     </footer>
+    <div class="w-full">
+      <img
+        src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/135bcfcb-4dcb-4805-b34d-bbaf4a44c3b2.png"
+        class="w-full"
+        alt=""
+      />
+    </div>
   </div>
 </template>

@@ -4,6 +4,9 @@
       <h2 class="text-3xl font-bold text-[#f8d315] sm:text-4xl xl:text-5xl">
         Our happy clients say about us
       </h2>
+      <p class="text-white text-center text-xl mt-3">
+        Hear What Our Clients Say!
+      </p>
     </div>
     <div class="container mx-auto bg-white py-10 lg:py-16 rounded-xl">
       <div class="max-w-5xl mx-auto">
@@ -18,7 +21,7 @@
           :plugins="plugins"
         >
           <div
-            class="!flex flex-col-reverse sm:flex-row items-center justify-between gap-6 p-6"
+            class="!flex flex-col-reverse sm:flex-row items-center justify-between gap-6 p-12"
           >
             <div class="w-full">
               <p class="text-sm sm:text-base text-gray-500 text-justify">
@@ -28,22 +31,24 @@
                 professional and talented team!
               </p>
               <div class="mt-4">
-                <p class="text-lg font-bold text-gray-900 font-pj">Emma R.</p>
+                <p class="text-lg font-bold text-gray-900 font-pj">
+                  Mannaful Anam
+                </p>
                 <p class="text-sm font-pj text-gray-600">Business Owner</p>
               </div>
             </div>
 
             <div class="w-full">
               <img
-                class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
-                src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341"
+                class="object-cover object-top rounded-xl aspect-square max-h-96 ms-auto"
+                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/cef031ff-d089-4436-b706-b06ebfcef37d.jpg"
                 alt=""
               />
             </div>
           </div>
 
           <div
-            class="!flex flex-col-reverse sm:flex-row items-center justify-between gap-6 p-6"
+            class="!flex flex-col-reverse sm:flex-row items-center justify-between gap-6 p-12"
           >
             <div class="w-full">
               <p class="text-sm sm:text-base text-gray-500 text-justify">
@@ -52,120 +57,51 @@
                 Highly recommend their services!
               </p>
               <div class="mt-4">
-                <p class="text-lg font-bold text-gray-900 font-pj">John D.</p>
+                <p class="text-lg font-bold text-gray-900 font-pj">
+                  Guilherme Gomes
+                </p>
                 <p class="text-sm font-pj text-gray-600">Online Store Owner</p>
               </div>
             </div>
 
             <div class="w-full">
               <img
-                class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
-                src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6"
-                alt=""
-              />
-            </div>
-          </div>
-          <div
-            class="!flex flex-col-reverse sm:flex-row items-center justify-between gap-6 p-6"
-          >
-            <div class="w-full">
-              <p class="text-sm sm:text-base text-gray-500 text-justify">
-                From branding to social media design, everything was flawless!
-                My brand now looks more premium, and the engagement on my pages
-                has increased significantly!
-              </p>
-              <div class="mt-4">
-                <p class="text-lg font-bold text-gray-900 font-pj">Sophia K.</p>
-                <p class="text-sm font-pj text-gray-600">Entrepreneur</p>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
-                src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341"
+                class="object-cover rounded-xl aspect-square max-h-96 ms-auto"
+                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/8903d742-4f9a-424b-a9c0-a40cebfad7cc.jpg"
                 alt=""
               />
             </div>
           </div>
 
           <div
-            class="!flex flex-col-reverse sm:flex-row items-center justify-between gap-6 p-6"
+            class="!flex flex-col-reverse sm:flex-row items-center justify-between gap-6 p-12"
           >
             <div class="w-full">
               <p class="text-sm sm:text-base text-gray-500 text-justify">
                 Graphical Creative's expertise in Facebook boosting and ad
                 creatives made a huge impact on my business. Our campaigns
-                started performing much better after working with them!
+                started performing much better after working with them!"
               </p>
               <div class="mt-4">
                 <p class="text-lg font-bold text-gray-900 font-pj">
-                  Michael T.
+                  BM Emon Hossain
                 </p>
-                <p class="text-sm font-pj text-gray-600">Digital Marketer</p>
+                <p class="text-sm font-pj text-gray-600">Business Owner</p>
               </div>
             </div>
 
             <div class="w-full">
               <img
-                class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
-                src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6"
-                alt=""
-              />
-            </div>
-          </div>
-          <div
-            class="!flex flex-col-reverse sm:flex-row items-center justify-between gap-6 p-6"
-          >
-            <div class="w-full">
-              <p class="text-sm sm:text-base text-gray-500 text-justify">
-                Fast, reliable, and highly creative! The logo they designed for
-                my startup was exactly what I envisioned. They revised it
-                multiple times to perfection. Couldn’t have asked for a better
-                experience!
-              </p>
-              <div class="mt-4">
-                <p class="text-lg font-bold text-gray-900 font-pj">Liam S.</p>
-                <p class="text-sm font-pj text-gray-600">Startup Founder</p>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
-                src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341"
-                alt=""
-              />
-            </div>
-          </div>
-
-          <div
-            class="!flex flex-col-reverse sm:flex-row items-center justify-between gap-6 p-6"
-          >
-            <div class="w-full">
-              <p class="text-sm sm:text-base text-gray-500 text-justify">
-                Their team understands branding like no other! Every design they
-                created felt unique and professional. It helped my business
-                stand out in a crowded market.
-              </p>
-              <div class="mt-4">
-                <p class="text-lg font-bold text-gray-900 font-pj">Rachel M.</p>
-                <p class="text-sm font-pj text-gray-600">Fashion Brand Owner</p>
-              </div>
-            </div>
-
-            <div class="w-full">
-              <img
-                class="object-cover rounded-xl aspect-square max-h-96 mx-auto"
-                src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6"
+                class="object-cover rounded-xl aspect-square max-h-96 ms-auto"
+                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b38c7509-b821-401b-a42a-3a3827400572.jpg"
                 alt=""
               />
             </div>
           </div>
 
           <template #viewport>
-            <span class="flicking-arrow-prev"></span>
-            <span class="flicking-arrow-next"></span>
+            <span class="flicking-arrow-prev is-thin"></span>
+            <span class="flicking-arrow-next is-thin"></span>
             <span class="flicking-pagination"></span>
           </template>
         </Flicking>

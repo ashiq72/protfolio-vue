@@ -45,7 +45,8 @@
       v-for="service in services"
       :key="service.id"
       :style="{ backgroundColor: service.bgColor, top: `${97 * service.id}px` }"
-      class="text-white sticky"
+      class="sticky"
+      :class="service.textColor ? service.textColor : 'text-white'"
     >
       <div
         class="container mx-auto px-4 flex flex-col md:flex-row justify-between py-6 lg:py-10"
@@ -55,19 +56,17 @@
             {{ service.title }}
           </div>
           <div class="flex flex-col md:flex-row justify-between gap-5 lg:gap-8">
-            <p class="hidden md:block w-full font-medium text-gray-100">
-              Create a trusted, global brand with our expert designs and
-              strategies. We help improve your brand's visibility, credibility,
-              and connection with customers both online and offline.
+            <p
+              class="hidden md:block w-full font-medium"
+              :class="service.textColor ? service.textColor : 'text-gray-100'"
+            >
+              {{ service.shortdesc }}
             </p>
-            <ul class="w-full font-normal text-gray-200">
-              <li>Visual Identity Design</li>
-              <li>Brand Experience</li>
-              <li>Brand Audits</li>
-              <li>Rebranding</li>
-              <li>Brand Guidelines</li>
-              <li>Brand Strategy</li>
-              <li>Brand Collaterals</li>
+            <ul
+              class="w-full font-normal"
+              :class="service.textColor ? service.textColor : 'text-gray-100'"
+            >
+              <li v-for="item in service.listitems">{{ item }}</li>
             </ul>
           </div>
         </div>
@@ -89,36 +88,75 @@ const services = ref([
     id: 1,
     title: "Branding Identity",
     bgColor: "blue",
-    img: "https://cdn.prod.website-files.com/6655d16113e6966ef4eb1041/679b026af4ac1ca2bf5f3656_brand%20identity.webp",
+    img: "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/1727179a-4edc-4b2e-8e02-d8c1b0c2116b.jpg",
     topPosition: "64px",
+    shortdesc:
+      "Craft a strong visual identity that builds trust and speaks for your brand.",
+    listitems: [
+      "Custom Logo Design",
+      "Brand Identity & Style Guide",
+      "Rebranding Solutions",
+      "Business Card & Letterhead Design",
+      "Visual Identity System",
+      "Brand Consistency Strategy",
+      "Social Media Brand Kit",
+    ],
   },
   {
     id: 2,
-    title: "UI UX Design",
-    bgColor: "gray",
-    img: "https://cdn.prod.website-files.com/6655d16113e6966ef4eb1041/679b026af4ac1ca2bf5f3656_brand%20identity.webp",
+    title: "Social Media Design",
+    bgColor: "white",
+    textColor: "text-black",
+    img: "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d76992e2-43c4-44b5-8317-f79305db5371.jpg",
     topPosition: "100px",
+    shortdesc:
+      "Make your brand stand out on every platform with scroll-stopping visuals.",
+    listitems: [
+      "Facebook Post Design",
+      "Instagram Carousel & Story Design",
+      "YouTube Thumbnail Design",
+      "LinkedIn & Twitter Visuals",
+      "Cover Photos & Banners",
+      "Sale & Offer Graphics",
+      "Custom Template Design",
+    ],
   },
   {
     id: 3,
-    title: "Web Design",
-    bgColor: "orange",
-    img: "https://cdn.prod.website-files.com/6655d16113e6966ef4eb1041/679b026af4ac1ca2bf5f3656_brand%20identity.webp",
+    title: "Digital Marketing",
+    bgColor: "#facf1b",
+    textColor: "text-black",
+    img: "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/8f69529c-1df8-46c1-bb18-847bbca1b955.jpg",
     topPosition: "160px",
+    shortdesc:
+      "We use results-based strategies to enhance your brand, engage with your audience, and increase online visibility.",
+    listitems: [
+      "Facebook & Instagram Ads",
+      "Content Creation",
+      "Page Setup & Optimization",
+      "Boost Campaign Management",
+      "Audience Targeting",
+      "Performance Analysis",
+      "Social Media Strategy",
+    ],
   },
   {
     id: 4,
-    title: "Build Product",
-    bgColor: "coral",
-    img: "https://cdn.prod.website-files.com/6655d16113e6966ef4eb1041/679b026af4ac1ca2bf5f3656_brand%20identity.webp",
-    topPosition: "200px",
-  },
-  {
-    id: 5,
-    title: "Webflow",
+    title: "Image Editing",
     bgColor: "black",
-    img: "https://cdn.prod.website-files.com/6655d16113e6966ef4eb1041/679b026af4ac1ca2bf5f3656_brand%20identity.webp",
-    topPosition: "250px",
+    img: "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/90bcc6ba-0ecc-4618-81a1-aca3dbce9f52.jpg",
+    topPosition: "200px",
+    shortdesc:
+      "Enhance, clean and perfect your images for e-commerce, advertising and branding.",
+    listitems: [
+      "Background Removal",
+      "Clipping Path",
+      "Shadow Creation",
+      "Ghost Mannequin / Neck Joint",
+      "Image Retouching",
+      "Resize & Cropping",
+      "E-commerce Photo Optimization",
+    ],
   },
 ]);
 </script>

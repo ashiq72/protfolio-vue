@@ -126,12 +126,24 @@ const faqs = ref([
   },
   {
     id: 5,
-    question: "What payment methods do you accept?",
+    question: "What is digital marketing, and how can it benefit my business?",
     answer:
-      "We accept a variety of payment methods for your convenience, including: PayPal payoneer Bank Transfer Mobile Payment Options (Bkash, Nagad, Rocket, etc.) Let us know your preferred payment method, and we’ll proceed accordingly.",
+      "Digital marketing involves promoting your business through online channels such as social media, search engines, email, and websites. It helps increase your online visibility, engage with your target audience, and drive sales.",
   },
   {
-    id: 6,
+    id: 5,
+    question: "What types of image editing services do you offer?",
+    answer:
+      "We provide a range of services including background removal, clipping path, color correction, image retouching, shadow creation, object removal, resizing, and e-commerce photo optimization.",
+  },
+  {
+    id: 7,
+    question: "What payment methods do you accept?",
+    answer:
+      "We accept a variety of payment methods for your convenience, including: PayPal, payoneer, Bank Transfer, Mobile Payment Options (Bkash, Nagad, Rocket, etc.) Let us know your preferred payment method, and we’ll proceed accordingly.",
+  },
+  {
+    id: 8,
     question: "Can I get a custom package?",
     answer:
       "Absolutely! If you require multiple services or a bespoke design package, please reach out to us. We’ll work with you to create a personalized solution that fits your exact needs.",

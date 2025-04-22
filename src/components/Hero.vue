@@ -27,8 +27,8 @@
                 <div class="positivity__words whitespace-nowrap w-full">
                   <span class="change">Logo Design </span>
                   <span class="change">Branding</span>
-                  <span class="change">Graphic Design</span>
-                  <span class="change">Brand Promotion</span>
+                  <span class="change">Digital Marketing</span>
+                  <span class="change">Image Editing </span>
                 </div>
               </span>
             </span>

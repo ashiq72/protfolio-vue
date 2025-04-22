@@ -67,50 +67,50 @@
       <div class="wrapperM">
         <div class="itemM item1M flex items-center">
           <img
-            src="https://finerva.com/wp-content/uploads/2023/07/office.jpg"
-            class="w-full h-full rounded"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/5b7d7d4f-99d1-4a7f-be64-0a06c0a7d25b.jpg"
+            class="w-full h-full object-cover object-top rounded"
           />
         </div>
         <div class="itemM flex items-center item2M">
           <img
-            src="https://www.greatplacetowork.ca/images/Asset_3.webp"
-            class="w-full h-full rounded"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/08e62261-320d-4333-be81-0bce09a1cb03.jpg"
+            class="w-full h-full object-cover object-top rounded"
           />
         </div>
         <div class="itemM flex items-center item3M">
           <img
-            src="https://finerva.com/wp-content/uploads/2023/07/office.jpg"
-            class="w-full h-full rounded"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/8c858cb6-40dd-464c-917d-2e7145e5fd60.jpg"
+            class="w-full h-full object-cover object-top rounded"
           />
         </div>
         <div class="itemM flex items-center item4M">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDlU5Se8ZseJWm4wkXGe-UtVLVYDFE3JyBJQXiVR8hibh8JSSWBctLSV74hVUQazWeeAM&usqp=CAU"
-            class="w-full h-full rounded"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/6e06ff6c-e6eb-46bc-9dd4-1864045efda7.jpg"
+            class="w-full h-full object-cover object-top rounded"
           />
         </div>
         <div class="itemM flex items-center item5M">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PeN-pfhkJ7XuxFQ-qavdWLYntUbI1QU1Sb63NgeHzflu9BbqEKXRwPADheBAmWT-3rc&usqp=CAU"
-            class="w-full h-full rounded"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/11f1efda-1d66-4fce-9072-307988797e65.jpg"
+            class="w-full h-full object-cover object-top rounded"
           />
         </div>
         <div class="itemM flex items-center item6M">
           <img
-            src="https://finerva.com/wp-content/uploads/2023/07/office.jpg"
-            class="w-full h-full rounded"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/49bee7af-66ab-4181-a18c-d748b0487843.jpg"
+            class="w-full h-full object-cover object-top rounded"
           />
         </div>
         <div class="itemM flex items-center item7M">
           <img
-            src="https://finerva.com/wp-content/uploads/2023/07/office.jpg"
-            class="w-full h-full rounded"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/8c858cb6-40dd-464c-917d-2e7145e5fd60.jpg"
+            class="w-full h-full object-cover object-top rounded"
           />
         </div>
         <div class="itemM item8M flex items-center">
           <img
-            src="https://finerva.com/wp-content/uploads/2023/07/office.jpg"
-            class="w-full h-full rounded"
+            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/08e62261-320d-4333-be81-0bce09a1cb03.jpg"
+            class="w-full h-full object-cover object-top rounded"
           />
         </div>
       </div>

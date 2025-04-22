@@ -1,9 +1,6 @@
 <template>
-  <header class="bg-black dark:bg-gray-900 fixed w-full z-50 font-poppins">
-    <nav
-      x-data="{ isOpen: false }"
-      class="relative bg-gray-950 dark:bg-gray-900 border-b"
-    >
+  <header class="bg-[#0f1012] fixed w-full z-50 font-poppins">
+    <nav x-data="{ isOpen: false }" class="relative bg-[#0f1012] border-b">
       <div
         class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center"
       >
@@ -66,7 +63,7 @@
               ? 'translate-x-0 opacity-100 '
               : 'opacity-0 -translate-x-full',
           ]"
-          class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-black dark:bg-gray-900 md:mt-0 md:p-0 md:top-0 md:relative md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center"
+          class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-[#0f1012] md:mt-0 md:p-0 md:top-0 md:relative md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center"
         >
           <div class="flex flex-col md:flex-row md:mx-6">
             <router-link

@@ -1,5 +1,5 @@
 <template>
-  <main class="">
+  <main>
     <div className="relative w-full bg-white">
       <div
         className=" flex flex-col-reverse md:flex-row lg:gap-x-8  items-center w-full rounded-2xl"
@@ -16,6 +16,9 @@
           </p>
         </div> -->
         <div className="w-full">
+          <h2 class="pb-16 pt-20 text-5xl text-black text-center font-poppins">
+            Bringing Brands to Life with Creativity & Strategy
+          </h2>
           <img
             className=" bg-[#231f20]  h-[550px]"
             src="https://bkacontent.com/wp-content/uploads/2020/06/about-us.jpg"
@@ -36,7 +39,7 @@
             >
               Our Story – Graphical Creative
             </h2>
-            <p class="text-gray-900 text-justify text-3xl pt-10">
+            <p class="text-gray-900 tracking-wide text-justify text-3xl pt-10">
               At Graphical Creative, we are driven by one simple truth:
               exceptional design is the key to elevating brands. What began as a
               passion for creative excellence has since evolved into a strategic

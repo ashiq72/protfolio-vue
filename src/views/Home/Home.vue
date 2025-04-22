@@ -11,6 +11,7 @@
     <Gallery />
     <FAQ />
     <Testimonial />
+    <ScrollingPortfolio />
     <ContactOnly />
     <SocialMedia />
   </div>
@@ -28,6 +29,7 @@ import Gallery from "../../components/Gallery.vue";
 import FAQ from "../../components/FAQ.vue";
 import ContactOnly from "../../components/ContactOnly.vue";
 import SocialMedia from "../../components/SocialMedia.vue";
+import ScrollingPortfolio from "../../components/ScrollingPortfolio.vue";
 </script>
 
 <style>
