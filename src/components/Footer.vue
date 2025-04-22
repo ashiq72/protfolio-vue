@@ -15,7 +15,7 @@
             <a href="#" title="" class="flex">
               <img
                 class="w-auto md:h-32"
-                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a2bfd60d-c6a4-405f-83ea-46288304a6fa.jpg"
+                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/96259012-28ed-4c6a-ab8f-dbaffbc0af3c.png"
                 alt=""
               />
             </a>
