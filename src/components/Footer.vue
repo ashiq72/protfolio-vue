@@ -14,7 +14,7 @@
           <div class="col-span-5 md:mr-20">
             <a href="#" title="" class="flex">
               <img
-                class="w-auto md:h-32"
+                class="w-auto md:h-16"
                 src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/96259012-28ed-4c6a-ab8f-dbaffbc0af3c.png"
                 alt=""
               />
@@ -28,14 +28,14 @@
           <div class="col-span-3">
             <h6 class="text-xl font-bold text-white font-pj">Services</h6>
 
-            <ul class="mt-8 space-y-1">
+            <ul class="mt-8 space-y-2">
               <li>
                 <a
                   href="#"
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
-                  Clipping path Background Removal
+                  Branding Identity
                 </a>
               </li>
 
@@ -45,7 +45,7 @@
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
-                  Photo Retoucng
+                  Social Media Design
                 </a>
               </li>
 
@@ -55,7 +55,7 @@
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
-                  Neck joint/ghost mannequin Service
+                  Digital Marketing
                 </a>
               </li>
 
@@ -65,41 +65,14 @@
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
-                  Logo Design
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  title=""
-                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
-                >
-                  Graphic Design
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  title=""
-                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
-                >
-                  Video editing
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  title=""
-                  class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
-                >
-                  Motion Graphics
+                  Image Editing
                 </a>
               </li>
             </ul>
           </div>
           <div class="col-span-1">
             <h6 class="text-xl font-bold text-white font-pj">Links</h6>
-            <ul class="mt-8 space-y-4">
+            <ul class="mt-8 space-y-2">
               <li>
                 <a
                   href="/"

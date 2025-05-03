@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white py-10">
+  <section class="bg-white py-10 overflow-x-hidden">
     <div class="">
       <div class="flex flex-col items-center justify-center max-w-7xl mx-auto">
         <p class="text-gray-800">Our Patner</p>
@@ -76,7 +76,7 @@
       </div>
       <div class="itemM flex items-center item7M">
         <img
-          src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a391cc3c-5b75-475f-8739-592a46b44e19.jpg"
+          src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4255957f-a926-4430-802c-af4154581a29.png"
           class="w-32 rounded"
         />
       </div>
@@ -164,12 +164,10 @@ onUnmounted(() => {
 <style>
 .wrapper {
   width: 100%;
-  max-width: 1536px;
-  margin-inline: auto;
   position: relative;
   height: 100px;
   margin-top: 5rem;
-  overflow: hidden;
+  overflow: visible;
 }
 
 @keyframes scrollLeft {
@@ -225,11 +223,9 @@ onUnmounted(() => {
 
 .wrapperM {
   width: 100%;
-  max-width: 1536px;
-  margin-inline: auto;
   position: relative;
   height: 100px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 @keyframes scrollLeftM {

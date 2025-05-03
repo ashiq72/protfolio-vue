@@ -34,14 +34,14 @@
             answer all your questions.
           </h3>
           <a
-            class="bg-white w-fit py-2 px-4 rounded-full flex items-center gap-1"
+            class="bg-white w-fit py-2 px-4 rounded-full flex items-center gap-2"
             target="_blank"
-            href="https://wa.me/+8801849989679"
+            href="https://calendly.com/joydebnath-yahoo/30min?month=2025-04"
             >Ask Questions
             <img
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/619e64d5-3513-436d-a355-17d70d83bd36.png"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e935b15e-8842-4b3b-9252-39ecf01a5f23.png"
               alt=""
-              class="w-5 h-5"
+              class="w-5 h-4"
           /></a>
         </div>
       </div>

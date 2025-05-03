@@ -3,7 +3,7 @@
     <!-- faq section -->
     <section class="py-16 font-poppins">
       <div>
-        <p class="text-center text-xl text-yellow">Find Answers</p>
+        <p class="text-center text-xl text-gray-700">Find Answers</p>
         <h2
           class="text-2xl md:text-4xl font-titillium lg:text-5xl text-gray-900 font-bold mb-4 text-center"
         >

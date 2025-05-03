@@ -148,28 +148,6 @@
             </p>
           </div> -->
         </div>
-        <div v-if="selectedTab === 'Motion Graphics'" class="md:w-8/12 border">
-          <div class="flex flex-col items-center justify-center">
-            <div class="flex justify-center items-center py-[280px]">
-              <h2 class="text-[#f8d315] text-5xl font-semibold">
-                Coming soon...
-              </h2>
-            </div>
-            <!-- <img class="w-[800px] pt-4"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/aae11197-7bdb-482c-bf22-e49f837a3436.jpeg" /> -->
-            <!-- <p class="pt-2 italic text-gray-400">
-              Add Excitement to Your Content with Professional Motion Graphics!
-            </p> -->
-          </div>
-          <!-- <div class="p-4 text-center">
-            <p class="text-gray-400">
-              Our Motion Graphics services bring your ideas to life with engaging
-              animations and visual effects. Ideal for explainer videos,
-              advertisements, and more, we create dynamic content that captures
-              attention.
-            </p>
-          </div> -->
-        </div>
       </div>
     </div>
   </div>
@@ -197,14 +175,6 @@ const tabs = ref([
   {
     name: "Graphic Design",
     href: "/services/graphic-design",
-  },
-  {
-    name: "Video editing",
-    href: "/services/video-editing",
-  },
-  {
-    name: "Motion Graphics",
-    href: "/services/motion-graphics",
   },
 ]);
 </script>

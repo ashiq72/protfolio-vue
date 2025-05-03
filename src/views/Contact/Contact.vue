@@ -75,7 +75,7 @@
             </div>
           </a>
           <a
-            href="https://www.linkedin.com/in/graphicalcreative/"
+            href="https://www.linkedin.com/company/graphicalcreative/?viewAsMember=true"
             target="_blank"
             class="flex gap-3 items-center cursor-pointer"
           >
@@ -181,7 +181,7 @@
       </div>
     </div>
 
-    <div class="bg-gray-100 py-20">
+    <div class="bg-gray-100">
       <div class="py-10 bg-[#f8f6ff] rounded-lg shadow">
         <div
           class="flex flex-col lg:flex-row items-start p-10 rounded-lg max-w-4xl mx-auto"

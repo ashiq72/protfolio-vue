@@ -1,5 +1,5 @@
 <template>
-  <div class="div bg-[#0d0e11] py-16">
+  <div class="div bg-black py-16 overflow-x-hidden">
     <div class="container mx-auto px-4">
       <!-- <div class="wrapperItem2">
         <div class="imageItem item1">
@@ -64,7 +64,7 @@
         </div>
       </div> -->
 
-      <div class="wrapperM">
+      <!-- <div class="wrapperM">
         <div class="itemM item1M flex items-center">
           <img
             src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/5b7d7d4f-99d1-4a7f-be64-0a06c0a7d25b.jpg"
@@ -113,6 +113,22 @@
             class="w-full h-full object-cover object-top rounded"
           />
         </div>
+      </div> -->
+      <div class="whitespace-nowrap relative w-full py-4">
+        <div
+          class="inline-flex animate-marquee gap-6"
+          :style="{ animationDuration: duration + 's' }"
+        >
+          <div
+            v-for="(img, index) in images.concat(images)"
+            class="w-[400px] h-[400px]"
+          >
+            <img
+              :src="img"
+              class="object-cover object-top h-full w-full rounded-lg"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -155,9 +171,35 @@ onUnmounted(() => {
     clearInterval(scrollInterval);
   }
 });
+const duration = 30; // seconds for full scroll
+
+const images = [
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/5b7d7d4f-99d1-4a7f-be64-0a06c0a7d25b.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/08e62261-320d-4333-be81-0bce09a1cb03.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/8c858cb6-40dd-464c-917d-2e7145e5fd60.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/6e06ff6c-e6eb-46bc-9dd4-1864045efda7.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/11f1efda-1d66-4fce-9072-307988797e65.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/49bee7af-66ab-4181-a18c-d748b0487843.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/8c858cb6-40dd-464c-917d-2e7145e5fd60.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/08e62261-320d-4333-be81-0bce09a1cb03.jpg",
+];
 </script>
 
 <style scoped>
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation-name: marquee;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 .wrapper {
   width: 100%;
   max-width: 1536px;
@@ -221,8 +263,6 @@ onUnmounted(() => {
 
 .wrapperM {
   width: 100%;
-  max-width: 1536px;
-  margin-inline: auto;
   position: relative;
   height: 400px;
   overflow: hidden;

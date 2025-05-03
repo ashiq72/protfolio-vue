@@ -1,5 +1,5 @@
 <template>
-  <div class="div bg-[#0d0e11] py-16">
+  <div class="div bg-[#0d0e11] py-16 overflow-x-hidden">
     <div class="">
       <!-- <div class="wrapperItem2">
           <div class="imageItem item1">
@@ -64,154 +64,54 @@
           </div>
         </div> -->
 
-      <div class="wrapperM">
-        <div class="itemM item1M flex items-center">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/60c5f8ce-47d0-43df-b69c-8f2da85fc99a.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item2M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/48f577e6-fba3-4417-9c50-576327feb4d8.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item3M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3c30d2c6-e3d1-466c-9fd5-7298ab6cbb1a.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item4M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/9ea97a50-1d02-47a7-87e2-d602fad3fa06.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item5M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/50372e68-2c4c-496c-9d75-6f81b37494a3.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item6M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/91f1f188-ae5e-46b8-a53b-588e379a4e2c.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM item7M flex items-center">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/60c5f8ce-47d0-43df-b69c-8f2da85fc99a.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item8M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/48f577e6-fba3-4417-9c50-576327feb4d8.jpg"
-            class="w-full h-full rounded"
-          />
+      <div class="whitespace-nowrap relative w-full py-4">
+        <div
+          class="inline-flex animate-marquee gap-7"
+          :style="{ animationDuration: duration + 's' }"
+        >
+          <div
+            v-for="(img, index) in images.concat(images)"
+            class="w-[400px] h-[400px]"
+          >
+            <img
+              :src="img"
+              class="object-cover object-top h-full w-full rounded-lg"
+            />
+          </div>
         </div>
       </div>
-      <div class="wrapperM mt-10">
-        <div class="itemMRight item1M flex items-center">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b8b4a3e8-ebea-470d-ab81-fdc85d1e981e.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemMRight flex items-center item2M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a4db4bb7-9405-4cfa-9d79-90ff35415aa7.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemMRight flex items-center item3M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ac7570cf-b688-4956-9817-f0a4ec0c67a0.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemMRight flex items-center item4M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b8b4a3e8-ebea-470d-ab81-fdc85d1e981e.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemMRight flex items-center item5M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/19484371-d366-44c4-a727-6c410e349b9b.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemMRight flex items-center item6M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b8b4a3e8-ebea-470d-ab81-fdc85d1e981e.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemMRight item7M flex items-center">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a4db4bb7-9405-4cfa-9d79-90ff35415aa7.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemMRight flex items-center item8M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ac7570cf-b688-4956-9817-f0a4ec0c67a0.jpg"
-            class="w-full h-full rounded"
-          />
+
+      <div class="whitespace-nowrap relative w-full py-2">
+        <div
+          class="inline-flex animate-marquee-reverse gap-7"
+          :style="{ animationDuration: duration + 's' }"
+        >
+          <div
+            v-for="(img, index) in images2.concat(images2)"
+            class="w-[400px] h-[400px]"
+          >
+            <img
+              :src="img"
+              class="object-cover object-top h-full w-full rounded-lg"
+            />
+          </div>
         </div>
       </div>
-      <div class="wrapperM mt-10">
-        <div class="itemM item1M flex items-center">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b5ceea21-a1c0-445d-b1de-02136a85fdbd.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item2M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/2c8caa46-b524-4a08-a7f6-610b654b1ec6.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item3M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d8fef31f-08c8-4635-ab1d-bb09056dc542.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item4M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/52de1742-67b9-4e6c-9e04-25f582a35372.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item5M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/cabb7f1c-d519-4732-9131-94ba0fe98cf1.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item6M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/f1d65e13-b853-42a1-aa77-79f2d25db25b.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM item7M flex items-center">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d8fef31f-08c8-4635-ab1d-bb09056dc542.jpg"
-            class="w-full h-full rounded"
-          />
-        </div>
-        <div class="itemM flex items-center item8M">
-          <img
-            src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/52de1742-67b9-4e6c-9e04-25f582a35372.jpg"
-            class="w-full h-full rounded"
-          />
+
+      <div class="whitespace-nowrap relative w-full py-4">
+        <div
+          class="inline-flex animate-marquee gap-7"
+          :style="{ animationDuration: duration + 's' }"
+        >
+          <div
+            v-for="(img, index) in images3.concat(images3)"
+            class="w-[400px] h-[400px]"
+          >
+            <img
+              :src="img"
+              class="object-cover object-top h-full w-full rounded-lg"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -256,9 +156,68 @@ onUnmounted(() => {
     clearInterval(scrollInterval);
   }
 });
+const duration = 30;
+const images = [
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/60c5f8ce-47d0-43df-b69c-8f2da85fc99a.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/48f577e6-fba3-4417-9c50-576327feb4d8.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3c30d2c6-e3d1-466c-9fd5-7298ab6cbb1a.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/9ea97a50-1d02-47a7-87e2-d602fad3fa06.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/50372e68-2c4c-496c-9d75-6f81b37494a3.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/91f1f188-ae5e-46b8-a53b-588e379a4e2c.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/60c5f8ce-47d0-43df-b69c-8f2da85fc99a.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/48f577e6-fba3-4417-9c50-576327feb4d8.jpg",
+];
+const images2 = [
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b8b4a3e8-ebea-470d-ab81-fdc85d1e981e.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a4db4bb7-9405-4cfa-9d79-90ff35415aa7.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ac7570cf-b688-4956-9817-f0a4ec0c67a0.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b8b4a3e8-ebea-470d-ab81-fdc85d1e981e.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/19484371-d366-44c4-a727-6c410e349b9b.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b8b4a3e8-ebea-470d-ab81-fdc85d1e981e.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a4db4bb7-9405-4cfa-9d79-90ff35415aa7.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/ac7570cf-b688-4956-9817-f0a4ec0c67a0.jpg",
+];
+const images3 = [
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b5ceea21-a1c0-445d-b1de-02136a85fdbd.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/2c8caa46-b524-4a08-a7f6-610b654b1ec6.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d8fef31f-08c8-4635-ab1d-bb09056dc542.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/52de1742-67b9-4e6c-9e04-25f582a35372.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/cabb7f1c-d519-4732-9131-94ba0fe98cf1.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/f1d65e13-b853-42a1-aa77-79f2d25db25b.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d8fef31f-08c8-4635-ab1d-bb09056dc542.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/52de1742-67b9-4e6c-9e04-25f582a35372.jpg",
+];
 </script>
 
 <style scoped>
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation-name: marquee;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marquee-reverse {
+  animation-name: marquee-reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 .wrapper {
   width: 100%;
   max-width: 1536px;

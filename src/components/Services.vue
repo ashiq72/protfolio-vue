@@ -41,6 +41,12 @@
         </router-link>
       </div>
     </div> -->
+    <div class="pb-10 container mx-auto px-4">
+      <h3 class="text-white font-poppins text-2xl lg:text-3xl lg:w-[60%]">
+        From startups to big brands — we power your journey with fast, creative,
+        and impactful design solutions.
+      </h3>
+    </div>
     <div
       v-for="service in services"
       :key="service.id"

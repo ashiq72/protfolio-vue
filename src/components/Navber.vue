@@ -2,8 +2,35 @@
   <header class="bg-[#0f1012] fixed w-full z-50 font-poppins">
     <nav x-data="{ isOpen: false }" class="relative bg-[#0f1012] border-b">
       <div
-        class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center"
+        class="container px-6 py-6 md:py-3 mx-auto md:flex md:justify-between md:items-center"
       >
+        <!-- Mega Menu -->
+        <div
+          v-show="navberlinks"
+          @mouseleave="navberlinks = false"
+          class="absolute hidden right-0 duration-300 lg:top-20 top-40 mt-2 mx-10 bg-white shadow-lg p-6 lg:grid grid-cols-1 lg:grid-cols-4 gap-6"
+        >
+          <div v-for="(section, index) in menuData" :key="index">
+            <h3 class="text-lg font-semibold mb-3">
+              {{ section.title }}
+            </h3>
+            <ul class="space-y-2">
+              <li
+                @click="
+                  navberlinks = false;
+                  !isOpen;
+                "
+                v-for="(item, idx) in section.items"
+                :key="idx"
+                class="text-gray-700 hover:text-blue-600 text-xs cursor-pointer transition"
+              >
+                <router-link :to="item.path">
+                  {{ item.name }}
+                </router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div class="flex items-center justify-between cursor-pointer">
           <router-link to="/" class="cursor-pointer">
             <img
@@ -63,7 +90,7 @@
               ? 'translate-x-0 opacity-100 '
               : 'opacity-0 -translate-x-full',
           ]"
-          class="absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-[#0f1012] md:mt-0 md:p-0 md:top-0 md:relative md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center"
+          class="absolute inset-x-0 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-[#0f1012] md:mt-0 md:p-0 md:top-0 md:relative md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center"
         >
           <div class="flex flex-col md:flex-row md:mx-6">
             <router-link
@@ -72,33 +99,48 @@
               >Home</router-link
             >
             <div
-              @mouseover="navberlinks = true"
-              @mouseout="navberlinks = false"
+              @mouseenter="navberlinks = true"
+              @click="navberlinks = !navberlinks"
               class="relative"
             >
+              <!-- Trigger -->
               <router-link
-                to="/services/clicking-path"
                 class="my-2 text-gray-100 transition-colors duration-300 transform hover:text-yellow-400 dark:hover:text-yellow-600 md:mx-4 md:my-0"
-                >Services
+              >
+                Services
               </router-link>
+              <!-- Mega Menu -->
               <div
                 v-show="navberlinks"
-                class="absolute left-0 shadow-xl bg-white rounded"
+                @mouseleave="navberlinks = false"
+                class="lg:hidden mt-2 bg-white overflow-y-auto max-h-[70vh] shadow-lg p-6 grid grid-cols-1 gap-6"
               >
-                <div class="flex flex-col w-full bg-white rounded py-3">
-                  <router-link
-                    :to="i.href"
-                    v-for="i in subservices"
-                    class="whitespace-nowrap text-sm hover:bg-yellow-400 hover:text-gray-600 duration-300 px-4 py-2 rounded cursor-pointer"
-                    >{{ i.name }}
-                  </router-link>
+                <div v-for="(section, index) in menuData" :key="index">
+                  <h3 class="text-lg font-semibold mb-3">
+                    {{ section.title }}
+                  </h3>
+                  <ul class="space-y-2">
+                    <li
+                      @click="
+                        navberlinks = false;
+                        !isOpen;
+                      "
+                      v-for="(item, idx) in section.items"
+                      :key="idx"
+                      class="text-gray-700 hover:text-blue-600 text-xs cursor-pointer transition"
+                    >
+                      <router-link :to="item.path">
+                        {{ item.name }}
+                      </router-link>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
             <router-link
               to="/portfolio"
               class="my-2 text-gray-100 transition-colors duration-300 transform dark:text-gray-200 hover:text-yellow-400 dark:hover:text-yellow-600 md:mx-4 md:my-0"
-              >Protfolio</router-link
+              >Portfolio</router-link
             >
             <router-link
               to="/about"
@@ -151,13 +193,130 @@ const subservices = ref([
     name: "Graphic Design",
     href: "/services/graphic-design",
   },
-  {
-    name: "Video editing",
-    href: "/services/video-editing",
-  },
-  {
-    name: "Motion Graphics",
-    href: "/services/motion-graphics",
-  },
 ]);
+
+const toggleMenu = () => {
+  isOpen.value = !isOpen.value;
+};
+
+const menuData = [
+  {
+    title: "Logo Design & Branding",
+    subtitle: "Crafting Intuitive Experiences",
+    items: [
+      { name: "Brand Guidelines / Style Guide", path: "/services/logo-design" },
+      { name: "Business Card Design", path: "/services/logo-design" },
+      { name: "Letterhead & Envelope Design", path: "/services/logo-design" },
+      {
+        name: "Brand Color Palette & Typography",
+        path: "/services/logo-design",
+      },
+      { name: "Packaging Design", path: "/services/logo-design" },
+      { name: "Brand Mockups", path: "/services/logo-design" },
+      { name: "Letterhead & Envelope Design", path: "/services/logo-design" },
+    ],
+  },
+  {
+    title: "Social Media Design",
+    subtitle: "Crafting Timeless Visuals",
+    items: [
+      {
+        name: "Facebook & Instagram Post Design",
+        path: "/services/graphic-design",
+      },
+      {
+        name: "Cover Photo / Banner Design",
+        path: "/services/graphic-design",
+      },
+      {
+        name: "Story Design",
+        path: "/services/graphic-design",
+      },
+      {
+        name: "YouTube Thumbnail Design",
+        path: "/services/graphic-design",
+      },
+      {
+        name: "Social Media Ads Creative",
+        path: "/services/graphic-design",
+      },
+      {
+        name: "Carousel Post Design",
+        path: "/services/graphic-design",
+      },
+      {
+        name: "Social Media Branding Pack (Profile + Banner + Post Templates)",
+        path: "/services/graphic-design",
+      },
+    ],
+  },
+  {
+    title: "Digital Marketing Services",
+    subtitle: "Crafting Timeless Visuals",
+    items: [
+      {
+        name: "Facebook & Instagram Post Design",
+        path: "/services/facebook-instagram-post-design",
+      },
+      {
+        name: "Google Ads Setup & Management",
+        path: "/services/cover-photo-banner-design",
+      },
+      {
+        name: "SEO (Search Engine Optimization)",
+        path: "/services/story-design",
+      },
+      {
+        name: "Email Marketing Design & Setup",
+        path: "/services/social-media-ads-creative",
+      },
+      {
+        name: "Social Media Marketing Strategy",
+        path: "/services/carousel-post-design",
+      },
+      {
+        name: "Content Calendar Creation",
+        path: "/services/social-media-branding-pack",
+      },
+      {
+        name: "Lead Generation Campaign",
+        path: "/services/social-media-branding-pack",
+      },
+    ],
+  },
+  {
+    title: "Image Editing Service",
+    subtitle: "Crafting Timeless Visuals",
+    items: [
+      {
+        name: "Background Removal",
+        path: "/services/facebook-instagram-post-design",
+      },
+      {
+        name: "Clipping Path",
+        path: "/services/clicking-path",
+      },
+      {
+        name: "Photo Retouching (Skin, Product, etc.)",
+        path: "/services/photo-retouching",
+      },
+      {
+        name: "Shadow Creation (Natural/Drop/Reflection)",
+        path: "/services/social-media-ads-creative",
+      },
+      {
+        name: "Ghost Mannequin / Neck Jointy",
+        path: "/services/neck-joint",
+      },
+      {
+        name: "Color Correction",
+        path: "/services/social-media-branding-pack",
+      },
+      {
+        name: "Image Resizing/Cropping",
+        path: "/services/social-media-branding-pack",
+      },
+    ],
+  },
+];
 </script>

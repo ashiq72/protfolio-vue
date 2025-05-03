@@ -66,7 +66,7 @@ const routes = [
     component: ClickingPath,
   },
   {
-    path: "/services/photo-retoucng",
+    path: "/services/photo-retouching",
     name: "PhotoRetoucng",
     component: PhotoRetoucng,
   },
