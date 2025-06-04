@@ -4,33 +4,6 @@
       <div
         class="container px-6 py-6 md:py-3 mx-auto md:flex md:justify-between md:items-center"
       >
-        <!-- Mega Menu -->
-        <div
-          v-show="navberlinks"
-          @mouseleave="navberlinks = false"
-          class="absolute hidden right-0 duration-300 lg:top-20 top-40 mt-2 mx-10 bg-white shadow-lg p-6 lg:grid grid-cols-1 lg:grid-cols-4 gap-6"
-        >
-          <div v-for="(section, index) in menuData" :key="index">
-            <h3 class="text-lg font-semibold mb-3">
-              {{ section.title }}
-            </h3>
-            <ul class="space-y-2">
-              <li
-                @click="
-                  navberlinks = false;
-                  !isOpen;
-                "
-                v-for="(item, idx) in section.items"
-                :key="idx"
-                class="text-gray-700 hover:text-blue-600 text-xs cursor-pointer transition"
-              >
-                <router-link :to="item.path">
-                  {{ item.name }}
-                </router-link>
-              </li>
-            </ul>
-          </div>
-        </div>
         <div class="flex items-center justify-between cursor-pointer">
           <router-link to="/" class="cursor-pointer">
             <img
@@ -100,20 +73,20 @@
             >
             <div
               @mouseenter="navberlinks = true"
-              @click="navberlinks = !navberlinks"
-              class="relative"
+              @click="navberlinksmb = !navberlinksmb"
+              class=""
             >
               <!-- Trigger -->
               <router-link
-                class="my-2 text-gray-100 transition-colors duration-300 transform hover:text-yellow-400 dark:hover:text-yellow-600 md:mx-4 md:my-0"
+                class="text-gray-100 transition-colors duration-300 transform hover:text-yellow-400 dark:hover:text-yellow-600 md:mx-4 md:my-0 inline-block my-2"
               >
                 Services
               </router-link>
               <!-- Mega Menu -->
+
               <div
-                v-show="navberlinks"
-                @mouseleave="navberlinks = false"
-                class="lg:hidden mt-2 bg-white overflow-y-auto max-h-[70vh] shadow-lg p-6 grid grid-cols-1 gap-6"
+                v-show="navberlinksmb"
+                class="w-full md:hidden duration-300 mt-2 bg-white shadow-lg p-6 grid grid-cols-1 gap-6"
               >
                 <div v-for="(section, index) in menuData" :key="index">
                   <h3 class="text-lg font-semibold mb-3">
@@ -167,12 +140,66 @@
         </div>
       </div>
     </nav>
+    <div class="container mx-auto px-6 relative">
+      <!-- Mega Menu -->
+      <transition @enter="enter" @leave="leave">
+        <div
+          v-show="navberlinks"
+          ref="menu"
+          @mouseleave="navberlinks = false"
+          class="absolute w-full overflow-hidden hidden right-0 duration-300 top-0 bg-white shadow-lg md:grid grid-cols-1 md:grid-cols-4 gap-1 lg:gap-6"
+        >
+          <div
+            class="px-3 py-6 lg:p-6"
+            v-for="(section, index) in menuData"
+            :key="index"
+          >
+            <h3 class="text-lg font-semibold mb-3">
+              {{ section.title }}
+            </h3>
+            <ul class="space-y-2">
+              <li
+                @click="
+                  navberlinks = false;
+                  !isOpen;
+                "
+                v-for="(item, idx) in section.items"
+                :key="idx"
+                class="text-gray-700 hover:text-blue-600 text-xs cursor-pointer transition"
+              >
+                <router-link :to="item.path">
+                  {{ item.name }}
+                </router-link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </transition>
+    </div>
   </header>
 </template>
 <script setup>
 import { ref } from "vue";
 
 const navberlinks = ref(false);
+const navberlinksmb = ref(false);
+const menu = ref(null);
+
+function enter(el) {
+  el.style.height = "0px";
+  el.style.transition = "height 0.3s ease";
+
+  requestAnimationFrame(() => {
+    el.style.height = el.scrollHeight + "px";
+  });
+}
+function leave(el) {
+  el.style.height = el.scrollHeight + "px";
+  el.offsetHeight; // force reflow
+  el.style.transition = "height 0.3s ease";
+  void el.offsetHeight;
+  el.style.height = "0px";
+}
 const isOpen = ref(false);
 
 const subservices = ref([
