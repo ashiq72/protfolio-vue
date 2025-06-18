@@ -85,7 +85,7 @@
 
               <li>
                 <a
-                  href="/services/clicking-path"
+                  href="#services"
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >

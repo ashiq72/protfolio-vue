@@ -14,6 +14,7 @@ import LogoDesign from "../views/Services/NavSubCategory/LogoDesign.vue";
 import Home from "../views/Home/Home.vue";
 import Contact from "../views/Contact/Contact.vue";
 import Portfolio from "../views/Portfolio/portfolio.vue";
+import DigitalMarketing from "../views/DigitalMarketing/DigitalMaketing.vue";
 import About from "../views/About/About.vue";
 
 const routes = [
@@ -80,6 +81,11 @@ const routes = [
     name: "LogoDesign",
     component: LogoDesign,
   },
+  {
+    path: "/digital-marketing",
+    name: "DigitalMarketing",
+    component: DigitalMarketing,
+  },
   // {
   //   path: "/services/graphic-design",
   //   name: "VideoEditing",
@@ -100,6 +106,10 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    // Always scroll to top
+    return { top: 0 };
+  },
 });
 
 export default router;

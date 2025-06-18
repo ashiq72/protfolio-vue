@@ -172,8 +172,8 @@
               class="bg-white shadow w-full py-2 px-4"
             />
           </div>
-          <button class="bg-yellow-400 w-full py-2 text-white cursor-pointer">
-            Get Your Free Trial
+          <button class="bg-yellow w-full py-2 text-gray-900 cursor-pointer">
+            Submit
           </button>
         </form>
       </div>

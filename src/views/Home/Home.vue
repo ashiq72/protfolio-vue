@@ -36,6 +36,9 @@ import ScrollingPortfolio from "../../components/ScrollingPortfolio.vue";
 body {
   background: #f2f2f2;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @keyframes slide {
   from {

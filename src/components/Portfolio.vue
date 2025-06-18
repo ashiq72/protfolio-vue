@@ -81,11 +81,12 @@
                 deliver. From targeted campaigns to engaging content, we drive
                 traffic, boost conversions, and grow your online presence.
               </p>
-              <button
-                class="text-gray-900 bg-yellow mt-6 p-2 px-3 flex items-center justify-center text-sm lg:text-md rounded-md"
+              <router-link
+                to="/digital-marketing"
+                class="text-gray-900 w-fit cursor-pointer bg-yellow mt-6 p-2 px-3 flex items-center justify-center text-sm lg:text-md rounded-md"
               >
                 Click for details
-              </button>
+              </router-link>
             </div>
           </div>
         </div>

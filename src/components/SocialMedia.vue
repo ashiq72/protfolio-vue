@@ -20,18 +20,18 @@
           </div>
         </div>
         <div
-          class="right flex flex-col gap-3 justify-between bg-yellow p-10 rounded-[40px]"
+          class="right flex flex-col gap-3 justify-between bg-yellow p-8 rounded-[40px]"
         >
           <div class="right-inner bg-gray-400 rounded-full w-fit">
             <img
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/27369d3e-ed5e-4e2f-8027-68a402ae395f.png"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3aac9ca4-e2fa-438a-82e7-155822af5b2c.jpg"
               alt=""
               class="w-20 h-20 rounded-full"
             />
           </div>
           <h3 class="font-thin text-black text-2xl">
-            My name is Joy Debnath, Design Manager at Graphical Creative. I will
-            answer all your questions.
+            Hi, I’m Joy Debnath, Founder. I work on brand identity and design
+            strategy. Want to talk? Let’s connect.
           </h3>
           <a
             class="bg-white w-fit py-2 px-4 rounded-full flex items-center gap-2"

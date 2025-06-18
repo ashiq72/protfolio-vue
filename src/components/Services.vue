@@ -1,5 +1,5 @@
 <template>
-  <div className="relative w-full bg-[#0d0e11] pt-20">
+  <div id="services" className="relative w-full bg-[#0d0e11] pt-20 lg:pt-40">
     <!-- <div className="mx-auto flex flex-col justify-center container lg:px-8">
       <div class="text-center">
         <h1 class="text-3xl font-bold text-[#f8d315] sm:text-4xl xl:text-5xl">

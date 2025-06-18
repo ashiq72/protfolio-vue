@@ -39,7 +39,9 @@
             >
               Our Story – Graphical Creative
             </h2>
-            <p class="text-gray-900 tracking-wide text-justify text-3xl pt-10">
+            <p
+              class="text-gray-900 tracking-wide font-poppins text-justify text-3xl pt-10"
+            >
               At Graphical Creative, we are driven by one simple truth:
               exceptional design is the key to elevating brands. What began as a
               passion for creative excellence has since evolved into a strategic

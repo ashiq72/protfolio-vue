@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="gap-10 pt-10 px-4 min-h-screen">
+    <div class="gap-10 pt-10 px-4">
       <div
         class="sticky top-[130px] z-50 bg-black border border-gray-50 shadow-md focus:outline-none focus:shadow-none focus:ring-0 focus:border-transparent lg:rounded-full flex mx-auto max-w-4xl"
       >
@@ -42,7 +42,12 @@
           <button
             v-for="item in services"
             @click="selectedService = item.title"
-            class="bg-yellow-500 text-white w-full flex items-center justify-center py-5 rounded cursor-pointer hover:bg-yellow-400 duration-300 focus:outline-none focus:ring-0 focus:shadow-none focus:border-transparent"
+            :class="
+              selectedService == item.title
+                ? 'bg-yellow text-gray-900'
+                : 'text-white'
+            "
+            class="bg-yellow-500 w-full flex items-center justify-center py-5 rounded lg:rounded-full cursor-pointer hover:bg-yellow-400 duration-300 focus:outline-none focus:ring-0 focus:shadow-none focus:border-transparent"
           >
             {{ item.title }}
           </button>
@@ -54,8 +59,10 @@
           <img :src="item" class="shadow rounded" />
           </div> -->
           <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
+            <div class="border w-fit mx-auto mt-10 px-16 bg-yellow rounded-md">
+              <h2
+                class="text-black text-center font-medium font-poppins text-xl py-2"
+              >
                 Clipping path Background Removal
               </h2>
             </div>
@@ -370,8 +377,10 @@
           </div>
           <!-- Photo Retouching -->
           <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
+            <div class="border w-fit mx-auto mt-10 px-16 bg-yellow rounded-md">
+              <h2
+                class="text-black text-center font-medium font-poppins text-xl py-2"
+              >
                 Photo Retouching
               </h2>
             </div>
@@ -488,7 +497,7 @@
                   >
                     <img
                       class="image-before absolute inset-0 w-full h-full object-cover object-left"
-                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d6c58f85-2912-4d94-9575-6cb4552fb47f.jpg"
+                      src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/9198d753-5dbd-49e6-9fa1-5b38b2c4a4e8.jpg"
                       alt="color photo"
                     />
                     <img
@@ -683,11 +692,14 @@
           </div>
           <!-- Neck Joint And Manipulation -->
           <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
+            <div class="border w-fit mx-auto mt-10 px-16 bg-yellow rounded-md">
+              <h2
+                class="text-black text-center font-medium font-poppins text-xl py-2"
+              >
                 Neck Joint And Manipulation
               </h2>
             </div>
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
               <!-- Clipping Path 01 -->
               <div class="w-full h-full">
@@ -996,8 +1008,10 @@
           </div>
           <!-- Jewelry Retouching Service -->
           <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
+            <div class="border w-fit mx-auto mt-10 px-16 bg-yellow rounded-md">
+              <h2
+                class="text-black text-center font-medium font-poppins text-xl py-2"
+              >
                 Jewelry Retouching Service
               </h2>
             </div>
@@ -1309,8 +1323,10 @@
           </div>
           <!-- Skin Retouching Service -->
           <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
+            <div class="border w-fit mx-auto mt-10 px-16 bg-yellow rounded-md">
+              <h2
+                class="text-black text-center font-medium font-poppins text-xl py-2"
+              >
                 Skin Retouching Service
               </h2>
             </div>
@@ -1622,8 +1638,10 @@
           </div>
           <!-- Shadow  Service -->
           <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
+            <div class="border w-fit mx-auto mt-10 px-16 bg-yellow rounded-md">
+              <h2
+                class="text-black text-center font-medium font-poppins text-xl py-2"
+              >
                 Shadow Service
               </h2>
             </div>
@@ -1935,8 +1953,10 @@
           </div>
           <!-- Color Correction Service -->
           <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
+            <div class="border w-fit mx-auto mt-10 px-16 bg-yellow rounded-md">
+              <h2
+                class="text-black text-center font-medium font-poppins text-xl py-2"
+              >
                 Color Correction Service
               </h2>
             </div>
@@ -2248,8 +2268,10 @@
           </div>
           <!-- High Quality  Masking -->
           <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
+            <div class="border w-fit mx-auto mt-10 px-16 bg-yellow rounded-md">
+              <h2
+                class="text-black text-center font-medium font-poppins text-xl py-2"
+              >
                 High Quality Masking
               </h2>
             </div>
@@ -2644,8 +2666,10 @@
             />
           </div>
           <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
+            <div class="border w-fit mx-auto px-16 mt-10 bg-yellow rounded-md">
+              <h2
+                class="text-black text-center font-poppins font-medium text-xl py-2"
+              >
                 Business Card Design
               </h2>
             </div>
@@ -2669,8 +2693,10 @@
             </div>
           </div>
           <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
+            <div class="border w-fit mx-auto px-16 mt-10 bg-yellow rounded-md">
+              <h2
+                class="text-black text-center font-poppins font-medium text-xl py-2"
+              >
                 ID Card Design
               </h2>
             </div>
@@ -2698,134 +2724,34 @@
           <div class="grid grid-cols-3 gap-4 py-10">
             <img
               class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e2c66546-f832-4464-b7cb-5e692da88ea5.jpg"
-              alt="black and white"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/60c5f8ce-47d0-43df-b69c-8f2da85fc99a.jpg"
+              alt="image"
             />
             <img
               class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/2b582235-a1ab-440a-83fc-e8739a587bc6.jpg"
-              alt="black and white"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/48f577e6-fba3-4417-9c50-576327feb4d8.jpg"
+              alt="image"
             />
             <img
               class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e5150b96-89c6-4571-9400-06a7d85064ad.jpg"
-              alt="black and white"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3c30d2c6-e3d1-466c-9fd5-7298ab6cbb1a.jpg"
+              alt="image"
             />
             <img
               class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/53d19ed4-06ef-4c97-94b8-3ea05be85c10.jpg"
-              alt="black and white"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/9ea97a50-1d02-47a7-87e2-d602fad3fa06.jpg"
+              alt="image"
             />
             <img
               class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/5b05bc8d-893f-4aed-af3a-72efab4524ef.jpg"
-              alt="black and white"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/50372e68-2c4c-496c-9d75-6f81b37494a3.jpg"
+              alt="image"
             />
             <img
               class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/a18309dc-956d-47fd-8f13-915435d2963a.jpg"
-              alt="black and white"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/91f1f188-ae5e-46b8-a53b-588e379a4e2c.jpg"
+              alt="image"
             />
-            <img
-              class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/334a2455-e91e-4510-8a44-a816f5f72a6a.jpg"
-              alt="black and white"
-            />
-            <img
-              class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3194c9f4-484b-4230-934c-861f2cdf101f.jpg"
-              alt="black and white"
-            />
-            <img
-              class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/bc37ecc1-d361-4f2c-918d-f5e3d611b1d9.jpg"
-              alt="black and white"
-            />
-            <img
-              class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/4011374d-7df0-4a51-ad05-5635232503c9.jpg"
-              alt="black and white"
-            />
-            <img
-              class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/275e7c63-2c76-4ade-8c7b-f8c0e3233279.jpg"
-              alt="black and white"
-            />
-            <img
-              class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/714bfaac-ce7d-4ca8-9b1c-1ee0eaabec74.jpg"
-              alt="black and white"
-            />
-            <img
-              class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/d5b569a5-d872-4c4d-adf8-4cc686dc4a9b.jpg"
-              alt="black and white"
-            />
-            <img
-              class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/017d57d4-c976-4a69-8249-705bf00205a1.jpg"
-              alt="black and white"
-            />
-            <img
-              class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/17515360-2fbd-424a-a6c4-4aeedd8e7c72.jpg"
-              alt="black and white"
-            />
-            <img
-              class="w-full h-full object-cover object-left"
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/7778d009-1d62-4cdb-b742-bf37bfe26dab.jpg"
-              alt="black and white"
-            />
-          </div>
-          <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
-                Business Card Design
-              </h2>
-            </div>
-            <!-- image -->
-            <div class="grid grid-cols-3 gap-4 py-10">
-              <img
-                class="w-full h-full object-cover object-left"
-                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/f3197405-0cdb-4c19-93bd-557fc860a876.jpg"
-                alt="black and white"
-              />
-              <img
-                class="w-full h-full object-cover object-left"
-                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/f40d5881-561c-47d8-af33-50659c2f59c9.jpg"
-                alt="black and white"
-              />
-              <img
-                class="w-full h-full object-cover object-left"
-                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/87266acb-1e65-430f-b3dc-350a489f60de.jpg"
-                alt="black and white"
-              />
-            </div>
-          </div>
-          <div>
-            <div class="border mt-10 rounded-md">
-              <h2 class="text-white text-center text-xl py-2">
-                ID Card Design
-              </h2>
-            </div>
-            <!-- image -->
-            <div class="grid grid-cols-3 gap-4 py-10">
-              <img
-                class="w-full h-full object-cover object-left"
-                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/f36ef9fa-99d7-4d59-be48-c382de9520de.jpg"
-                alt="black and white"
-              />
-              <img
-                class="w-full h-full object-cover object-left"
-                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/bc3cc18e-da5b-48e4-ae16-50b131376a8f.jpg"
-                alt="black and white"
-              />
-              <img
-                class="w-full h-full object-cover object-left"
-                src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/e65d2de3-76b0-4681-b942-ebbb7a45a352.jpg"
-                alt="black and white"
-              />
-            </div>
           </div>
         </div>
       </div>
@@ -2838,14 +2764,14 @@ import { ref, watch } from "vue";
 const services = ref([
   {
     id: 1,
-    name: "imageEditing",
-    title: "Image Editing",
+    name: "logoDesign",
+    title: "Logo Design",
     images: [
-      "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/cb38dacf-744a-4e46-8970-66f170030dcf.jpeg",
       "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/cb38dacf-744a-4e46-8970-66f170030dcf.jpeg",
       "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/cb38dacf-744a-4e46-8970-66f170030dcf.jpeg",
     ],
   },
+
   {
     id: 2,
     name: "graphicDesign",
@@ -2857,15 +2783,16 @@ const services = ref([
   },
   {
     id: 3,
-    name: "logoDesign",
-    title: "Logo Design",
+    name: "imageEditing",
+    title: "Image Editing",
     images: [
+      "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/cb38dacf-744a-4e46-8970-66f170030dcf.jpeg",
       "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/cb38dacf-744a-4e46-8970-66f170030dcf.jpeg",
       "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/cb38dacf-744a-4e46-8970-66f170030dcf.jpeg",
     ],
   },
 ]);
-const selectedService = ref("Image Editing");
+const selectedService = ref("Logo Design");
 
 // image re-touching
 const position1 = ref(50);
