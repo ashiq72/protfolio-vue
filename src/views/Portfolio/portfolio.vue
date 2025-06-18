@@ -2760,7 +2760,23 @@
 </template>
 
 <script setup>
-import { ref, watch } from "vue";
+import { ref, watch,onMounted } from "vue";
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+const id = route.query.id;
+
+onMounted(() => {
+  if (id == "LogoDesign") {
+    selectedService.value = "Logo Design";
+  }
+  if (id == "SocialMedia") {
+    selectedService.value = "Social Media";
+  }
+  if (id == "ImageEditing") {
+    selectedService.value = "Image Editing";
+  }
+});
 const services = ref([
   {
     id: 1,
@@ -3005,6 +3021,11 @@ watch(position27, (newValue) => {
     clippingPath27.value.style.setProperty("--position", `${newValue}%`);
   }
 });
+
+
+
+
+
 </script>
 
 <style scoped>
