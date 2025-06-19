@@ -24,7 +24,7 @@
         >
           <div class="right-inner bg-gray-400 rounded-full w-fit">
             <img
-              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3aac9ca4-e2fa-438a-82e7-155822af5b2c.jpg"
+              src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3de78e32-a00d-4e14-be03-58f441040802.jpg"
               alt=""
               class="w-20 h-20 rounded-full"
             />

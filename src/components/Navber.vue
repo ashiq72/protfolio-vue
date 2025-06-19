@@ -231,16 +231,16 @@ const menuData = [
     title: "Logo Design & Branding",
     subtitle: "Crafting Intuitive Experiences",
     items: [
-      { name: "Brand Guidelines / Style Guide", path: "/services/logo-design" },
-      { name: "Business Card Design", path: "/services/logo-design" },
-      { name: "Letterhead & Envelope Design", path: "/services/logo-design" },
+      { name: "Brand Guidelines / Style Guide", path: "/coming-soon" },
+      { name: "Business Card Design", path: "/coming-soon" },
+      { name: "Letterhead & Envelope Design", path: "/coming-soon" },
       {
         name: "Brand Color Palette & Typography",
-        path: "/services/logo-design",
+        path: "/coming-soon",
       },
-      { name: "Packaging Design", path: "/services/logo-design" },
-      { name: "Brand Mockups", path: "/services/logo-design" },
-      { name: "Letterhead & Envelope Design", path: "/services/logo-design" },
+      { name: "Packaging Design", path: "/coming-soon" },
+      { name: "Brand Mockups", path: "/coming-soon" },
+      { name: "Letterhead & Envelope Design", path: "/coming-soon" },
     ],
   },
   {
@@ -249,31 +249,31 @@ const menuData = [
     items: [
       {
         name: "Facebook & Instagram Post Design",
-        path: "/services/graphic-design",
+        path: "/coming-soon",
       },
       {
         name: "Cover Photo / Banner Design",
-        path: "/services/graphic-design",
+        path: "/coming-soon",
       },
       {
         name: "Story Design",
-        path: "/services/graphic-design",
+        path: "/coming-soon",
       },
       {
         name: "YouTube Thumbnail Design",
-        path: "/services/graphic-design",
+        path: "/coming-soon",
       },
       {
         name: "Social Media Ads Creative",
-        path: "/services/graphic-design",
+        path: "/coming-soon",
       },
       {
         name: "Carousel Post Design",
-        path: "/services/graphic-design",
+        path: "/coming-soon",
       },
       {
         name: "Social Media Branding Pack (Profile + Banner + Post Templates)",
-        path: "/services/graphic-design",
+        path: "/coming-soon",
       },
     ],
   },
@@ -287,27 +287,27 @@ const menuData = [
       },
       {
         name: "Google Ads Setup & Management",
-        path: "/services/cover-photo-banner-design",
+        path: "/coming-soon",
       },
       {
         name: "SEO (Search Engine Optimization)",
-        path: "/services/story-design",
+        path: "/coming-soon",
       },
       {
         name: "Email Marketing Design & Setup",
-        path: "/services/social-media-ads-creative",
+        path: "/coming-soon",
       },
       {
         name: "Social Media Marketing Strategy",
-        path: "/services/carousel-post-design",
+        path: "/coming-soon",
       },
       {
         name: "Content Calendar Creation",
-        path: "/services/social-media-branding-pack",
+        path: "/coming-soon",
       },
       {
         name: "Lead Generation Campaign",
-        path: "/services/social-media-branding-pack",
+        path: "/coming-soon",
       },
     ],
   },
@@ -317,7 +317,7 @@ const menuData = [
     items: [
       {
         name: "Background Removal",
-        path: "/services/facebook-instagram-post-design",
+        path: "/coming-soon",
       },
       {
         name: "Clipping Path",
@@ -329,19 +329,19 @@ const menuData = [
       },
       {
         name: "Shadow Creation (Natural/Drop/Reflection)",
-        path: "/services/social-media-ads-creative",
+        path: "/coming-soon",
       },
       {
         name: "Ghost Mannequin / Neck Jointy",
-        path: "/services/neck-joint",
+        path: "/coming-soon",
       },
       {
         name: "Color Correction",
-        path: "/services/social-media-branding-pack",
+        path: "/coming-soon",
       },
       {
         name: "Image Resizing/Cropping",
-        path: "/services/social-media-branding-pack",
+        path: "/coming-soon",
       },
     ],
   },

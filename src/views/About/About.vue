@@ -21,7 +21,7 @@
           </h2>
           <img
             className=" bg-[#231f20]  h-[550px]"
-            src="https://bkacontent.com/wp-content/uploads/2020/06/about-us.jpg"
+            src="/aboutusbanner.jpg"
             alt=""
             class="w-full"
           />
@@ -35,13 +35,11 @@
         <div class="items-center justify-between">
           <div class="w-full">
             <h2
-              class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center"
+              class="text-2xl md:text-4xl text-yellow-400 font-bold mb-4 text-center font-poppins"
             >
               Our Story – Graphical Creative
             </h2>
-            <p
-              class="text-gray-900 tracking-wide font-poppins text-justify text-3xl pt-10"
-            >
+            <p class="text-gray-900 tracking-wide font-poppins text-3xl pt-10">
               At Graphical Creative, we are driven by one simple truth:
               exceptional design is the key to elevating brands. What began as a
               passion for creative excellence has since evolved into a strategic
@@ -94,27 +92,163 @@
           }"
           :plugins="plugins"
         >
-          <div
-            v-for="i in 12"
-            class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4"
-          >
+          <div class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4">
             <div
               class="flex flex-col rounded-md justify-between flex-1 p-6 bg-white lg:py-4 lg:px-4"
             >
               <div class="flex-1">
                 <img
-                  class="flex-shrink-0 rounded-md object-cover w-56 h-56"
-                  src="https://b1688923.smushcdn.com/1688923/wp-content/uploads/2022/05/Melbourne-Corporate-Headshots-Julia-Nance-Portraits1.jpg?lossy=2&strip=1&webp=1"
+                  class="flex-shrink-0 rounded-md object-cover object-top w-56 h-60"
+                  src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/f37d73a1-6894-4bdb-a90c-f9a30b2af756.jpg"
                   alt=""
                 />
               </div>
               <div class="flex items-center mt-2">
                 <div class="">
                   <p class="text-base font-bold text-gray-900 font-pj">
-                    Leslie Alexander
+                    Joy Debnath
                   </p>
                   <p class="mt-0.5 text-sm font-pj text-gray-600">
-                    Freelance React Developer
+                    Founder, Design & Branding
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4">
+            <div
+              class="flex flex-col rounded-md justify-between flex-1 p-6 bg-white lg:py-4 lg:px-4"
+            >
+              <div class="flex-1">
+                <img
+                  class="flex-shrink-0 rounded-md object-cover object-top w-56 h-60"
+                  src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/7ef23767-b11a-4096-a42b-b62ab8d3b79e.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center mt-2">
+                <div class="">
+                  <p class="text-base font-bold text-gray-900 font-pj">
+                    Rashidul Islam Rashed
+                  </p>
+                  <p class="mt-0.5 text-sm font-pj text-gray-600">
+                    Digital Marketing Executive
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4">
+            <div
+              class="flex flex-col rounded-md justify-between flex-1 p-6 bg-white lg:py-4 lg:px-4"
+            >
+              <div class="flex-1">
+                <img
+                  class="flex-shrink-0 rounded-md object-cover object-top w-56 h-60"
+                  src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/f18eef54-10e8-4abc-be30-72e2d8a2f0a7.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center mt-2">
+                <div class="">
+                  <p class="text-base font-bold text-gray-900 font-pj">
+                    Antu Ghosh
+                  </p>
+                  <p class="mt-0.5 text-sm font-pj text-gray-600">
+                    Graphic Designer
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4">
+            <div
+              class="flex flex-col rounded-md justify-between flex-1 p-6 bg-white lg:py-4 lg:px-4"
+            >
+              <div class="flex-1">
+                <img
+                  class="flex-shrink-0 rounded-md object-cover object-top w-56 h-60"
+                  src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/3624fc86-26c6-47c0-9111-64ace55d704f.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center mt-2">
+                <div class="">
+                  <p class="text-base font-bold text-gray-900 font-pj">
+                    MD. Nazim
+                  </p>
+                  <p class="mt-0.5 text-sm font-pj text-gray-600">
+                    Graphic Designer
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4">
+            <div
+              class="flex flex-col rounded-md justify-between flex-1 p-6 bg-white lg:py-4 lg:px-4"
+            >
+              <div class="flex-1">
+                <img
+                  class="flex-shrink-0 rounded-md object-cover object-top w-56 h-60"
+                  src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/12aff5ff-8c3e-40b3-bcd6-624bb6dfc5c2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center mt-2">
+                <div class="">
+                  <p class="text-base font-bold text-gray-900 font-pj">
+                    MD. Ashik
+                  </p>
+                  <p class="mt-0.5 text-sm font-pj text-gray-600">
+                    Graphic Designer
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4">
+            <div
+              class="flex flex-col rounded-md justify-between flex-1 p-6 bg-white lg:py-4 lg:px-4"
+            >
+              <div class="flex-1">
+                <img
+                  class="flex-shrink-0 rounded-md object-cover object-top w-56 h-60"
+                  src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/5e92711e-431d-41e0-baa8-89b2497aa590.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center mt-2">
+                <div class="">
+                  <p class="text-base font-bold text-gray-900 font-pj">
+                    MD. Mahfuz
+                  </p>
+                  <p class="mt-0.5 text-sm font-pj text-gray-600">
+                    Graphic & Motion Designer
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col rounded-md shadow-xl w-fit md:w-fit ml-4">
+            <div
+              class="flex flex-col rounded-md justify-between flex-1 p-6 bg-white lg:py-4 lg:px-4"
+            >
+              <div class="flex-1">
+                <img
+                  class="flex-shrink-0 rounded-md object-cover object-top w-56 h-60"
+                  src="https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/de16f487-644a-4040-984f-755232007e18.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex items-center mt-2">
+                <div class="">
+                  <p class="text-base font-bold text-gray-900 font-pj">
+                    Kabbo Sharma
+                  </p>
+                  <p class="mt-0.5 text-sm font-pj text-gray-600">
+                    Motion Designer
                   </p>
                 </div>
               </div>

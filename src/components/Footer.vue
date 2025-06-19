@@ -31,7 +31,7 @@
             <ul class="mt-8 space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="/#services"
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
@@ -41,7 +41,7 @@
 
               <li>
                 <a
-                  href="#"
+                  href="/#services"
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
@@ -50,18 +50,17 @@
               </li>
 
               <li>
-                <a
-                  href="#"
-                  title=""
+                <router-link
+                  to="/digital-marketing"
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
-                  Digital Marketing
-                </a>
+                  Digita Marketing
+                </router-link>
               </li>
 
               <li>
                 <a
-                  href="#"
+                  href="/#services"
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
@@ -85,7 +84,7 @@
 
               <li>
                 <a
-                  href="#services"
+                  href="/#services"
                   title=""
                   class="inline-flex text-sm font-normal text-white transition-all duration-300 transform font-pj hover:text-gray-300 hover:translate-x-1"
                 >
@@ -155,7 +154,7 @@
 
                 <li>
                   <a
-                    href="mailto:hello.graphicalcreative@gmail.com"
+                    href="mailto:info@graphicalcreative.com"
                     target="_blank"
                     class="flex items-start"
                   >
@@ -173,9 +172,10 @@
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                       />
                     </svg>
-                    <span class="ml-5 text-sm font-normal text-white font-pj">
-                      hello.graphicalcreative@gmail.com
-                    </span>
+                    <span
+                      class="ml-5 text-sm font-normal text-white font-pj inline"
+                      >info@graphicalcreative.com</span
+                    >
                   </a>
                 </li>
                 <li>

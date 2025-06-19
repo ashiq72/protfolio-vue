@@ -16,6 +16,8 @@ import Contact from "../views/Contact/Contact.vue";
 import Portfolio from "../views/Portfolio/portfolio.vue";
 import DigitalMarketing from "../views/DigitalMarketing/DigitalMaketing.vue";
 import About from "../views/About/About.vue";
+import ThankYou from "../views/ThankYou/ThankYou.vue";
+import ComingSoon from "../views/ComingSoon/ComingSoon.vue";
 
 const routes = [
   {
@@ -85,6 +87,16 @@ const routes = [
     path: "/digital-marketing",
     name: "DigitalMarketing",
     component: DigitalMarketing,
+  },
+  {
+    path: "/thank-you",
+    name: "ThankYou",
+    component: ThankYou,
+  },
+  {
+    path: "/coming-soon",
+    name: "ComingSoon",
+    component: ComingSoon,
   },
   // {
   //   path: "/services/graphic-design",

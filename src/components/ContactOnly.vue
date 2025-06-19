@@ -69,7 +69,9 @@
             </div>
             <div>
               <h2 class="font-bold text-gray-300">Email</h2>
-              <p class="text-gray-400">hello.graphicalcreative@gmail.com</p>
+              <a href="mailto:info@graphicalcreative.com" class="text-gray-400"
+                >info@graphicalcreative.com</a
+              >
             </div>
           </a>
           <a
@@ -131,48 +133,77 @@
             Try Our Services For Free!
           </h1>
         </div>
-        <form>
+        <form
+          action="https://formsubmit.co/info@graphicalcreative.com"
+          method="POST"
+          data-redirect="https://graphicalcreative.com/thank-you"
+        >
+          <!-- Optional: Customize the subject -->
+          <input
+            type="hidden"
+            name="_subject"
+            value="New contact form submission!"
+          />
+          <!-- Optional: Redirect after submit -->
+          <input
+            type="hidden"
+            name="_next"
+            value="https://graphicalcreative.com/thank-you"
+          />
+          <!-- Optional: Disable captcha -->
+          <input type="hidden" name="_captcha" value="false" />
+
           <div class="flex gap-4 py-2">
             <input
               type="text"
+              name="firstName"
               placeholder="First Name"
+              required
               class="bg-white shadow w-full py-2 px-4"
             />
             <input
               type="text"
-              placeholder="Last name"
+              name="lastName"
+              placeholder="Last Name"
+              required
               class="bg-white shadow w-full py-2 px-4"
             />
           </div>
+
           <div class="py-2">
             <input
-              type="text"
+              type="email"
+              name="email"
               placeholder="Enter your email"
+              required
               class="bg-white shadow w-full py-2 px-4"
             />
           </div>
+
           <div class="py-2">
             <input
-              type="number"
+              type="tel"
+              name="phone"
               placeholder="Phone Number"
+              required
               class="bg-white shadow w-full py-2 px-4"
             />
           </div>
-          <!-- <div class="flex gap-4">
-              <div class="py-2 w-full">
-                <input type="text" placeholder="Website" class="bg-white shadow w-full py-2 px-4" />
-              </div>
-            </div> -->
+
           <div class="py-2">
             <textarea
+              name="message"
               rows="6"
-              cols="50"
-              type="text"
               placeholder="Message"
+              required
               class="bg-white shadow w-full py-2 px-4"
-            />
+            ></textarea>
           </div>
-          <button class="bg-yellow w-full py-2 text-gray-900 cursor-pointer">
+
+          <button
+            type="submit"
+            class="bg-yellow w-full py-2 text-gray-900 cursor-pointer"
+          >
             Submit
           </button>
         </form>

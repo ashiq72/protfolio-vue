@@ -180,8 +180,8 @@ const images = [
   "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/6e06ff6c-e6eb-46bc-9dd4-1864045efda7.jpg",
   "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/11f1efda-1d66-4fce-9072-307988797e65.jpg",
   "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/49bee7af-66ab-4181-a18c-d748b0487843.jpg",
-  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/8c858cb6-40dd-464c-917d-2e7145e5fd60.jpg",
-  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/08e62261-320d-4333-be81-0bce09a1cb03.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/fd350d08-9730-4ca4-8fea-a281f220d89d.jpg",
+  "https://bponi.sgp1.cdn.digitaloceanspaces.com/bponi/file/b31159bc-fc9e-4ac8-90fa-001adc085f36.jpg",
 ];
 </script>
 

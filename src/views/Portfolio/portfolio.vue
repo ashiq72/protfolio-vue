@@ -34,7 +34,7 @@
 
     <div class="gap-10 pt-10 px-4">
       <div
-        class="sticky top-[130px] z-50 bg-black border border-gray-50 shadow-md focus:outline-none focus:shadow-none focus:ring-0 focus:border-transparent lg:rounded-full flex mx-auto max-w-4xl"
+        class="sticky top-[130px] z-40 bg-black border border-gray-50 shadow-md focus:outline-none focus:shadow-none focus:ring-0 focus:border-transparent lg:rounded-full flex mx-auto max-w-4xl"
       >
         <div
           class="grid grid-cols-2 lg:grid-cols-3 justify-items-center w-full gap-5"
@@ -2721,6 +2721,7 @@
           </div>
         </div>
         <div v-if="selectedService == 'Logo Design'">
+          <img src="/demo.png" class="w-full" alt="" />
           <div class="grid grid-cols-3 gap-4 py-10">
             <img
               class="w-full h-full object-cover object-left"
@@ -2760,8 +2761,8 @@
 </template>
 
 <script setup>
-import { ref, watch,onMounted } from "vue";
-import { useRoute } from 'vue-router';
+import { ref, watch, onMounted } from "vue";
+import { useRoute } from "vue-router";
 
 const route = useRoute();
 const id = route.query.id;
@@ -3021,11 +3022,6 @@ watch(position27, (newValue) => {
     clippingPath27.value.style.setProperty("--position", `${newValue}%`);
   }
 });
-
-
-
-
-
 </script>
 
 <style scoped>

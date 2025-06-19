@@ -2,7 +2,7 @@
   <div class="portfolio-main bg-[#0d0e11] pt-16">
     <div class="container mx-auto px-6">
       <p class="text-[#f8d315] text-2xl">Our Works</p>
-      <h1 class="text-white text-3xl xl:text-7xl pb-10 font-bold">
+      <h1 class="text-white text-3xl lg:text-5xl xl:text-7xl pb-10 font-bold">
         Our Case Study
       </h1>
       <div class="flex flex-col gap-32">
@@ -29,8 +29,11 @@
               <!-- <router-link class="text-gray-900 bg-yellow mt-6 p-2 px-3 flex items-center justify-center text-sm lg:text-md rounded-md" :to="{ name: 'ProductPage', query: { id: '12345' } }">
                 Click for details
               </router-link> -->
-              <a class="text-gray-900 w-fit bg-yellow mt-6 p-2 px-3 flex items-center justify-center text-sm lg:text-md rounded-md" :href="`/portfolio?id=LogoDesign`">Click for details</a>
-
+              <a
+                class="text-gray-900 w-fit bg-yellow mt-6 p-2 px-3 flex items-center justify-center text-sm lg:text-md rounded-md"
+                :href="`/portfolio?id=LogoDesign`"
+                >Click for details</a
+              >
             </div>
           </div>
         </div>
@@ -46,7 +49,11 @@
                 Stand out on social media with engaging designs that capture
                 attention and drive meaningful results.
               </p>
-              <a class="text-gray-900 w-fit bg-yellow mt-6 p-2 px-3 flex items-center justify-center text-sm lg:text-md rounded-md" :href="`/portfolio?id=SocialMedia`">Click for details</a>
+              <a
+                class="text-gray-900 w-fit bg-yellow mt-6 p-2 px-3 flex items-center justify-center text-sm lg:text-md rounded-md"
+                :href="`/portfolio?id=SocialMedia`"
+                >Click for details</a
+              >
             </div>
           </div>
           <div class="image order-1 lg:order-2 w-full">
@@ -100,7 +107,11 @@
                 we deliver high-end editing that enhances your visuals for
                 e-commerce, ads, and more — making every image ready to impress.
               </p>
-             <a class="text-gray-900 w-fit bg-yellow mt-6 p-2 px-3 flex items-center justify-center text-sm lg:text-md rounded-md" :href="`/portfolio?id=ImageEditing`">Click for details</a>
+              <a
+                class="text-gray-900 w-fit bg-yellow mt-6 p-2 px-3 flex items-center justify-center text-sm lg:text-md rounded-md"
+                :href="`/portfolio?id=ImageEditing`"
+                >Click for details</a
+              >
             </div>
           </div>
           <div class="image order-1 lg:order-2 w-full">
@@ -116,5 +127,5 @@
   </div>
 </template>
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 </script>

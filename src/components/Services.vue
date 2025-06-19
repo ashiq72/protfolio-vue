@@ -50,6 +50,7 @@
     <div
       v-for="service in services"
       :key="service.id"
+      id="services"
       :style="{ backgroundColor: service.bgColor, top: `${97 * service.id}px` }"
       class="sticky"
       :class="service.textColor ? service.textColor : 'text-white'"
