@@ -25,7 +25,8 @@
               your audience.
             </p>
           </div>
-          <div class="col-span-3">
+
+          <div class="col-span-2">
             <h6 class="text-xl font-bold text-white font-pj">Services</h6>
 
             <ul class="mt-8 space-y-2">
@@ -69,7 +70,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-span-1">
+          <div class="col-span-2">
             <h6 class="text-xl font-bold text-white font-pj">Links</h6>
             <ul class="mt-8 space-y-2">
               <li>
